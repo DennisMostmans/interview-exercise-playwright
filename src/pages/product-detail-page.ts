@@ -54,7 +54,7 @@ export class ProductDetailPage {
     }
 
     async ClickAddToCartWithoutAdding(): Promise<void> {
-        await this.page.screenshot({ path:`screenshots/before-add-to-cart.png`, fullPage: true});
+        await this.page.screenshot({ path:`test-results/screenshots/before-add-to-cart.png`, fullPage: true});
 
         await this.addToCartButton.click();
 
@@ -65,7 +65,7 @@ export class ProductDetailPage {
         await errorTitle.evaluate(el => el.scrollIntoView({ behavior: 'auto', block: 'center' }));
         await expect(errorTitle).toHaveCSS('opacity', '1', { timeout: 2000 });
 
-        await this.page.screenshot({ path:`screenshots/after-add-to-cart.png`, fullPage: true});
+        await this.page.screenshot({ path:`test-results/screenshots/after-add-to-cart.png`, fullPage: true});
     }
 
 }   

@@ -65,7 +65,7 @@ export class Pagination {
 
   async takeScreenshot(name: string): Promise<void> {
     await this.page.screenshot({
-      path: `scenarios/screenshots/${name}.png`,
+      path: `test-results/screenshots/${name}.png`,
       fullPage: true,
     });
   }

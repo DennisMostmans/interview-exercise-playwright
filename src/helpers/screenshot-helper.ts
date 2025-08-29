@@ -9,7 +9,7 @@ export class ScreenshotHelper {
 
     async takeScreenshot(fileName: string): Promise<void> {
         await this.page.screenshot({ 
-            path: `screenshots/${fileName}.png`,
+            path: `test-results/screenshots/${fileName}.png`,
             fullPage: true 
         });
     }
