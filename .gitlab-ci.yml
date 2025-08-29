@@ -1,0 +1,20 @@
+stages:
+  - test
+
+playwright-e2e:
+  stage: test
+  image: mcr.microsoft.com/playwright:v1.47.0-focal # officiële Playwright Docker image
+  variables:
+    BASE_URL: "https://example.com"
+    API_KEY: $API_KEY   # ← komt uit GitLab CI/CD settings (masked/secret)
+  script:
+    - npm ci
+    - npx playwright install --with-deps
+    - npx playwright test --reporter=html
+  artifacts:
+    when: always
+    paths:
+      - playwright-report     # HTML rapport
+      - test-results          # Screenshots, videos, traces
+    expire_in: 7 days
+  allow_failure: false
