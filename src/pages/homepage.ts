@@ -1,7 +1,7 @@
-// ...existing code...
+
 import { Page, expect } from "@playwright/test";
 import { CookieBanner } from "../components/cookie-banner";
-import { SearchComponent } from "../components/search-component"; // fixed casing
+import { SearchComponent } from "../components/search-component"; 
 import { CountryLanguageModal } from "../components/language-popup";
 
 export class Homepage {
@@ -28,4 +28,3 @@ export class Homepage {
         await this.searchComponent.verifySearchUrl(query);
     }
 }
-// ...existing code...

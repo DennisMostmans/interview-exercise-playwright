@@ -14,12 +14,4 @@ export class ScreenshotHelper {
         });
     }
 
-    async takeSearchResultsScreenshot(): Promise<void> {
-        await this.takeScreenshot('search-results');
-    }
-
-    async takeScreenshotWithTimestamp(baseName: string): Promise<void> {
-        const timestamp = new Date().toISOString().replace(/[:.]/g, '-');
-        await this.takeScreenshot(`${baseName}-${timestamp}`);
-    }
-}
+ }

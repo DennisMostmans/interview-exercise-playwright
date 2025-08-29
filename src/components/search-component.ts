@@ -28,8 +28,6 @@ export class SearchComponent{
             await expect (this.searchBox).toHaveValue(query, { timeout: 2000 });
         }
 
-        // Ensure the modal overlay is fully gone before interacting with the header
-
         await expect(this.searchButton).toBeVisible();
         await expect(this.searchButton).toBeEnabled();
 
@@ -53,4 +51,3 @@ export class SearchComponent{
         await expect(this.page).toHaveURL(new RegExp(`/s/\\?searchtext=${encodedQuery}`));
     }
 }
-// ...existing code...

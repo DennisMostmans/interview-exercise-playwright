@@ -3,12 +3,11 @@ import { Page, Locator, expect } from '@playwright/test';
 export class Pagination {
   constructor(private page: Page) {}
 
-  // Locator for all article titles
+ 
   get articleTitles(): Locator {
     return this.page.locator('h2.mb-1.line-clamp-2');
   }
 
-  // --- Existing methods (untouched) ---
   async getFirstArticleTitle(): Promise<string> {
     const first = this.articleTitles.first();
     await first.waitFor({ state: 'visible', timeout: 10000 });
@@ -53,10 +52,7 @@ export class Pagination {
     return titles;
   }
 
-  /**
-   * Navigate to the next results page
-   * Adjust the locator if your "Next" button differs
-   */
+  
   async goToNextPage(): Promise<void> {
     const nextButton = this.page.getByRole('button', { name: /volgende/i });
     await nextButton.click();
@@ -70,9 +66,6 @@ export class Pagination {
     });
   }
 
-  /**
-   * Compare two sets of titles and return duplicates (if any)
-   */
   async compareTitles(
     page1Titles: string[],
     page2Titles: string[]
@@ -80,11 +73,6 @@ export class Pagination {
     return page2Titles.filter((t) => page1Titles.includes(t));
   }
 
-  // --- NEW HELPER METHODS ---
-
-  /**
-   * Get all non-sponsored titles on the current page
-   */
   async getAllNonSponsoredTitles(): Promise<string[]> {
     const allTitles: string[] = [];
     const cards = this.page.locator('div[id^="9"]');
@@ -105,17 +93,13 @@ export class Pagination {
     return allTitles;
   }
 
-  /**
-   * Full flow: get first N titles on page 1, go to page 2, get first N titles, take screenshot
-   */
-  async getFirstNTitlesAcrossPages(n: number, screenshotName?: string): Promise<{ page1: string[]; page2: string[] }> {
+
+  async getFirstNTitlesAcrossPages(n: number, _ignored?: string): Promise<{ page1: string[]; page2: string[] }> {
     const page1 = await this.getFirstNTitles(n);
-
+    await this.takeScreenshot('page1');
     await this.goToNextPage();
-
-    if (screenshotName) await this.takeScreenshot(screenshotName);
-
     const page2 = await this.getFirstNTitles(n);
+    await this.takeScreenshot('page2');
     return { page1, page2 };
   }
 }

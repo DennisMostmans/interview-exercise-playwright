@@ -15,19 +15,19 @@ export class SearchResultsPage {
   }
 
   get allHeaders(): Locator {
-    // This should target ALL h1 and h2 elements
+    
     return this.page.locator('h1, h2, [data-testid="search-header"]');
   }
   async verifySearchPerformed(): Promise<void> {
-    // Only check that the main search title is visible
+    
     await expect(this.searchResultsTitle).toBeVisible();
   }
 
   async verifySearchTerm(searchTerm: string): Promise<void> {
-    // This should check ALL h1 AND h2 elements
+   
     const headerElements = await this.allHeaders.all();
     
-    // Check each header contains the search term
+   
     for (let i = 0; i < headerElements.length; i++) {
       const header = headerElements[i];
       const headerText = await header.textContent();

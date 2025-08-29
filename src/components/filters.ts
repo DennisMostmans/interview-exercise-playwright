@@ -60,9 +60,7 @@ export class Filter {
     return h1Text?.includes('Speelgoed') ?? false;
   }
 
-  /**
-   * Unified helper to apply Speelgoed filter if available
-   */
+
   async applySpeelgoedFilterIfAvailable(): Promise<void> {
     // Verify categories section exists
     const isCategoriesVisible = await this.isCategoriesSectionVisible();

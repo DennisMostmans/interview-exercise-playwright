@@ -7,7 +7,6 @@ export class Prices {
         this.page = page;
     }
 
-    // Existing method to get all prices
     async getAllPrices(): Promise<number[]> {
         const priceElements = this.page.locator("//span[contains(text(),'De prijs van dit product')]");
         const count = await priceElements.count();
@@ -24,13 +23,9 @@ export class Prices {
             }
         }
 
-        // Remove duplicates
         return Array.from(new Set(prices));
     }
 
-    /**
-     * Gets the first 3 numeric prices and asserts they are in ascending order
-     */
     async getFirst3PricesAscending(): Promise<number[]> {
         const priceElements = this.page.locator("//span[contains(text(),'De prijs van dit product')]");
 
@@ -50,7 +45,7 @@ export class Prices {
                 }
             }
 
-            if (prices.length === 3) break; // stop once we have first 3 visible prices
+            if (prices.length === 3) break; 
         }
 
         if (prices.length < 3) {
@@ -59,7 +54,7 @@ export class Prices {
 
         console.log("First 3 visible prices in DOM order:", prices);
 
-        // Assert ascending order
+        
         expect(prices[0]).toBeLessThanOrEqual(prices[1]);
         expect(prices[1]).toBeLessThanOrEqual(prices[2]);
 

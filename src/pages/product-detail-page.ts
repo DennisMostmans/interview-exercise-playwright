@@ -3,28 +3,27 @@ import { Page, expect, BrowserContext } from '@playwright/test';
 export class ProductDetailPage {
     constructor(private page: Page) {}
 
-    /** Locator for the visible product price */
+    
     get priceLocator() {
         return this.page.locator('span.promo-price[data-test="price"]:visible');
     }
 
-    /** Locator for the visible product title */
+    
     get titleLocator() {
         return this.page.locator('span[data-test="title"]:visible');
     }
 
-    /** Assert that the product price is visible */
+    
     async expectPriceVisible(): Promise<void> {
         await expect(this.priceLocator).toBeVisible({ timeout: 5000 });
     }
 
-    /** Assert that the product title is visible and return its text */
+    
     async expectTitleVisible(): Promise<string> {
         await expect(this.titleLocator).toBeVisible({ timeout: 5000 });
         return await this.titleLocator.innerText();
     }
 
-    /** Optionally: check availability block */
     get availabilityLocator() {
         return this.page.locator('div[data-test="delivery-highlight"]:visible');
     }
@@ -41,7 +40,7 @@ export class ProductDetailPage {
         return this.page.getByRole('button', { name: 'In winkelwagen' }).first();
     }
 
-    /** Assert that the Add to Cart button is visible */
+    
     async expectAddToCartVisible(): Promise<void> {
         await expect(this.addToCartButton).toBeVisible({ timeout: 5000 });
     }

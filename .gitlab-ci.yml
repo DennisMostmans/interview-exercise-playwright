@@ -4,7 +4,7 @@ stages:
 playwright-e2e:
   stage: test
   tags:
-    - playwright   # must match runner tag
+    - playwright  
   variables:
     BASE_URL: "https://bol.com"
     API_KEY: $API_KEY
