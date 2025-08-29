@@ -1,1954 +1,2693 @@
 # Page snapshot
 
 ```yaml
-- generic:
-  - generic:
-    - banner:
-      - link:
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic:
+      - link "Ga naar zoeken" [ref=e4] [cursor=pointer]:
         - /url: "#searchfor"
-        - text: Ga naar zoeken
-      - link:
+      - link "Ga naar hoofdinhoud" [ref=e5] [cursor=pointer]:
         - /url: "#mainContent"
-        - text: Ga naar hoofdinhoud
-      - complementary:
-        - generic:
-          - link:
-            - /url: /be/nl/sf/winkelen-zonder-zorgen
-            - generic: lekker winkelen zonder zorgen
-            - list:
-              - listitem:
-                - generic:
-                  - strong: Gratis
-                  - text: verzending vanaf 25,-
-              - listitem:
-                - generic: Bezorging dezelfde dag, 's avonds of in het weekend*
-              - listitem:
-                - generic:
-                  - strong: Gratis
-                  - text: retourneren
-          - link:
-            - /url: /be/nl/select
-            - generic: Select
-            - generic: Ontdek nu de 4 voordelen
-      - generic:
-        - generic:
-          - link:
-            - /url: /be/nl/
-            - img
-        - generic:
-          - search:
-            - generic:
-              - textbox [active]: lego
-              - button:
-                - generic:
-                  - img
-              - button:
-                - generic:
-                  - img
-              - listbox:
-                - option:
-                  - link:
-                    - /url: /be/nl/s/?searchtext=lego&suggestionType=regular&suggestFragment=lego
-                    - generic:
-                      - img
-                    - generic:
-                      - generic: lego
-                - option:
-                  - link:
-                    - /url: /be/nl/s/?searchtext=lego+star+wars&suggestionType=regular&suggestFragment=lego
-                    - generic:
-                      - img
-                    - generic:
-                      - generic: lego
-                      - generic: star wars
-                - option:
-                  - link:
-                    - /url: /be/nl/s/?searchtext=lego+technic&suggestionType=regular&suggestFragment=lego
-                    - generic:
-                      - img
-                    - generic:
-                      - generic: lego
-                      - generic: technic
-                - option:
-                  - link:
-                    - /url: /be/nl/s/?searchtext=lego+botanical&suggestionType=regular&suggestFragment=lego
-                    - generic:
-                      - img
-                    - generic:
-                      - generic: lego
-                      - generic: botanical
-                - option:
-                  - link:
-                    - /url: /be/nl/s/?searchtext=lego+city&suggestionType=regular&suggestFragment=lego
-                    - generic:
-                      - img
-                    - generic:
-                      - generic: lego
-                      - generic: city
-                - option:
-                  - link:
-                    - /url: /be/nl/s/?searchtext=lego+f1&suggestionType=regular&suggestFragment=lego
-                    - generic:
-                      - img
-                    - generic:
-                      - generic: lego
-                      - generic: f1
-                - option:
-                  - link:
-                    - /url: /be/nl/s/?searchtext=lego+harry+potter&suggestionType=regular&suggestFragment=lego
-                    - generic:
-                      - img
-                    - generic:
-                      - generic: lego
-                      - generic: harry potter
-                - option:
-                  - link:
-                    - /url: /be/nl/s/?searchtext=lego+ninjago&suggestionType=regular&suggestFragment=lego
-                    - generic:
-                      - img
-                    - generic:
-                      - generic: lego
-                      - generic: ninjago
-                - option:
-                  - link:
-                    - /url: /be/nl/s/?searchtext=lego+friends&suggestionType=regular&suggestFragment=lego
-                    - generic:
-                      - img
-                    - generic:
-                      - generic: lego
-                      - generic: friends
-                - option:
-                  - link:
-                    - /url: /be/nl/s/?searchtext=lego+bloemen&suggestionType=regular&suggestFragment=lego
-                    - generic:
-                      - img
-                    - generic:
-                      - generic: lego
-                      - generic: bloemen
-                - option:
-                  - link:
-                    - /url: /be/nl/p/lego-speed-champions-oracle-red-bull-racing-rb20-f1-auto-set-77243/9300000192425954/?suggestionType=featured_product
-                    - generic:
-                      - generic: LEGO Speed Champions Oracle Red Bull Racing RB20 F1 Auto Set - 77243
-                - option:
-                  - link:
-                    - /url: /be/nl/p/lego-icons-rozenboeket-10328/9300000157956429/?suggestionType=featured_product
-                    - generic:
-                      - generic: LEGO Icons Rozenboeket - Botanical Collection - 10328
-        - generic:
-          - generic:
-            - generic:
-              - link:
-                - /url: /nl/account/login.html
-                - generic: Inloggen
-            - generic:
-              - link:
-                - /url: /be/nl/lijstjes/overzicht-lijsten/
-                - generic:
-                  - img
-            - generic:
-              - link:
-                - /url: /be/nl/basket/
-                - generic:
-                  - img
-      - generic:
-        - generic:
-          - navigation:
-            - generic:
-              - list:
-                - listitem:
-                  - button:
-                    - text: Categorieën
-                    - generic:
-                      - img
-                - listitem:
-                  - button:
-                    - text: Cadeaus & Inspiratie
-                    - generic:
-                      - img
-                - listitem:
-                  - button:
-                    - text: Aanbiedingen
-                    - generic:
-                      - img
-          - list:
-            - listitem:
-              - link:
-                - /url: /be/nl/sf/zakendoen-met-bolcom
-                - text: Zakelijk
-            - listitem:
-              - link:
-                - /url: /be/nl/l/cadeaukaarten/20639/
-                - text: Cadeaukaart
-            - listitem:
-              - link:
-                - /url: /be/nl/rnwy/account/bestellingen/overzicht
-                - text: Bestelstatus
-            - listitem:
-              - link:
-                - /url: /be/nl/m/klantenservice
-                - text: Klantenservice
-    - main:
-      - heading [level=1]: Bol, de winkel van ons allemaal
-      - generic:
-        - generic:
-          - generic:
-            - generic:
-              - generic:
-                - link:
-                  - /url: /be/nl/cmp/Opstart2025/2083/
+    - complementary "Onze voordelen" [ref=e6]:
+      - generic [ref=e7]:
+        - link "lekker winkelen zonder zorgen Gratis verzending vanaf 25,- Bezorging dezelfde dag, 's avonds of in het weekend* Gratis retourneren" [ref=e8] [cursor=pointer]:
+          - /url: /be/nl/sf/winkelen-zonder-zorgen
+          - generic [ref=e9] [cursor=pointer]: lekker winkelen zonder zorgen
+          - list [ref=e10] [cursor=pointer]:
+            - listitem [ref=e11] [cursor=pointer]:
+              - generic [ref=e12] [cursor=pointer]:
+                - strong [ref=e13] [cursor=pointer]: Gratis
+                - text: verzending vanaf 25,-
+            - listitem [ref=e14] [cursor=pointer]:
+              - generic [ref=e15] [cursor=pointer]: Bezorging dezelfde dag, 's avonds of in het weekend*
+            - listitem [ref=e16] [cursor=pointer]:
+              - generic [ref=e17] [cursor=pointer]:
+                - strong [ref=e18] [cursor=pointer]: Gratis
+                - text: retourneren
+        - link "Select Ontdek nu de 4 voordelen" [ref=e19] [cursor=pointer]:
+          - /url: /be/nl/select
+          - generic [ref=e20] [cursor=pointer]: Select
+          - generic [ref=e21] [cursor=pointer]: Ontdek nu de 4 voordelen
+    - generic [ref=e22]:
+      - link "Bol.com homepage" [ref=e24] [cursor=pointer]:
+        - /url: /be/nl/
+        - img [ref=e25] [cursor=pointer]
+      - search "In onze winkel" [ref=e28]:
+        - generic [ref=e29]:
+          - textbox "Zoeken" [ref=e30]: lego
+          - button "Wis selectie" [ref=e31] [cursor=pointer]:
+            - img [ref=e33] [cursor=pointer]
+          - button "Zoeken" [ref=e35] [cursor=pointer]:
+            - img [ref=e37] [cursor=pointer]
+      - generic [ref=e40]:
+        - link "Inloggen" [ref=e42] [cursor=pointer]:
+          - /url: /nl/account/login.html
+          - generic [ref=e43] [cursor=pointer]: Inloggen
+        - link "Naar mijn verlanglijstjes" [ref=e45] [cursor=pointer]:
+          - /url: /be/nl/lijstjes/overzicht-lijsten/
+          - img [ref=e47] [cursor=pointer]
+        - link "Winkelwagen met 0 artikelen" [ref=e50] [cursor=pointer]:
+          - /url: /be/nl/basket/
+          - img [ref=e52] [cursor=pointer]
+    - generic [ref=e56]:
+      - navigation "Main" [ref=e57]:
+        - list [ref=e59]:
+          - listitem [ref=e60]:
+            - button "Categorieën" [ref=e61]:
+              - text: Categorieën
+              - img [ref=e63]
+          - listitem [ref=e65]:
+            - button "Cadeaus & Inspiratie" [ref=e66]:
+              - text: Cadeaus & Inspiratie
+              - img [ref=e68]
+          - listitem [ref=e70]:
+            - button "Aanbiedingen" [ref=e71]:
+              - text: Aanbiedingen
+              - img [ref=e73]
+      - list [ref=e75]:
+        - listitem [ref=e76]:
+          - link "Zakelijk" [ref=e77] [cursor=pointer]:
+            - /url: /be/nl/sf/zakendoen-met-bolcom
+        - listitem [ref=e78]:
+          - link "Cadeaukaart" [ref=e79] [cursor=pointer]:
+            - /url: /be/nl/l/cadeaukaarten/20639/
+        - listitem [ref=e80]:
+          - link "Bestelstatus" [ref=e81] [cursor=pointer]:
+            - /url: /be/nl/rnwy/account/bestellingen/overzicht
+        - listitem [ref=e82]:
+          - link "Klantenservice" [ref=e83] [cursor=pointer]:
+            - /url: /be/nl/m/klantenservice
+        - listitem [ref=e84]:
+          - button "Land België Taal Nederlands" [ref=e85] [cursor=pointer]:
+            - navigation "Land België" [ref=e86] [cursor=pointer]
+            - navigation "Taal Nederlands" [ref=e87] [cursor=pointer]: NL
+            - img [ref=e89] [cursor=pointer]
+  - generic [ref=e91]:
+    - list [ref=e93]:
+      - listitem [ref=e94]:
+        - link "Home" [ref=e95] [cursor=pointer]:
+          - /url: /be/nl/
+          - img [ref=e97] [cursor=pointer]
+      - listitem [ref=e99]:
+        - generic [ref=e100]:
+          - img [ref=e102]
+          - text: Speelgoed
+    - generic [ref=e104]:
+      - generic [ref=e105]:
+        - generic [ref=e106]:
+          - heading "Categorieën" [level=2] [ref=e107]
+          - list [ref=e108]:
+            - listitem [ref=e109]:
+              - link "Bouwen & Constructie (5362)" [ref=e111] [cursor=pointer]:
+                - /url: /be/nl/s/
+            - listitem [ref=e112]:
+              - link "Educatief speelgoed (432)" [ref=e114] [cursor=pointer]:
+                - /url: /be/nl/s/
+            - listitem [ref=e115]:
+              - link "Voertuigen (273)" [ref=e117] [cursor=pointer]:
+                - /url: /be/nl/s/
+            - listitem [ref=e118]:
+              - link "Baby & Peuter (174)" [ref=e120] [cursor=pointer]:
+                - /url: /be/nl/s/
+            - listitem [ref=e121]:
+              - link "Hobby & Creatief (170)" [ref=e123] [cursor=pointer]:
+                - /url: /be/nl/s/
+            - button "Meer" [ref=e125] [cursor=pointer]:
+              - img [ref=e127] [cursor=pointer]
+              - generic [ref=e129] [cursor=pointer]: Meer
+        - generic [ref=e131]:
+          - heading "Prijs (€)" [level=2] [ref=e133]:
+            - button "Prijs (€)" [expanded] [ref=e134] [cursor=pointer]:
+              - text: Prijs (€)
+              - img [ref=e136] [cursor=pointer]
+          - generic [ref=e138]:
+            - generic [ref=e139]:
+              - spinbutton "List.Refinements.FacetRange.Minimal 1600" [ref=e140]: "2"
+              - spinbutton "List.Refinements.FacetRange.Maximal 1600" [ref=e141]: "1600"
+            - generic [ref=e142]:
+              - slider "Minimum" [ref=e146] [cursor=pointer]
+              - slider "Maximum" [ref=e148] [cursor=pointer]
+        - generic [ref=e150]:
+          - heading "Leeftijd" [level=2] [ref=e152]:
+            - button "Leeftijd" [expanded] [ref=e153] [cursor=pointer]:
+              - text: Leeftijd
+              - img [ref=e155] [cursor=pointer]
+          - list [ref=e158]:
+            - listitem [ref=e159]:
+              - generic [ref=e161] [cursor=pointer]:
+                - checkbox "9-12 jaar (4823)" [ref=e162]
+                - generic [ref=e164] [cursor=pointer]: 9-12 jaar (4823)
+            - listitem [ref=e165]:
+              - generic [ref=e167] [cursor=pointer]:
+                - checkbox "7-8 jaar (3911)" [ref=e168]
+                - generic [ref=e170] [cursor=pointer]: 7-8 jaar (3911)
+            - listitem [ref=e171]:
+              - generic [ref=e173] [cursor=pointer]:
+                - checkbox "13 jaar en ouder (3662)" [ref=e174]
+                - generic [ref=e176] [cursor=pointer]: 13 jaar en ouder (3662)
+            - button "Meer" [ref=e178] [cursor=pointer]:
+              - img [ref=e180] [cursor=pointer]
+              - generic [ref=e182] [cursor=pointer]: Meer
+        - generic [ref=e184]:
+          - heading "Meest populair bij" [level=2] [ref=e186]:
+            - button "Meest populair bij" [expanded] [ref=e187] [cursor=pointer]:
+              - text: Meest populair bij
+              - img [ref=e189] [cursor=pointer]
+          - list [ref=e192]:
+            - listitem [ref=e193]:
+              - generic [ref=e195] [cursor=pointer]:
+                - checkbox "Jongens (1629)" [ref=e196]
+                - generic [ref=e198] [cursor=pointer]: Jongens (1629)
+            - listitem [ref=e199]:
+              - generic [ref=e201] [cursor=pointer]:
+                - checkbox "Meisjes (369)" [ref=e202]
+                - generic [ref=e204] [cursor=pointer]: Meisjes (369)
+            - listitem [ref=e205]:
+              - generic [ref=e207] [cursor=pointer]:
+                - checkbox "Jongens en meisjes (2243)" [ref=e208]
+                - generic [ref=e210] [cursor=pointer]: Jongens en meisjes (2243)
+        - generic [ref=e212]:
+          - heading "Serie" [level=2] [ref=e214]:
+            - button "Serie" [expanded] [ref=e215] [cursor=pointer]:
+              - text: Serie
+              - img [ref=e217] [cursor=pointer]
+          - list [ref=e220]:
+            - listitem [ref=e221]:
+              - generic [ref=e223] [cursor=pointer]:
+                - checkbox "LEGO City (563)" [ref=e224]
+                - generic [ref=e226] [cursor=pointer]: LEGO City (563)
+            - listitem [ref=e227]:
+              - generic [ref=e229] [cursor=pointer]:
+                - checkbox "LEGO Star Wars (540)" [ref=e230]
+                - generic [ref=e232] [cursor=pointer]: LEGO Star Wars (540)
+            - listitem [ref=e233]:
+              - generic [ref=e235] [cursor=pointer]:
+                - checkbox "LEGO Friends (351)" [ref=e236]
+                - generic [ref=e238] [cursor=pointer]: LEGO Friends (351)
+            - button "Meer" [ref=e240] [cursor=pointer]:
+              - img [ref=e241] [cursor=pointer]
+              - generic [ref=e243] [cursor=pointer]: Meer
+        - generic [ref=e245]:
+          - heading "Merk" [level=2] [ref=e247]:
+            - button "Merk" [expanded] [ref=e248] [cursor=pointer]:
+              - text: Merk
+              - img [ref=e250] [cursor=pointer]
+          - list [ref=e253]:
+            - listitem [ref=e254]:
+              - generic [ref=e256] [cursor=pointer]:
+                - checkbox "LEGO (4699)" [ref=e257]
+                - generic [ref=e259] [cursor=pointer]: LEGO (4699)
+            - listitem [ref=e260]:
+              - generic [ref=e262] [cursor=pointer]:
+                - checkbox "Ravensburger (2)" [ref=e263]
+                - generic [ref=e265] [cursor=pointer]: Ravensburger (2)
+            - listitem [ref=e266]:
+              - generic [ref=e268] [cursor=pointer]:
+                - checkbox "Merkloos / Sans marque (32)" [ref=e269]
+                - generic [ref=e271] [cursor=pointer]: Merkloos / Sans marque (32)
+            - button "Meer" [ref=e273] [cursor=pointer]:
+              - img [ref=e274] [cursor=pointer]
+              - generic [ref=e276] [cursor=pointer]: Meer
+        - generic [ref=e278]:
+          - heading "Korting" [level=2] [ref=e280]:
+            - button "Korting" [expanded] [ref=e281] [cursor=pointer]:
+              - text: Korting
+              - img [ref=e283] [cursor=pointer]
+          - list [ref=e286]:
+            - listitem [ref=e287]:
+              - generic [ref=e289] [cursor=pointer]:
+                - checkbox "Vanaf 70% (1)" [ref=e290]
+                - generic [ref=e292] [cursor=pointer]: Vanaf 70% (1)
+            - listitem [ref=e293]:
+              - generic [ref=e295] [cursor=pointer]:
+                - checkbox "Vanaf 50% (4)" [ref=e296]
+                - generic [ref=e298] [cursor=pointer]: Vanaf 50% (4)
+            - listitem [ref=e299]:
+              - generic [ref=e301] [cursor=pointer]:
+                - checkbox "Vanaf 30% (19)" [ref=e302]
+                - generic [ref=e304] [cursor=pointer]: Vanaf 30% (19)
+            - button "Meer" [ref=e306] [cursor=pointer]:
+              - img [ref=e308] [cursor=pointer]
+              - generic [ref=e310] [cursor=pointer]: Meer
+        - generic [ref=e312]:
+          - heading "Beoordeling" [level=2] [ref=e314]:
+            - button "Beoordeling" [expanded] [ref=e315] [cursor=pointer]:
+              - text: Beoordeling
+              - img [ref=e317] [cursor=pointer]
+          - generic [ref=e320]:
+            - button "1 Minimale beoordeling" [ref=e321] [cursor=pointer]:
+              - img [ref=e323] [cursor=pointer]
+            - button "2 Minimale beoordeling" [ref=e325] [cursor=pointer]:
+              - img [ref=e327] [cursor=pointer]
+            - button "3 Minimale beoordeling" [ref=e329] [cursor=pointer]:
+              - img [ref=e331] [cursor=pointer]
+            - button "4 Minimale beoordeling" [ref=e333] [cursor=pointer]:
+              - img [ref=e335] [cursor=pointer]
+            - button "5 Minimale beoordeling" [ref=e337] [cursor=pointer]:
+              - img [ref=e339] [cursor=pointer]
+        - generic [ref=e342]:
+          - heading "Beschikbaarheid" [level=2] [ref=e344]:
+            - button "Beschikbaarheid" [expanded] [ref=e345] [cursor=pointer]:
+              - text: Beschikbaarheid
+              - img [ref=e347] [cursor=pointer]
+          - list [ref=e350]:
+            - listitem [ref=e351]:
+              - generic [ref=e353] [cursor=pointer]:
+                - checkbox "Leverbaar (5730)" [ref=e354]
+                - generic [ref=e356] [cursor=pointer]: Leverbaar (5730)
+            - listitem [ref=e357]:
+              - generic [ref=e359] [cursor=pointer]:
+                - checkbox "Te reserveren (17)" [ref=e360]
+                - generic [ref=e362] [cursor=pointer]: Te reserveren (17)
+        - generic [ref=e364]:
+          - heading "Personage" [level=2] [ref=e366]:
+            - button "Personage" [expanded] [ref=e367] [cursor=pointer]:
+              - text: Personage
+              - img [ref=e369] [cursor=pointer]
+          - list [ref=e372]:
+            - listitem [ref=e373]:
+              - generic [ref=e375] [cursor=pointer]:
+                - checkbox "Geen personage (2897)" [ref=e376]
+                - generic [ref=e378] [cursor=pointer]: Geen personage (2897)
+            - listitem [ref=e379]:
+              - generic [ref=e381] [cursor=pointer]:
+                - checkbox "Star Wars (552)" [ref=e382]
+                - generic [ref=e384] [cursor=pointer]: Star Wars (552)
+            - listitem [ref=e385]:
+              - generic [ref=e387] [cursor=pointer]:
+                - checkbox "Harry Potter (141)" [ref=e388]
+                - generic [ref=e390] [cursor=pointer]: Harry Potter (141)
+            - button "Meer" [ref=e392] [cursor=pointer]:
+              - img [ref=e393] [cursor=pointer]
+              - generic [ref=e395] [cursor=pointer]: Meer
+        - heading "Levertijd" [level=2] [ref=e399]:
+          - button "Levertijd" [ref=e400] [cursor=pointer]:
+            - text: Levertijd
+            - img [ref=e402] [cursor=pointer]
+        - heading "Select-bezorgopties" [level=2] [ref=e407]:
+          - button "Select-bezorgopties" [ref=e408] [cursor=pointer]:
+            - text: Select-bezorgopties
+            - img [ref=e410] [cursor=pointer]
+        - heading "Aanbevelingen" [level=2] [ref=e415]:
+          - button "Aanbevelingen" [ref=e416] [cursor=pointer]:
+            - text: Aanbevelingen
+            - img [ref=e418] [cursor=pointer]
+        - heading "Aanbiedingen" [level=2] [ref=e423]:
+          - button "Aanbiedingen" [ref=e424] [cursor=pointer]:
+            - text: Aanbiedingen
+            - img [ref=e426] [cursor=pointer]
+        - listitem [ref=e428]:
+          - generic [ref=e430]:
+            - checkbox "non" [ref=e431] [cursor=pointer]
+            - generic [ref=e433] [cursor=pointer]: Toon artikelen die niet leverbaar zijn
+      - generic [ref=e434]:
+        - main [ref=e435]:
+          - generic [ref=e437]:
+            - heading "'lego' in Speelgoed" [level=1] [ref=e439]
+            - generic [ref=e440]:
+              - link "Sla deze carousel over" [ref=e441] [cursor=pointer]:
+                - /url: "#«r17»"
+              - generic [ref=e442]:
+                - button [ref=e443] [cursor=pointer]:
+                  - img [ref=e445] [cursor=pointer]
+                - list [ref=e447]:
+                  - listitem [ref=e448]:
+                    - link "Bouwen & Constructie" [ref=e449] [cursor=pointer]:
+                      - /url: /be/nl/s/?searchtext=lego&N=10462
+                      - button "Bouwen & Constructie" [ref=e450]:
+                        - generic [ref=e452]: Bouwen & Constructie
+                  - listitem [ref=e453]:
+                    - link "Bouwsets" [ref=e454] [cursor=pointer]:
+                      - /url: /be/nl/s/?searchtext=lego&N=20001
+                      - button "Bouwsets" [ref=e455]:
+                        - generic [ref=e457]: Bouwsets
+                  - listitem [ref=e458]:
+                    - link "Educatief speelgoed" [ref=e459] [cursor=pointer]:
+                      - /url: /be/nl/s/?searchtext=lego&N=10550
+                      - button "Educatief speelgoed" [ref=e460]:
+                        - generic [ref=e462]: Educatief speelgoed
+                  - listitem [ref=e463]:
+                    - link "STEM Speelgoed" [ref=e464] [cursor=pointer]:
+                      - /url: /be/nl/s/?searchtext=lego&N=65053
+                      - button "STEM Speelgoed" [ref=e465]:
+                        - generic [ref=e467]: STEM Speelgoed
+                  - listitem [ref=e468]:
+                    - link "Spellen" [ref=e469] [cursor=pointer]:
+                      - /url: /be/nl/s/?searchtext=lego&N=10596
+                      - button "Spellen" [ref=e470]:
+                        - generic [ref=e472]: Spellen
+                  - listitem [ref=e473]:
+                    - link "Baby & Peuter" [ref=e474] [cursor=pointer]:
+                      - /url: /be/nl/s/?searchtext=lego&N=10477
+                      - button "Baby & Peuter" [ref=e475]:
+                        - generic [ref=e477]: Baby & Peuter
+                  - listitem [ref=e478]:
+                    - link "Voertuigen" [ref=e479] [cursor=pointer]:
+                      - /url: /be/nl/s/?searchtext=lego&N=10614
+                      - button "Voertuigen" [ref=e480]:
+                        - generic [ref=e482]: Voertuigen
+                  - listitem [ref=e483]:
+                    - link "Treinen & Treinbanen" [ref=e484] [cursor=pointer]:
+                      - /url: /be/nl/s/?searchtext=lego&N=10619
+                      - button "Treinen & Treinbanen" [ref=e485]:
+                        - generic [ref=e487]: Treinen & Treinbanen
+                  - listitem [ref=e488]:
+                    - link "Treinen" [ref=e489] [cursor=pointer]:
+                      - /url: /be/nl/s/?searchtext=lego&N=20012
+                      - button "Treinen" [ref=e490]:
+                        - generic [ref=e492]: Treinen
+                  - listitem [ref=e493]:
+                    - link "Constructiespeelgoed" [ref=e494] [cursor=pointer]:
+                      - /url: /be/nl/s/?searchtext=lego&N=36004
+                      - button "Constructiespeelgoed" [ref=e495]:
+                        - generic [ref=e497]: Constructiespeelgoed
+            - generic [ref=e499]:
+              - generic [ref=e500]: 5.748 resultaten
+              - generic [ref=e501]:
+                - text: Sortering
+                - button [ref=e502] [cursor=pointer]:
+                  - img [ref=e503] [cursor=pointer]
+                - generic [ref=e507]:
+                  - combobox "Sortering" [ref=e508]:
+                    - option "Relevantie"
+                    - option "Populariteit"
+                    - option "Prijs laag - hoog" [selected]
+                    - option "Prijs hoog - laag"
+                    - option "Verschijningsdatum"
+                    - option "Beoordeling"
+                    - option "Meest gewild"
                   - generic:
-                    - generic:
+                    - img
+                - button "Deze pagina is ingesteld op lijstweergave. Om de weergave van deze pagina te wijzigen van lijstweergave naar tegelweergave, klik deze button." [ref=e509] [cursor=pointer]:
+                  - img [ref=e510] [cursor=pointer]
+          - generic [ref=e513]:
+            - generic [ref=e516]:
+              - generic [ref=e517]:
+                - generic [ref=e519]:
+                  - link "LEGO 630 Brick Separator - Elementensplitser (oranje)" [ref=e520] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-630-brick-separator/9200000040228326/
+                    - img "LEGO 630 Brick Separator - Elementensplitser (oranje)" [ref=e522] [cursor=pointer]
+                  - button "Op je verlanglijstje" [ref=e523] [cursor=pointer]:
+                    - img [ref=e525] [cursor=pointer]
+                - generic [ref=e528]:
+                  - checkbox "Vergelijk met andere artikelen" [ref=e529] [cursor=pointer]
+                  - generic [ref=e530] [cursor=pointer]: Vergelijk met andere artikelen
+              - generic [ref=e531]:
+                - generic [ref=e532]:
+                  - list [ref=e534]:
+                    - listitem [ref=e535]:
+                      - link "LEGO" [ref=e536] [cursor=pointer]:
+                        - /url: /be/nl/pb/lego/4648554/
+                    - listitem [ref=e537]:
+                      - text: "&"
+                      - link "LEGO" [ref=e538] [cursor=pointer]:
+                        - /url: /be/nl/pb/lego/4648554/
+                  - link "LEGO 630 Brick Separator - Elementensplitser (oranje)" [ref=e539] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-630-brick-separator/9200000040228326/
+                    - heading "LEGO 630 Brick Separator - Elementensplitser (oranje)" [level=2] [ref=e540] [cursor=pointer]
+                  - list [ref=e541]:
+                    - listitem [ref=e542]: 1 onderdelen
+                    - listitem [ref=e543]: "| Geen minifiguren"
+                    - listitem [ref=e544]: "| 2011"
+                  - generic [ref=e546]:
+                    - img "Gemiddeld 4.5 van de 5 sterren uit 2 reviews" [ref=e547]:
+                      - img [ref=e548]:
+                        - img [ref=e550]
+                        - img [ref=e554]
+                      - img [ref=e556]:
+                        - img [ref=e558]
+                        - img [ref=e562]
+                      - img [ref=e564]:
+                        - img [ref=e566]
+                        - img [ref=e570]
+                      - img [ref=e572]:
+                        - img [ref=e574]
+                        - img [ref=e578]
+                      - img [ref=e580]:
+                        - img [ref=e582]
+                        - img [ref=e586]
+                    - paragraph [ref=e588]:
+                      - generic [ref=e589]:
+                        - text: (
+                        - generic [ref=e590]: "2"
+                        - text: )
+                  - paragraph [ref=e591]: Heel makkelijk voor het losmaken van LEGO-stenen is deze LEGO Stenenwipper (elementensplitser). Deze...
+                - generic [ref=e592]:
+                  - generic [ref=e593]:
+                    - generic [ref=e594]:
+                      - heading "Prijsinformatie en bestellen" [level=2] [ref=e595]
+                      - generic [ref=e599]:
+                        - generic [ref=e600]: De prijs van dit product is '2' euro en '49' cent
+                        - generic [ref=e601]: "2"
+                        - generic [ref=e602]: ","
+                        - generic [ref=e603]: "49"
+                    - generic [ref=e604]: Of bespaar 30% als je er 4 koopt
+                    - generic [ref=e606]:
+                      - generic [ref=e607]: Uiterlijk 3 september in huis
+                      - button "Toon meer informatie over levertijd" [ref=e609]:
+                        - img [ref=e611]
+                    - button "Verkoop door SHOPLINK Wat je kan verwachten" [ref=e615] [cursor=pointer]:
+                      - generic [ref=e616] [cursor=pointer]:
+                        - generic [ref=e617] [cursor=pointer]:
+                          - generic [ref=e618] [cursor=pointer]: Verkoop door
+                          - generic [ref=e619] [cursor=pointer]: SHOPLINK
+                        - generic [ref=e620] [cursor=pointer]: Wat je kan verwachten
+                  - link "Bekijk en bestel" [ref=e623] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-630-brick-separator/9200000040228326/
+                    - img [ref=e625] [cursor=pointer]
+                    - text: Bekijk en bestel
+            - generic [ref=e630]:
+              - generic [ref=e631]:
+                - generic [ref=e633]:
+                  - link "LEGO F1 raceauto collectibles, 1 van de 12 willekeurige raceauto's - 71049" [ref=e634] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-f1-raceauto-collectibles-71049/9300000198346112/
+                    - img "LEGO F1 raceauto collectibles, 1 van de 12 willekeurige raceauto's - 71049" [ref=e636] [cursor=pointer]
+                  - button "Op je verlanglijstje" [ref=e637] [cursor=pointer]:
+                    - img [ref=e639] [cursor=pointer]
+                - link "Max 4 per klant" [ref=e643] [cursor=pointer]:
+                  - /url: /be/nl/ra/max-4-per-klant/430353
+                - generic [ref=e646]:
+                  - checkbox "Vergelijk met andere artikelen" [ref=e647] [cursor=pointer]
+                  - generic [ref=e648] [cursor=pointer]: Vergelijk met andere artikelen
+              - generic [ref=e649]:
+                - generic [ref=e650]:
+                  - list [ref=e652]:
+                    - listitem [ref=e653]:
+                      - link "LEGO" [ref=e654] [cursor=pointer]:
+                        - /url: /be/nl/pb/lego/4648554/
+                    - listitem [ref=e655]:
+                      - text: "&"
+                      - link "Ferrari" [ref=e656] [cursor=pointer]:
+                        - /url: /be/nl/b/speelgoed-ferrari/1135256+7934/
+                  - link "LEGO F1 raceauto collectibles, 1 van de 12 willekeurige raceauto's - 71049" [ref=e657] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-f1-raceauto-collectibles-71049/9300000198346112/
+                    - heading "LEGO F1 raceauto collectibles, 1 van de 12 willekeurige raceauto's - 71049" [level=2] [ref=e658] [cursor=pointer]
+                  - list [ref=e659]:
+                    - listitem [ref=e660]: 29 onderdelen
+                    - listitem [ref=e661]: "| Geen minifiguren"
+                    - listitem [ref=e662]: "| 2025"
+                  - generic [ref=e664]:
+                    - img "Gemiddeld 3.9 van de 5 sterren uit 19 reviews" [ref=e665]:
+                      - img [ref=e666]:
+                        - img [ref=e668]
+                        - img [ref=e672]
+                      - img [ref=e674]:
+                        - img [ref=e676]
+                        - img [ref=e680]
+                      - img [ref=e682]:
+                        - img [ref=e684]
+                        - img [ref=e688]
+                      - img [ref=e690]:
+                        - img [ref=e692]
+                        - img [ref=e696]
+                      - img [ref=e698]:
+                        - img [ref=e700]
+                        - img [ref=e702]
+                    - paragraph [ref=e704]:
+                      - generic [ref=e705]:
+                        - text: (
+                        - generic [ref=e706]: "19"
+                        - text: )
+                  - paragraph [ref=e707]: Er wachten kinderen van 6 jaar en ouder een spannende race te wachten op het circuit met 1 van de 12...
+                - generic [ref=e708]:
+                  - generic [ref=e709]:
+                    - generic [ref=e710]:
+                      - heading "Prijsinformatie en bestellen" [level=2] [ref=e711]
+                      - generic [ref=e712]:
+                        - generic [ref=e715]:
+                          - generic [ref=e716]: De prijs van dit product is '3' euro en '49' cent
+                          - generic [ref=e717]: "3"
+                          - generic [ref=e718]: ","
+                          - generic [ref=e719]: "49"
+                        - generic [ref=e725]: 3+1 gratis
+                    - generic [ref=e726]:
+                      - generic [ref=e727]:
+                        - generic [ref=e728]: Op voorraad
+                        - generic [ref=e729]: Select
+                      - generic [ref=e730]:
+                        - generic [ref=e731]: Voor 23:59 uur besteld, morgen in huis
+                        - button "Toon meer informatie over levertijd" [ref=e733]:
+                          - img [ref=e735]
+                    - generic [ref=e739]: Verkoop door bol
+                  - button "In winkelwagen" [ref=e743] [cursor=pointer]:
+                    - img [ref=e745] [cursor=pointer]
+                    - img [ref=e748] [cursor=pointer]
+            - generic [ref=e753]:
+              - generic [ref=e754]:
+                - generic [ref=e756]:
+                  - link "LEGO Minifiguren Spider-verse Serie - Set met 1 van de 12 Figuren - 71050" [ref=e757] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-minifiguren-spider-verse-serie-set-met-1-van-de-12-figuren-71050/9300000231469572/
+                    - img "LEGO Minifiguren Spider-verse Serie - Set met 1 van de 12 Figuren - 71050" [ref=e759] [cursor=pointer]
+                  - button "Op je verlanglijstje" [ref=e760] [cursor=pointer]:
+                    - img [ref=e762] [cursor=pointer]
+                - link "LEGO® pre-order" [ref=e766] [cursor=pointer]:
+                  - /url: /be/nl/ra/lego-pre-orders/361383
+                - generic [ref=e769]:
+                  - checkbox "Vergelijk met andere artikelen" [ref=e770] [cursor=pointer]
+                  - generic [ref=e771] [cursor=pointer]: Vergelijk met andere artikelen
+              - generic [ref=e772]:
+                - generic [ref=e773]:
+                  - list [ref=e775]:
+                    - listitem [ref=e776]:
+                      - link "LEGO" [ref=e777] [cursor=pointer]:
+                        - /url: /be/nl/pb/lego/4648554/
+                    - listitem [ref=e778]:
+                      - text: "&"
+                      - link "Spider-Man" [ref=e779] [cursor=pointer]:
+                        - /url: /be/nl/b/speelgoed-spider-man/3578154+7934/
+                  - link "LEGO Minifiguren Spider-verse Serie - Set met 1 van de 12 Figuren - 71050" [ref=e780] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-minifiguren-spider-verse-serie-set-met-1-van-de-12-figuren-71050/9300000231469572/
+                    - heading "LEGO Minifiguren Spider-verse Serie - Set met 1 van de 12 Figuren - 71050" [level=2] [ref=e781] [cursor=pointer]
+                  - list [ref=e782]:
+                    - listitem [ref=e783]: 12 minifiguren
+                    - listitem [ref=e784]: "| 2025"
+                  - paragraph [ref=e785]: Fans van Marvel superhelden en Spider-Man vanaf 5 jaar kunnen avonturen naspelen met 1 van de 12 bouwbare...
+                - generic [ref=e786]:
+                  - generic [ref=e787]:
+                    - generic [ref=e788]:
+                      - heading "Prijsinformatie en bestellen" [level=2] [ref=e789]
+                      - generic [ref=e793]:
+                        - generic [ref=e794]: De prijs van dit product is '3' euro en '49' cent
+                        - generic [ref=e795]: "3"
+                        - generic [ref=e796]: ","
+                        - generic [ref=e797]: "49"
+                    - generic [ref=e799]:
+                      - generic [ref=e800]: Nog niet verschenen - reserveer een exemplaar
+                      - button "Toon meer informatie over levertijd" [ref=e802]:
+                        - img [ref=e804]
+                      - generic [ref=e807]: Beschikbaar op 01-09-2025
+                    - generic [ref=e809]: Verkoop door bol
+                  - button "Reserveer nu" [ref=e813] [cursor=pointer]:
+                    - img [ref=e815] [cursor=pointer]
+                    - text: Reserveer nu
+            - generic [ref=e820]:
+              - generic [ref=e821]:
+                - generic [ref=e823]:
+                  - link "LEGO Friends 30635 - Strandschoonmaak (polybag)" [ref=e824] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-30635-strandschoonmaak/9300000152587429/
+                    - img "LEGO Friends 30635 - Strandschoonmaak (polybag)" [ref=e826] [cursor=pointer]
+                  - button "Op je verlanglijstje" [ref=e827] [cursor=pointer]:
+                    - img [ref=e829] [cursor=pointer]
+                - generic [ref=e832]:
+                  - checkbox "Vergelijk met andere artikelen" [ref=e833] [cursor=pointer]
+                  - generic [ref=e834] [cursor=pointer]: Vergelijk met andere artikelen
+              - generic [ref=e835]:
+                - generic [ref=e836]:
+                  - list [ref=e838]:
+                    - listitem [ref=e839]:
+                      - link "LEGO" [ref=e840] [cursor=pointer]:
+                        - /url: /be/nl/pb/lego/4648554/
+                  - link "LEGO Friends 30635 - Strandschoonmaak (polybag)" [ref=e841] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-30635-strandschoonmaak/9300000152587429/
+                    - heading "LEGO Friends 30635 - Strandschoonmaak (polybag)" [level=2] [ref=e842] [cursor=pointer]
+                  - list [ref=e843]:
+                    - listitem [ref=e844]: 52 onderdelen
+                    - listitem [ref=e845]: "| 1 minifiguren"
+                    - listitem [ref=e846]: "| 2023"
+                  - generic [ref=e848]:
+                    - img "Gemiddeld 5 van de 5 sterren uit 1 reviews" [ref=e849]:
+                      - img [ref=e850]:
+                        - img [ref=e852]
+                        - img [ref=e856]
+                      - img [ref=e858]:
+                        - img [ref=e860]
+                        - img [ref=e864]
+                      - img [ref=e866]:
+                        - img [ref=e868]
+                        - img [ref=e872]
+                      - img [ref=e874]:
+                        - img [ref=e876]
+                        - img [ref=e880]
+                      - img [ref=e882]:
+                        - img [ref=e884]
+                        - img [ref=e888]
+                    - paragraph [ref=e890]:
+                      - generic [ref=e891]:
+                        - text: (
+                        - generic [ref=e892]: "1"
+                        - text: )
+                  - paragraph [ref=e893]: Kinderen die van rollenspellen houden, kunnen Aliya helpen om voor de otters en andere zeedieren te zorgen...
+                - generic [ref=e894]:
+                  - generic [ref=e895]:
+                    - generic [ref=e896]:
+                      - heading "Prijsinformatie en bestellen" [level=2] [ref=e897]
+                      - generic [ref=e901]:
+                        - generic [ref=e902]: De prijs van dit product is '4' euro en '24' cent
+                        - generic [ref=e903]: "4"
+                        - generic [ref=e904]: ","
+                        - generic [ref=e905]: "24"
+                    - generic [ref=e906]:
+                      - generic [ref=e907]:
+                        - paragraph [ref=e908]:
+                          - text: Meestal
+                          - generic [ref=e909]: 4,99
+                        - button [ref=e911]:
+                          - img [ref=e913]
+                        - generic [ref=e916]: "4.99"
+                      - strong [ref=e919]: Je bespaart 15%
+                    - generic [ref=e921]:
+                      - generic [ref=e922]: 1 - 2 weken
+                      - button "Toon meer informatie over levertijd" [ref=e924]:
+                        - img [ref=e926]
+                    - button "Verkoop door Starbricks95 Belgie Wat je kan verwachten" [ref=e930] [cursor=pointer]:
+                      - generic [ref=e931] [cursor=pointer]:
+                        - generic [ref=e932] [cursor=pointer]:
+                          - generic [ref=e933] [cursor=pointer]: Verkoop door
+                          - generic [ref=e934] [cursor=pointer]: Starbricks95 Belgie
+                        - generic [ref=e935] [cursor=pointer]: Wat je kan verwachten
+                  - button "In winkelwagen" [ref=e939] [cursor=pointer]:
+                    - img [ref=e941] [cursor=pointer]
+                    - img [ref=e944] [cursor=pointer]
+            - generic [ref=e949]:
+              - generic [ref=e950]:
+                - generic [ref=e952]:
+                  - link "LEGO Dreamzzz 30636 - Z-Blob en Bunchu Spinontsnapping (polybag)" [ref=e953] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-dreamzzz-lego-z-blob-and-bunchu-spider-escape-polybag/9300000158765202/
+                    - img "LEGO Dreamzzz 30636 - Z-Blob en Bunchu Spinontsnapping (polybag)" [ref=e955] [cursor=pointer]
+                  - button "Op je verlanglijstje" [ref=e956] [cursor=pointer]:
+                    - img [ref=e958] [cursor=pointer]
+                - generic [ref=e961]:
+                  - checkbox "Vergelijk met andere artikelen" [ref=e962] [cursor=pointer]
+                  - generic [ref=e963] [cursor=pointer]: Vergelijk met andere artikelen
+              - generic [ref=e964]:
+                - generic [ref=e965]:
+                  - list [ref=e967]:
+                    - listitem [ref=e968]:
+                      - link "LEGO" [ref=e969] [cursor=pointer]:
+                        - /url: /be/nl/pb/lego/4648554/
+                  - link "LEGO Dreamzzz 30636 - Z-Blob en Bunchu Spinontsnapping (polybag)" [ref=e970] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-dreamzzz-lego-z-blob-and-bunchu-spider-escape-polybag/9300000158765202/
+                    - heading "LEGO Dreamzzz 30636 - Z-Blob en Bunchu Spinontsnapping (polybag)" [level=2] [ref=e971] [cursor=pointer]
+                  - list [ref=e972]:
+                    - listitem [ref=e973]: 0 onderdelen
+                    - listitem [ref=e974]: "| 0 minifiguren"
+                    - listitem [ref=e975]: "| 2023"
+                  - generic [ref=e977]:
+                    - img "Gemiddeld 5 van de 5 sterren uit 1 reviews" [ref=e978]:
+                      - img [ref=e979]:
+                        - img [ref=e981]
+                        - img [ref=e985]
+                      - img [ref=e987]:
+                        - img [ref=e989]
+                        - img [ref=e993]
+                      - img [ref=e995]:
+                        - img [ref=e997]
+                        - img [ref=e1001]
+                      - img [ref=e1003]:
+                        - img [ref=e1005]
+                        - img [ref=e1009]
+                      - img [ref=e1011]:
+                        - img [ref=e1013]
+                        - img [ref=e1017]
+                    - paragraph [ref=e1019]:
+                      - generic [ref=e1020]:
+                        - text: (
+                        - generic [ref=e1021]: "1"
+                        - text: )
+                  - paragraph [ref=e1022]: Lego Dreamzzz Polybag Z-blob and bunchu spider Escape
+                - generic [ref=e1023]:
+                  - generic [ref=e1024]:
+                    - generic [ref=e1025]:
+                      - heading "Prijsinformatie en bestellen" [level=2] [ref=e1026]
+                      - generic [ref=e1030]:
+                        - generic [ref=e1031]: De prijs van dit product is '4' euro en '39' cent
+                        - generic [ref=e1032]: "4"
+                        - generic [ref=e1033]: ","
+                        - generic [ref=e1034]: "39"
+                    - generic [ref=e1035]:
+                      - generic [ref=e1036]:
+                        - paragraph [ref=e1037]:
+                          - text: Meestal
+                          - generic [ref=e1038]: 6,21
+                        - button [ref=e1040]:
+                          - img [ref=e1042]
+                        - generic [ref=e1045]: "6.21"
+                      - strong [ref=e1048]: Je bespaart 29%
+                    - generic [ref=e1050]:
+                      - generic [ref=e1051]: 1 - 2 weken
+                      - button "Toon meer informatie over levertijd" [ref=e1053]:
+                        - img [ref=e1055]
+                    - button "Verkoop door Starbricks95 Belgie Wat je kan verwachten" [ref=e1059] [cursor=pointer]:
+                      - generic [ref=e1060] [cursor=pointer]:
+                        - generic [ref=e1061] [cursor=pointer]:
+                          - generic [ref=e1062] [cursor=pointer]: Verkoop door
+                          - generic [ref=e1063] [cursor=pointer]: Starbricks95 Belgie
+                        - generic [ref=e1064] [cursor=pointer]: Wat je kan verwachten
+                  - button "In winkelwagen" [ref=e1068] [cursor=pointer]:
+                    - img [ref=e1070] [cursor=pointer]
+                    - img [ref=e1073] [cursor=pointer]
+            - generic [ref=e1078]:
+              - generic [ref=e1079]:
+                - generic [ref=e1081]:
+                  - link "LEGO Friends 30659 - Bloementuin (polybag)" [ref=e1082] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-friends-30659-bloementuin/9300000169742888/
+                    - img "LEGO Friends 30659 - Bloementuin (polybag)" [ref=e1084] [cursor=pointer]
+                  - button "Op je verlanglijstje" [ref=e1085] [cursor=pointer]:
+                    - img [ref=e1087] [cursor=pointer]
+                - generic [ref=e1090]:
+                  - checkbox "Vergelijk met andere artikelen" [ref=e1091] [cursor=pointer]
+                  - generic [ref=e1092] [cursor=pointer]: Vergelijk met andere artikelen
+              - generic [ref=e1093]:
+                - generic [ref=e1094]:
+                  - list [ref=e1096]:
+                    - listitem [ref=e1097]:
+                      - link "LEGO" [ref=e1098] [cursor=pointer]:
+                        - /url: /be/nl/pb/lego/4648554/
+                  - link "LEGO Friends 30659 - Bloementuin (polybag)" [ref=e1099] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-friends-30659-bloementuin/9300000169742888/
+                    - heading "LEGO Friends 30659 - Bloementuin (polybag)" [level=2] [ref=e1100] [cursor=pointer]
+                  - list [ref=e1101]:
+                    - listitem [ref=e1102]: 64 onderdelen
+                    - listitem [ref=e1103]: "| 0 minifiguren"
+                    - listitem [ref=e1104]: "| 2023"
+                  - generic [ref=e1106]:
+                    - img "Gemiddeld 5 van de 5 sterren uit 1 reviews" [ref=e1107]:
+                      - img [ref=e1108]:
+                        - img [ref=e1110]
+                        - img [ref=e1114]
+                      - img [ref=e1116]:
+                        - img [ref=e1118]
+                        - img [ref=e1122]
+                      - img [ref=e1124]:
+                        - img [ref=e1126]
+                        - img [ref=e1130]
+                      - img [ref=e1132]:
+                        - img [ref=e1134]
+                        - img [ref=e1138]
+                      - img [ref=e1140]:
+                        - img [ref=e1142]
+                        - img [ref=e1146]
+                    - paragraph [ref=e1148]:
+                      - generic [ref=e1149]:
+                        - text: (
+                        - generic [ref=e1150]: "1"
+                        - text: )
+                  - paragraph [ref=e1151]: Bloementuin Niet geschikt voor kinderen jonger dan 36 maanden, vanwege verstikkingsgevaar door kleine...
+                - generic [ref=e1152]:
+                  - generic [ref=e1153]:
+                    - generic [ref=e1154]:
+                      - heading "Prijsinformatie en bestellen" [level=2] [ref=e1155]
+                      - generic [ref=e1159]:
+                        - generic [ref=e1160]: De prijs van dit product is '4' euro en '54' cent
+                        - generic [ref=e1161]: "4"
+                        - generic [ref=e1162]: ","
+                        - generic [ref=e1163]: "54"
+                    - generic [ref=e1164]:
+                      - generic [ref=e1165]:
+                        - paragraph [ref=e1166]:
+                          - text: Meestal
+                          - generic [ref=e1167]: 4,99
+                        - button [ref=e1169]:
+                          - img [ref=e1171]
+                        - generic [ref=e1174]: "4.99"
+                      - strong [ref=e1177]: Je bespaart 9%
+                    - generic [ref=e1179]:
+                      - generic [ref=e1180]: 1 - 2 weken
+                      - button "Toon meer informatie over levertijd" [ref=e1182]:
+                        - img [ref=e1184]
+                    - button "Verkoop door Starbricks95 Belgie Wat je kan verwachten" [ref=e1188] [cursor=pointer]:
+                      - generic [ref=e1189] [cursor=pointer]:
+                        - generic [ref=e1190] [cursor=pointer]:
+                          - generic [ref=e1191] [cursor=pointer]: Verkoop door
+                          - generic [ref=e1192] [cursor=pointer]: Starbricks95 Belgie
+                        - generic [ref=e1193] [cursor=pointer]: Wat je kan verwachten
+                  - button "In winkelwagen" [ref=e1197] [cursor=pointer]:
+                    - img [ref=e1199] [cursor=pointer]
+                    - img [ref=e1202] [cursor=pointer]
+            - generic [ref=e1207]:
+              - generic [ref=e1209]:
+                - generic [ref=e1210]:
+                  - link "Groot pak kleine prijs" [ref=e1211] [cursor=pointer]:
+                    - /url: https://www.bol.com/be/nl/b/pampers/7012352/
+                    - heading "Groot pak kleine prijs" [level=2] [ref=e1212] [cursor=pointer]
+                  - button "Gesponsord" [ref=e1214] [cursor=pointer]:
+                    - generic [ref=e1215] [cursor=pointer]:
+                      - generic [ref=e1216] [cursor=pointer]: Gesponsord
+                      - img [ref=e1217] [cursor=pointer]
+                - link "360 graden bescherming, dag en nacht" [ref=e1219] [cursor=pointer]:
+                  - /url: https://www.bol.com/be/nl/b/pampers/7012352/
+                  - paragraph [ref=e1220] [cursor=pointer]:
+                    - text: 360 graden bescherming, dag en nacht
+                    - img [ref=e1222] [cursor=pointer]
+              - generic [ref=e1224]:
+                - generic [ref=e1225]:
+                  - link [ref=e1227] [cursor=pointer]:
+                    - /url: https://www.bol.com/be/nl/b/pampers/7012352/
+                  - link "Bekijk de collectie" [ref=e1230] [cursor=pointer]:
+                    - /url: https://www.bol.com/be/nl/b/pampers/7012352/
+                    - text: Bekijk de collectie
+                    - img [ref=e1232] [cursor=pointer]
+                - generic [ref=e1235]:
+                  - link "Sla deze carousel over" [ref=e1236] [cursor=pointer]:
+                    - /url: "#«r2o»"
+                  - generic [ref=e1237]:
+                    - button [disabled]:
                       - generic:
                         - img
-                    - generic:
-                      - heading [level=2]:
-                        - text: Weer in het ritme
-                        - generic: alles voor een soepele start
-                      - button [disabled]: Bekijk nu
-        - generic:
-          - generic:
-            - link:
-              - /url: "#«Rbair5»"
-              - text: Sla deze carousel over
-            - generic:
-              - list:
-                - listitem:
-                  - generic:
-                    - link:
-                      - /url: /be/nl/ra/korting-op-mondverfrissing-snacks-pakjes-drinken-voor-school/446775
+                    - button [ref=e1238] [cursor=pointer]:
+                      - img [ref=e1240] [cursor=pointer]
+                    - list [ref=e1242]:
+                      - listitem [ref=e1243]:
+                        - generic [ref=e1245]:
+                          - link "Pampers Baby-Dry Pants - Maat 4 (9kg-15kg) - 180 Luierbroekjes - Maandbox" [ref=e1246] [cursor=pointer]:
+                            - /url: /be/nl/p/pampers-baby-dry-pants-maat-4-180-luierbroekjes-maandbox/9300000138922873/
+                            - img "Pampers Baby-Dry Pants - Maat 4 (9kg-15kg) - 180 Luierbroekjes - Maandbox" [ref=e1248] [cursor=pointer]
+                          - generic [ref=e1249]:
+                            - link "Pampers Baby-Dry Pants - Maat 4 (9kg-15kg) - 180 Luierbroekjes - Maandbox" [ref=e1250] [cursor=pointer]:
+                              - /url: /be/nl/p/pampers-baby-dry-pants-maat-4-180-luierbroekjes-maandbox/9300000138922873/
+                              - paragraph [ref=e1251] [cursor=pointer]: Pampers Baby-Dry Pants - Maat 4 (9kg-15kg) - 180 Luierbroekjes - Maandbox
+                            - generic [ref=e1253]:
+                              - img "Gemiddeld 4.1 van de 5 sterren uit 26 reviews" [ref=e1254]:
+                                - img [ref=e1255]:
+                                  - img [ref=e1257]
+                                  - img [ref=e1261]
+                                - img [ref=e1263]:
+                                  - img [ref=e1265]
+                                  - img [ref=e1269]
+                                - img [ref=e1271]:
+                                  - img [ref=e1273]
+                                  - img [ref=e1277]
+                                - img [ref=e1279]:
+                                  - img [ref=e1281]
+                                  - img [ref=e1285]
+                                - img [ref=e1287]:
+                                  - img [ref=e1289]
+                                  - img [ref=e1293]
+                              - paragraph [ref=e1295]:
+                                - generic [ref=e1296]:
+                                  - text: (
+                                  - generic [ref=e1297]: "26"
+                                  - text: )
+                            - generic [ref=e1299]:
+                              - generic [ref=e1300]: De prijs van dit product is 46 euro en 99 cent.
+                              - generic [ref=e1301]: "46"
+                              - generic [ref=e1302]: ","
+                              - generic [ref=e1303]: "99"
+                          - button "Op je verlanglijstje" [ref=e1304] [cursor=pointer]:
+                            - img [ref=e1306] [cursor=pointer]
+                      - listitem [ref=e1308]:
+                        - generic [ref=e1310]:
+                          - link "Pampers Baby-Dry - Maat 5 (11kg-16kg) - 174 Luiers - Maandbox" [ref=e1311] [cursor=pointer]:
+                            - /url: /be/nl/p/pampers-baby-dry-maat-5-174-luiers-maandbox/9300000138922861/
+                            - img "Pampers Baby-Dry - Maat 5 (11kg-16kg) - 174 Luiers - Maandbox" [ref=e1313] [cursor=pointer]
+                          - generic [ref=e1314]:
+                            - link "Pampers Baby-Dry - Maat 5 (11kg-16kg) - 174 Luiers - Maandbox" [ref=e1315] [cursor=pointer]:
+                              - /url: /be/nl/p/pampers-baby-dry-maat-5-174-luiers-maandbox/9300000138922861/
+                              - paragraph [ref=e1316] [cursor=pointer]: Pampers Baby-Dry - Maat 5 (11kg-16kg) - 174 Luiers - Maandbox
+                            - generic [ref=e1318]:
+                              - img "Gemiddeld 4.3 van de 5 sterren uit 160 reviews" [ref=e1319]:
+                                - img [ref=e1320]:
+                                  - img [ref=e1322]
+                                  - img [ref=e1326]
+                                - img [ref=e1328]:
+                                  - img [ref=e1330]
+                                  - img [ref=e1334]
+                                - img [ref=e1336]:
+                                  - img [ref=e1338]
+                                  - img [ref=e1342]
+                                - img [ref=e1344]:
+                                  - img [ref=e1346]
+                                  - img [ref=e1350]
+                                - img [ref=e1352]:
+                                  - img [ref=e1354]
+                                  - img [ref=e1358]
+                              - paragraph [ref=e1360]:
+                                - generic [ref=e1361]:
+                                  - text: (
+                                  - generic [ref=e1362]: "160"
+                                  - text: )
+                            - generic [ref=e1364]:
+                              - generic [ref=e1365]: De prijs van dit product is 57 euro en 59 cent.
+                              - generic [ref=e1366]: "57"
+                              - generic [ref=e1367]: ","
+                              - generic [ref=e1368]: "59"
+                          - button "Op je verlanglijstje" [ref=e1369] [cursor=pointer]:
+                            - img [ref=e1371] [cursor=pointer]
+                      - listitem [ref=e1373]:
+                        - generic [ref=e1375]:
+                          - link "Pampers Baby-Dry Pants - Maat 6 (13kg-19kg) - 138 Luierbroekjes - Maandbox" [ref=e1376] [cursor=pointer]:
+                            - /url: /be/nl/p/pampers-baby-dry-pants-maat-6-138-luierbroekjes-maandbox/9300000138922874/
+                            - img "Pampers Baby-Dry Pants - Maat 6 (13kg-19kg) - 138 Luierbroekjes - Maandbox" [ref=e1378] [cursor=pointer]
+                          - generic [ref=e1379]:
+                            - link "Pampers Baby-Dry Pants - Maat 6 (13kg-19kg) - 138 Luierbroekjes - Maandbox" [ref=e1380] [cursor=pointer]:
+                              - /url: /be/nl/p/pampers-baby-dry-pants-maat-6-138-luierbroekjes-maandbox/9300000138922874/
+                              - paragraph [ref=e1381] [cursor=pointer]: Pampers Baby-Dry Pants - Maat 6 (13kg-19kg) - 138 Luierbroekjes - Maandbox
+                            - generic [ref=e1383]:
+                              - img "Gemiddeld 4.6 van de 5 sterren uit 30 reviews" [ref=e1384]:
+                                - img [ref=e1385]:
+                                  - img [ref=e1387]
+                                  - img [ref=e1391]
+                                - img [ref=e1393]:
+                                  - img [ref=e1395]
+                                  - img [ref=e1399]
+                                - img [ref=e1401]:
+                                  - img [ref=e1403]
+                                  - img [ref=e1407]
+                                - img [ref=e1409]:
+                                  - img [ref=e1411]
+                                  - img [ref=e1415]
+                                - img [ref=e1417]:
+                                  - img [ref=e1419]
+                                  - img [ref=e1423]
+                              - paragraph [ref=e1425]:
+                                - generic [ref=e1426]:
+                                  - text: (
+                                  - generic [ref=e1427]: "30"
+                                  - text: )
+                            - generic [ref=e1429]:
+                              - generic [ref=e1430]: De prijs van dit product is 49 euro.
+                              - generic [ref=e1431]: "49"
+                              - generic [ref=e1432]: ","
+                              - generic [ref=e1433]: "-"
+                          - button "Op je verlanglijstje" [ref=e1434] [cursor=pointer]:
+                            - img [ref=e1436] [cursor=pointer]
+                      - listitem [ref=e1438]:
+                        - generic [ref=e1440]:
+                          - link "Pampers Night Pants - Maat 4 (9kg-15kg) - 180 luierbroekjes - Maandbox" [ref=e1441] [cursor=pointer]:
+                            - /url: /be/nl/p/pampers-baby-dry-night-pants-maat-4-180-luierbroekjes-maandbox/9300000138922889/
+                            - img "Pampers Night Pants - Maat 4 (9kg-15kg) - 180 luierbroekjes - Maandbox" [ref=e1443] [cursor=pointer]
+                          - generic [ref=e1444]:
+                            - link "Pampers Night Pants - Maat 4 (9kg-15kg) - 180 luierbroekjes - Maandbox" [ref=e1445] [cursor=pointer]:
+                              - /url: /be/nl/p/pampers-baby-dry-night-pants-maat-4-180-luierbroekjes-maandbox/9300000138922889/
+                              - paragraph [ref=e1446] [cursor=pointer]: Pampers Night Pants - Maat 4 (9kg-15kg) - 180 luierbroekjes - Maandbox
+                            - generic [ref=e1448]:
+                              - img "Gemiddeld 3.7 van de 5 sterren uit 78 reviews" [ref=e1449]:
+                                - img [ref=e1450]:
+                                  - img [ref=e1452]
+                                  - img [ref=e1456]
+                                - img [ref=e1458]:
+                                  - img [ref=e1460]
+                                  - img [ref=e1464]
+                                - img [ref=e1466]:
+                                  - img [ref=e1468]
+                                  - img [ref=e1472]
+                                - img [ref=e1474]:
+                                  - img [ref=e1476]
+                                  - img [ref=e1480]
+                                - img [ref=e1482]:
+                                  - img [ref=e1484]
+                                  - img [ref=e1486]
+                              - paragraph [ref=e1488]:
+                                - generic [ref=e1489]:
+                                  - text: (
+                                  - generic [ref=e1490]: "78"
+                                  - text: )
+                            - generic [ref=e1492]:
+                              - generic [ref=e1493]: De prijs van dit product is 55 euro en 25 cent.
+                              - generic [ref=e1494]: "55"
+                              - generic [ref=e1495]: ","
+                              - generic [ref=e1496]: "25"
+                          - button "Op je verlanglijstje" [ref=e1497] [cursor=pointer]:
+                            - img [ref=e1499] [cursor=pointer]
+                      - listitem [ref=e1501]:
+                        - generic [ref=e1503]:
+                          - link "Pampers Night Pants - Maat 5 (12kg-17kg) - 160 luierbroekjes - Maandbox" [ref=e1504] [cursor=pointer]:
+                            - /url: /be/nl/p/pampers-baby-dry-night-pants-maat-5-160-luierbroekjes-maandbox/9300000138922890/
+                            - img "Pampers Night Pants - Maat 5 (12kg-17kg) - 160 luierbroekjes - Maandbox" [ref=e1506] [cursor=pointer]
+                          - generic [ref=e1507]:
+                            - link "Pampers Night Pants - Maat 5 (12kg-17kg) - 160 luierbroekjes - Maandbox" [ref=e1508] [cursor=pointer]:
+                              - /url: /be/nl/p/pampers-baby-dry-night-pants-maat-5-160-luierbroekjes-maandbox/9300000138922890/
+                              - paragraph [ref=e1509] [cursor=pointer]: Pampers Night Pants - Maat 5 (12kg-17kg) - 160 luierbroekjes - Maandbox
+                            - generic [ref=e1511]:
+                              - img "Gemiddeld 3.7 van de 5 sterren uit 78 reviews" [ref=e1512]:
+                                - img [ref=e1513]:
+                                  - img [ref=e1515]
+                                  - img [ref=e1519]
+                                - img [ref=e1521]:
+                                  - img [ref=e1523]
+                                  - img [ref=e1527]
+                                - img [ref=e1529]:
+                                  - img [ref=e1531]
+                                  - img [ref=e1535]
+                                - img [ref=e1537]:
+                                  - img [ref=e1539]
+                                  - img [ref=e1543]
+                                - img [ref=e1545]:
+                                  - img [ref=e1547]
+                                  - img [ref=e1549]
+                              - paragraph [ref=e1551]:
+                                - generic [ref=e1552]:
+                                  - text: (
+                                  - generic [ref=e1553]: "78"
+                                  - text: )
+                            - generic [ref=e1555]:
+                              - generic [ref=e1556]: De prijs van dit product is 56 euro.
+                              - generic [ref=e1557]: "56"
+                              - generic [ref=e1558]: ","
+                              - generic [ref=e1559]: "-"
+                          - button "Op je verlanglijstje" [ref=e1560] [cursor=pointer]:
+                            - img [ref=e1562] [cursor=pointer]
+                      - listitem [ref=e1564]:
+                        - generic [ref=e1566]:
+                          - link "Pampers Night Pants Maat 6 (13kg+) - 138 luierbroekjes - Maandbox" [ref=e1567] [cursor=pointer]:
+                            - /url: /be/nl/p/pampers-baby-dry-night-pants-maat-6-138-luiersbroekjes-maandbox/9300000138922891/
+                            - img "Pampers Night Pants Maat 6 (13kg+) - 138 luierbroekjes - Maandbox" [ref=e1569] [cursor=pointer]
+                          - generic [ref=e1570]:
+                            - link "Pampers Night Pants Maat 6 (13kg+) - 138 luierbroekjes - Maandbox" [ref=e1571] [cursor=pointer]:
+                              - /url: /be/nl/p/pampers-baby-dry-night-pants-maat-6-138-luiersbroekjes-maandbox/9300000138922891/
+                              - paragraph [ref=e1572] [cursor=pointer]: Pampers Night Pants Maat 6 (13kg+) - 138 luierbroekjes - Maandbox
+                            - generic [ref=e1574]:
+                              - img "Gemiddeld 3.7 van de 5 sterren uit 78 reviews" [ref=e1575]:
+                                - img [ref=e1576]:
+                                  - img [ref=e1578]
+                                  - img [ref=e1582]
+                                - img [ref=e1584]:
+                                  - img [ref=e1586]
+                                  - img [ref=e1590]
+                                - img [ref=e1592]:
+                                  - img [ref=e1594]
+                                  - img [ref=e1598]
+                                - img [ref=e1600]:
+                                  - img [ref=e1602]
+                                  - img [ref=e1606]
+                                - img [ref=e1608]:
+                                  - img [ref=e1610]
+                                  - img [ref=e1612]
+                              - paragraph [ref=e1614]:
+                                - generic [ref=e1615]:
+                                  - text: (
+                                  - generic [ref=e1616]: "78"
+                                  - text: )
+                            - generic [ref=e1618]:
+                              - generic [ref=e1619]: De prijs van dit product is 56 euro en 25 cent.
+                              - generic [ref=e1620]: "56"
+                              - generic [ref=e1621]: ","
+                              - generic [ref=e1622]: "25"
+                          - button "Op je verlanglijstje" [ref=e1623] [cursor=pointer]:
+                            - img [ref=e1625] [cursor=pointer]
+                      - listitem [ref=e1627]:
+                        - generic [ref=e1629]:
+                          - link "Pampers Premium Protection Pants - Maat 4 (9kg-15kg) - 168 Luierbroekjes - Maandbox" [ref=e1630] [cursor=pointer]:
+                            - /url: /be/nl/p/pampers-premium-protection-pants-maat-4-168-luiers/9300000138922888/
+                            - img "Pampers Premium Protection Pants - Maat 4 (9kg-15kg) - 168 Luierbroekjes - Maandbox" [ref=e1632] [cursor=pointer]
+                          - generic [ref=e1633]:
+                            - link "Pampers Premium Protection Pants - Maat 4 (9kg-15kg) - 168 Luierbroekjes - Maandbox" [ref=e1634] [cursor=pointer]:
+                              - /url: /be/nl/p/pampers-premium-protection-pants-maat-4-168-luiers/9300000138922888/
+                              - paragraph [ref=e1635] [cursor=pointer]: Pampers Premium Protection Pants - Maat 4 (9kg-15kg) - 168 Luierbroekjes - Maandbox
+                            - generic [ref=e1637]:
+                              - img "Gemiddeld 4.5 van de 5 sterren uit 40 reviews" [ref=e1638]:
+                                - img [ref=e1639]:
+                                  - img [ref=e1641]
+                                  - img [ref=e1645]
+                                - img [ref=e1647]:
+                                  - img [ref=e1649]
+                                  - img [ref=e1653]
+                                - img [ref=e1655]:
+                                  - img [ref=e1657]
+                                  - img [ref=e1661]
+                                - img [ref=e1663]:
+                                  - img [ref=e1665]
+                                  - img [ref=e1669]
+                                - img [ref=e1671]:
+                                  - img [ref=e1673]
+                                  - img [ref=e1677]
+                              - paragraph [ref=e1679]:
+                                - generic [ref=e1680]:
+                                  - text: (
+                                  - generic [ref=e1681]: "40"
+                                  - text: )
+                            - generic [ref=e1683]:
+                              - generic [ref=e1684]: De prijs van dit product is 59 euro en 75 cent.
+                              - generic [ref=e1685]: "59"
+                              - generic [ref=e1686]: ","
+                              - generic [ref=e1687]: "75"
+                          - button "Op je verlanglijstje" [ref=e1688] [cursor=pointer]:
+                            - img [ref=e1690] [cursor=pointer]
+                      - listitem [ref=e1692]:
+                        - generic [ref=e1694]:
+                          - link "Pampers Premium Protection Pants - Maat 5 (12kg-17kg) - 144 Luiers - Maandbox" [ref=e1695] [cursor=pointer]:
+                            - /url: /be/nl/p/pampers-premium-protection-pants-maat-5-144-luierbroekjes-maandbox/9300000138922884/
+                            - img "Pampers Premium Protection Pants - Maat 5 (12kg-17kg) - 144 Luiers - Maandbox" [ref=e1697] [cursor=pointer]
+                          - generic [ref=e1698]:
+                            - link "Pampers Premium Protection Pants - Maat 5 (12kg-17kg) - 144 Luiers - Maandbox" [ref=e1699] [cursor=pointer]:
+                              - /url: /be/nl/p/pampers-premium-protection-pants-maat-5-144-luierbroekjes-maandbox/9300000138922884/
+                              - paragraph [ref=e1700] [cursor=pointer]: Pampers Premium Protection Pants - Maat 5 (12kg-17kg) - 144 Luiers - Maandbox
+                            - generic [ref=e1702]:
+                              - img "Gemiddeld 4.5 van de 5 sterren uit 40 reviews" [ref=e1703]:
+                                - img [ref=e1704]:
+                                  - img [ref=e1706]
+                                  - img [ref=e1710]
+                                - img [ref=e1712]:
+                                  - img [ref=e1714]
+                                  - img [ref=e1718]
+                                - img [ref=e1720]:
+                                  - img [ref=e1722]
+                                  - img [ref=e1726]
+                                - img [ref=e1728]:
+                                  - img [ref=e1730]
+                                  - img [ref=e1734]
+                                - img [ref=e1736]:
+                                  - img [ref=e1738]
+                                  - img [ref=e1742]
+                              - paragraph [ref=e1744]:
+                                - generic [ref=e1745]:
+                                  - text: (
+                                  - generic [ref=e1746]: "40"
+                                  - text: )
+                            - generic [ref=e1748]:
+                              - generic [ref=e1749]: De prijs van dit product is 57 euro.
+                              - generic [ref=e1750]: "57"
+                              - generic [ref=e1751]: ","
+                              - generic [ref=e1752]: "-"
+                          - button "Op je verlanglijstje" [ref=e1753] [cursor=pointer]:
+                            - img [ref=e1755] [cursor=pointer]
+                      - listitem [ref=e1757]:
+                        - generic [ref=e1759]:
+                          - link "Pampers Harmonie Pants - Maat 4 (9kg-15kg) - 168 Luierbroekjes - Maandbox" [ref=e1760] [cursor=pointer]:
+                            - /url: /be/nl/p/pampers-harmonie-pants-maat-4-168-luierbroekjes-9kg-tot-15kg-maandbox/9300000141281011/
+                            - img "Pampers Harmonie Pants - Maat 4 (9kg-15kg) - 168 Luierbroekjes - Maandbox" [ref=e1762] [cursor=pointer]
+                          - generic [ref=e1763]:
+                            - link "Pampers Harmonie Pants - Maat 4 (9kg-15kg) - 168 Luierbroekjes - Maandbox" [ref=e1764] [cursor=pointer]:
+                              - /url: /be/nl/p/pampers-harmonie-pants-maat-4-168-luierbroekjes-9kg-tot-15kg-maandbox/9300000141281011/
+                              - paragraph [ref=e1765] [cursor=pointer]: Pampers Harmonie Pants - Maat 4 (9kg-15kg) - 168 Luierbroekjes - Maandbox
+                            - generic [ref=e1767]:
+                              - img "Gemiddeld 4.9 van de 5 sterren uit 16 reviews" [ref=e1768]:
+                                - img [ref=e1769]:
+                                  - img [ref=e1771]
+                                  - img [ref=e1775]
+                                - img [ref=e1777]:
+                                  - img [ref=e1779]
+                                  - img [ref=e1783]
+                                - img [ref=e1785]:
+                                  - img [ref=e1787]
+                                  - img [ref=e1791]
+                                - img [ref=e1793]:
+                                  - img [ref=e1795]
+                                  - img [ref=e1799]
+                                - img [ref=e1801]:
+                                  - img [ref=e1803]
+                                  - img [ref=e1807]
+                              - paragraph [ref=e1809]:
+                                - generic [ref=e1810]:
+                                  - text: (
+                                  - generic [ref=e1811]: "16"
+                                  - text: )
+                            - generic [ref=e1813]:
+                              - generic [ref=e1814]: De prijs van dit product is 58 euro en 64 cent.
+                              - generic [ref=e1815]: "58"
+                              - generic [ref=e1816]: ","
+                              - generic [ref=e1817]: "64"
+                          - button "Op je verlanglijstje" [ref=e1818] [cursor=pointer]:
+                            - img [ref=e1820] [cursor=pointer]
+                      - listitem [ref=e1822]:
+                        - generic [ref=e1824]:
+                          - link "Pampers Harmonie Pants - Maat 5 (12kg-17kg) - 144 Luierbroekjes - Maandbox" [ref=e1825] [cursor=pointer]:
+                            - /url: /be/nl/p/pampers-harmonie-pants-maat-5-144-luierbroekjes-12kg-tot-17kg-maandbox/9300000141281009/
+                            - img "Pampers Harmonie Pants - Maat 5 (12kg-17kg) - 144 Luierbroekjes - Maandbox" [ref=e1827] [cursor=pointer]
+                          - generic [ref=e1828]:
+                            - link "Pampers Harmonie Pants - Maat 5 (12kg-17kg) - 144 Luierbroekjes - Maandbox" [ref=e1829] [cursor=pointer]:
+                              - /url: /be/nl/p/pampers-harmonie-pants-maat-5-144-luierbroekjes-12kg-tot-17kg-maandbox/9300000141281009/
+                              - paragraph [ref=e1830] [cursor=pointer]: Pampers Harmonie Pants - Maat 5 (12kg-17kg) - 144 Luierbroekjes - Maandbox
+                            - generic [ref=e1832]:
+                              - img "Gemiddeld 4.2 van de 5 sterren uit 19 reviews" [ref=e1833]:
+                                - img [ref=e1834]:
+                                  - img [ref=e1836]
+                                  - img [ref=e1840]
+                                - img [ref=e1842]:
+                                  - img [ref=e1844]
+                                  - img [ref=e1848]
+                                - img [ref=e1850]:
+                                  - img [ref=e1852]
+                                  - img [ref=e1856]
+                                - img [ref=e1858]:
+                                  - img [ref=e1860]
+                                  - img [ref=e1864]
+                                - img [ref=e1866]:
+                                  - img [ref=e1868]
+                                  - img [ref=e1872]
+                              - paragraph [ref=e1874]:
+                                - generic [ref=e1875]:
+                                  - text: (
+                                  - generic [ref=e1876]: "19"
+                                  - text: )
+                            - generic [ref=e1878]:
+                              - generic [ref=e1879]: De prijs van dit product is 62 euro en 50 cent.
+                              - generic [ref=e1880]: "62"
+                              - generic [ref=e1881]: ","
+                              - generic [ref=e1882]: "50"
+                          - button "Op je verlanglijstje" [ref=e1883] [cursor=pointer]:
+                            - img [ref=e1885] [cursor=pointer]
+            - generic [ref=e1889]:
+              - generic [ref=e1890]:
+                - generic [ref=e1892]:
+                  - link "LEGO Ninjago 30699 - Mini Ninja Combomecha (polybag)" [ref=e1893] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-ninjago-30699-mini-ninja-combomecha/9300000221571842/
+                    - img "LEGO Ninjago 30699 - Mini Ninja Combomecha (polybag)" [ref=e1895] [cursor=pointer]
+                  - button "Op je verlanglijstje" [ref=e1896] [cursor=pointer]:
+                    - img [ref=e1898] [cursor=pointer]
+                - generic [ref=e1901]:
+                  - checkbox "Vergelijk met andere artikelen" [ref=e1902] [cursor=pointer]
+                  - generic [ref=e1903] [cursor=pointer]: Vergelijk met andere artikelen
+              - generic [ref=e1904]:
+                - generic [ref=e1905]:
+                  - list [ref=e1907]:
+                    - listitem [ref=e1908]:
+                      - link "LEGO" [ref=e1909] [cursor=pointer]:
+                        - /url: /be/nl/pb/lego/4648554/
+                  - link "LEGO Ninjago 30699 - Mini Ninja Combomecha (polybag)" [ref=e1910] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-ninjago-30699-mini-ninja-combomecha/9300000221571842/
+                    - heading "LEGO Ninjago 30699 - Mini Ninja Combomecha (polybag)" [level=2] [ref=e1911] [cursor=pointer]
+                  - list [ref=e1912]:
+                    - listitem [ref=e1913]: 80 onderdelen
+                    - listitem [ref=e1914]: "| Geen minifiguren"
+                    - listitem [ref=e1915]: "| 2025"
+                  - generic [ref=e1917]:
+                    - img "Gemiddeld 5 van de 5 sterren uit 1 reviews" [ref=e1918]:
+                      - img [ref=e1919]:
+                        - img [ref=e1921]
+                        - img [ref=e1925]
+                      - img [ref=e1927]:
+                        - img [ref=e1929]
+                        - img [ref=e1933]
+                      - img [ref=e1935]:
+                        - img [ref=e1937]
+                        - img [ref=e1941]
+                      - img [ref=e1943]:
+                        - img [ref=e1945]
+                        - img [ref=e1949]
+                      - img [ref=e1951]:
+                        - img [ref=e1953]
+                        - img [ref=e1957]
+                    - paragraph [ref=e1959]:
+                      - generic [ref=e1960]:
+                        - text: (
+                        - generic [ref=e1961]: "1"
+                        - text: )
+                  - paragraph [ref=e1962]: Met deze miniversie van Zane’s ultra-combomecha (LEGO 71834) kunnen kinderen een verstelbare mechafiguur...
+                - generic [ref=e1963]:
+                  - generic [ref=e1964]:
+                    - generic [ref=e1965]:
+                      - heading "Prijsinformatie en bestellen" [level=2] [ref=e1966]
+                      - generic [ref=e1970]:
+                        - generic [ref=e1971]: De prijs van dit product is '5' euro en '99' cent
+                        - generic [ref=e1972]: "5"
+                        - generic [ref=e1973]: ","
+                        - generic [ref=e1974]: "99"
+                    - generic [ref=e1975]: Of bespaar 6% als je er 4 koopt
+                    - generic [ref=e1976]:
+                      - generic [ref=e1977]:
+                        - generic [ref=e1978]: Op voorraad
+                        - generic [ref=e1979]: Select
+                      - generic [ref=e1980]:
+                        - generic [ref=e1981]: Voor 23:59 uur besteld, morgen in huis
+                        - button "Toon meer informatie over levertijd" [ref=e1983]:
+                          - img [ref=e1985]
+                    - button "Verkoop door JB-Bricks Wat je kan verwachten" [ref=e1989] [cursor=pointer]:
+                      - generic [ref=e1990] [cursor=pointer]:
+                        - generic [ref=e1991] [cursor=pointer]:
+                          - generic [ref=e1992] [cursor=pointer]: Verkoop door
+                          - generic [ref=e1993] [cursor=pointer]: JB-Bricks
+                        - generic [ref=e1994] [cursor=pointer]: Wat je kan verwachten
+                  - generic [ref=e1995]:
+                    - link "Bekijk en bestel" [ref=e1997] [cursor=pointer]:
+                      - /url: /be/nl/p/lego-ninjago-30699-mini-ninja-combomecha/9300000221571842/
+                      - img [ref=e1999] [cursor=pointer]
+                      - text: Bekijk en bestel
+                    - paragraph [ref=e2005]:
+                      - link "Meer verkopers" [ref=e2006] [cursor=pointer]:
+                        - /url: /be/nl/prijsoverzicht/lego-ninjago-30699-mini-ninja-combomecha/9300000221571842/?filter=new&sort=price&sortOrder=asc&suggestionType=browse
+                      - text: vanaf
+                      - strong [ref=e2007]: 4,49
+                      - text: per stuk
+            - generic [ref=e2010]:
+              - generic [ref=e2011]:
+                - generic [ref=e2013]:
+                  - link "LEGO Minifiguren Serie 27, 1 van de 12 Willekeurige Verzamelfiguren - 71048" [ref=e2014] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-minifiguren-serie-27-1-van-de-12-willekeurige-verzamelfiguren-71048/9300000195413899/
+                    - img "LEGO Minifiguren Serie 27, 1 van de 12 Willekeurige Verzamelfiguren - 71048" [ref=e2016] [cursor=pointer]
+                  - button "Op je verlanglijstje" [ref=e2017] [cursor=pointer]:
+                    - img [ref=e2019] [cursor=pointer]
+                - generic [ref=e2022]:
+                  - checkbox "Vergelijk met andere artikelen" [ref=e2023] [cursor=pointer]
+                  - generic [ref=e2024] [cursor=pointer]: Vergelijk met andere artikelen
+              - generic [ref=e2025]:
+                - generic [ref=e2026]:
+                  - list [ref=e2028]:
+                    - listitem [ref=e2029]:
+                      - link "LEGO" [ref=e2030] [cursor=pointer]:
+                        - /url: /be/nl/pb/lego/4648554/
+                  - link "LEGO Minifiguren Serie 27, 1 van de 12 Willekeurige Verzamelfiguren - 71048" [ref=e2031] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-minifiguren-serie-27-1-van-de-12-willekeurige-verzamelfiguren-71048/9300000195413899/
+                    - heading "LEGO Minifiguren Serie 27, 1 van de 12 Willekeurige Verzamelfiguren - 71048" [level=2] [ref=e2032] [cursor=pointer]
+                  - list [ref=e2033]:
+                    - listitem [ref=e2034]: 9 onderdelen
+                    - listitem [ref=e2035]: "| 1 minifiguren"
+                    - listitem [ref=e2036]: "| 2024"
+                  - generic [ref=e2038]:
+                    - img "Gemiddeld 2.8 van de 5 sterren uit 5 reviews" [ref=e2039]:
+                      - img [ref=e2040]:
+                        - img [ref=e2042]
+                        - img [ref=e2046]
+                      - img [ref=e2048]:
+                        - img [ref=e2050]
+                        - img [ref=e2054]
+                      - img [ref=e2056]:
+                        - img [ref=e2058]
+                        - img [ref=e2062]
+                      - img [ref=e2064]:
+                        - img [ref=e2066]
+                        - img [ref=e2068]
+                      - img [ref=e2070]:
+                        - img [ref=e2072]
+                        - img [ref=e2074]
+                    - paragraph [ref=e2076]:
+                      - generic [ref=e2077]:
+                        - text: (
+                        - generic [ref=e2078]: "5"
+                        - text: )
+                  - paragraph [ref=e2079]: Jongens en meisjes vanaf 5 jaar kunnen spannende avonturen naspelen met 1 van de 12 verzamelfiguren uit...
+                - generic [ref=e2080]:
+                  - generic [ref=e2081]:
+                    - generic [ref=e2082]:
+                      - heading "Prijsinformatie en bestellen" [level=2] [ref=e2083]
+                      - generic [ref=e2087]:
+                        - generic [ref=e2088]: De prijs van dit product is '5' euro en '99' cent
+                        - generic [ref=e2089]: "5"
+                        - generic [ref=e2090]: ","
+                        - generic [ref=e2091]: "99"
+                    - generic [ref=e2093]:
+                      - generic [ref=e2094]: Uiterlijk 5 september in huis
+                      - button "Toon meer informatie over levertijd" [ref=e2096]:
+                        - img [ref=e2098]
+                    - button "Verkoop door DE Bricks Wat je kan verwachten" [ref=e2102] [cursor=pointer]:
+                      - generic [ref=e2103] [cursor=pointer]:
+                        - generic [ref=e2104] [cursor=pointer]:
+                          - generic [ref=e2105] [cursor=pointer]: Verkoop door
+                          - generic [ref=e2106] [cursor=pointer]: DE Bricks
+                        - generic [ref=e2107] [cursor=pointer]: Wat je kan verwachten
+                  - generic [ref=e2108]:
+                    - button "In winkelwagen" [ref=e2111] [cursor=pointer]:
+                      - img [ref=e2113] [cursor=pointer]
+                      - img [ref=e2116] [cursor=pointer]
+                    - paragraph [ref=e2122]:
+                      - link "Meer verkopers" [ref=e2123] [cursor=pointer]:
+                        - /url: /be/nl/prijsoverzicht/lego-minifiguren-serie-27-1-van-de-12-willekeurige-verzamelfiguren-71048/9300000195413899/?filter=new&sort=price&sortOrder=asc&suggestionType=browse
+                      - text: vanaf
+                      - strong [ref=e2124]: 5,49
+            - generic [ref=e2127]:
+              - generic [ref=e2128]:
+                - generic [ref=e2130]:
+                  - link "Lego the movie 2 , grote gum 10 cm groot !" [ref=e2131] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-the-movie-2-grote-gum-10-cm-groot/9200000129205083/
+                    - img "Lego the movie 2 , grote gum 10 cm groot !" [ref=e2133] [cursor=pointer]
+                  - button "Op je verlanglijstje" [ref=e2134] [cursor=pointer]:
+                    - img [ref=e2136] [cursor=pointer]
+                - generic [ref=e2139]:
+                  - checkbox "Vergelijk met andere artikelen" [ref=e2140] [cursor=pointer]
+                  - generic [ref=e2141] [cursor=pointer]: Vergelijk met andere artikelen
+              - generic [ref=e2142]:
+                - generic [ref=e2143]:
+                  - list [ref=e2145]:
+                    - listitem [ref=e2146]:
+                      - link "Sambro lego" [ref=e2147] [cursor=pointer]:
+                        - /url: /be/nl/b/speelgoed-sambro-lego/601172956+7934/
+                  - link "Lego the movie 2 , grote gum 10 cm groot !" [ref=e2148] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-the-movie-2-grote-gum-10-cm-groot/9200000129205083/
+                    - heading "Lego the movie 2 , grote gum 10 cm groot !" [level=2] [ref=e2149] [cursor=pointer]
+                  - list [ref=e2150]:
+                    - listitem [ref=e2151]: "Product lengte: 10 cm"
+                    - listitem [ref=e2152]: "| Product breedte: 0.50 cm"
+                  - paragraph [ref=e2153]: Lego the movie , grote gum5. 5 x 10 cm groot !
+                - generic [ref=e2154]:
+                  - generic [ref=e2155]:
+                    - generic [ref=e2156]:
+                      - heading "Prijsinformatie en bestellen" [level=2] [ref=e2157]
+                      - generic [ref=e2161]:
+                        - generic [ref=e2162]: De prijs van dit product is '5' euro en '99' cent
+                        - generic [ref=e2163]: "5"
+                        - generic [ref=e2164]: ","
+                        - generic [ref=e2165]: "99"
+                    - generic [ref=e2167]:
+                      - generic [ref=e2168]: Voor 15:00 uur besteld, dinsdag in huis
+                      - button "Toon meer informatie over levertijd" [ref=e2170]:
+                        - img [ref=e2172]
+                    - button "Verkoop door van Schaik & van Schaik Wat je kan verwachten" [ref=e2176] [cursor=pointer]:
+                      - generic [ref=e2177] [cursor=pointer]:
+                        - generic [ref=e2178] [cursor=pointer]:
+                          - generic [ref=e2179] [cursor=pointer]: Verkoop door
+                          - generic [ref=e2180] [cursor=pointer]: van Schaik & van Schaik
+                        - generic [ref=e2181] [cursor=pointer]: Wat je kan verwachten
+                  - generic [ref=e2184]:
+                    - generic [ref=e2187]:
+                      - combobox "Aantal" [ref=e2188]:
+                        - option "1" [selected]
+                        - option "2"
+                        - option "3"
+                        - option "4"
+                        - option "5"
+                        - option "6"
+                        - option "7"
+                        - option "8"
+                        - option "9"
+                        - option "10"
+                        - option "Meer"
                       - generic:
-                        - generic:
-                          - paragraph:
-                            - strong: Korting* op snacks
-                            - text: "& drankjes voor school"
-                        - generic:
-                          - img
-                      - paragraph: "*op de meest getoonde prijs"
-                - listitem:
-                  - generic:
-                    - link:
-                      - /url: /be/nl/ra/nu-tijdelijk-2-plus-1-afwassen-accessoires/440195
-                      - generic:
-                        - generic:
-                          - paragraph:
-                            - strong: 2 + 1 Gratis op
-                            - text: afwassen en schoonmaken
-                        - generic:
-                          - img
-                - listitem:
-                  - generic:
-                    - link:
-                      - /url: /be/nl/ra/2-1-gratis-op-speelgoedcadeautjes/439655
-                      - generic:
-                        - generic:
-                          - paragraph:
-                            - strong: 2+1 gratis
-                            - text: op speelgoedcadeautjes
-                        - generic:
-                          - img
-                - listitem:
-                  - generic:
-                    - link:
-                      - /url: /be/nl/ra/korting-op-mealpreppen-lunchboxen/455374
-                      - generic:
-                        - generic:
-                          - paragraph:
-                            - strong: Korting* op
-                            - text: Meal prep & vershouden
-                        - generic:
-                          - img
-                      - paragraph: "*op de meest getoonde prijs"
-        - generic:
-          - generic:
-            - generic:
-              - heading [level=2]:
-                - generic:
-                  - strong: Populaire
-                  - text: categorieën
-            - generic:
-              - link:
-                - /url: "#«R4dair5»"
-                - text: Sla deze carousel over
-              - generic:
-                - list:
-                  - listitem:
-                    - link:
-                      - /url: /be/nl/l/schooltassen/39075/
-                      - article:
-                        - generic:
-                          - paragraph: Schooltassen
-                  - listitem:
-                    - link:
-                      - /url: /be/nl/l/bouwsets/20001/
-                      - article:
-                        - generic:
-                          - paragraph: Bouwsets
-                  - listitem:
-                    - link:
-                      - /url: /be/nl/l/rugtassen-heren/47075/
-                      - article:
-                        - generic:
-                          - paragraph: Rugtassen
-                  - listitem:
-                    - link:
-                      - /url: /be/nl/l/kasten/14080/
-                      - article:
-                        - generic:
-                          - paragraph: Kasten
-                  - listitem:
-                    - link:
-                      - /url: /be/nl/l/audio-voor-jou/64498/
-                      - article:
-                        - generic:
-                          - paragraph: Audio voor jou
-                  - listitem:
-                    - link:
-                      - /url: /be/nl/l/waterflessen/15296/
-                      - article:
-                        - generic:
-                          - paragraph: Waterflessen
-        - generic:
-          - generic:
-            - generic:
-              - heading [level=3]
-            - link:
-              - /url: "#«R4rair5»"
-              - text: Sla deze carousel over
-            - generic:
-              - list:
-                - listitem
-                - listitem
-                - listitem
-        - generic:
-          - generic:
-            - generic:
-              - link:
-                - /url: "#«rjn»"
-                - text: Sla deze carousel over
-              - generic:
-                - list:
-                  - listitem:
-                    - generic:
-                      - link:
-                        - /url: https://www.bol.com/be/nl/cmp/Opstart2025/2083/
-                        - paragraph:
-                          - text: Alles voor een
-                          - generic: soepele start
-                  - listitem:
-                    - generic:
-                      - link:
-                        - /url: https://www.bol.com/be/nl/cmp/Opstart2025/2083/
-                        - paragraph:
-                          - generic: Schoolspullen
-                          - text: voor het nieuwe jaar
-                  - listitem:
-                    - generic:
-                      - link:
-                        - /url: https://www.bol.com/be/nl/sf/laptops/
-                        - paragraph:
-                          - text: Start slim met je
-                          - generic: nieuwe laptop
-                  - listitem:
-                    - generic:
-                      - link:
-                        - /url: https://www.bol.com/be/nl/cmp/fas/1996/
-                        - paragraph:
-                          - text: Scoor je outfit in de
-                          - generic: fashion sale
-                  - listitem:
-                    - generic:
-                      - link:
-                        - /url: https://www.bol.com/be/nl/sf/verjaardag/
-                        - paragraph:
-                          - generic: Top cadeaus
-                          - text: voor de jarige job
-                  - listitem:
-                    - generic:
-                      - link:
-                        - /url: https://www.bol.com/be/nl/cmp/opstart-refurbished-2025/2088/
-                        - paragraph:
-                          - generic: Refurbished voordeel
-                          - text: bij bol
-        - generic:
-          - generic:
-            - generic:
-              - heading [level=2]:
-                - generic:
-                  - strong: Topkeuzes
-            - generic:
-              - link:
-                - /url: "#«R4vair5»"
-                - text: Sla deze carousel over
-              - generic:
-                - list:
-                  - listitem:
-                    - generic:
-                      - generic:
-                        - link:
-                          - /url: /be/nl/p/prisma-woordenboek-engels-nederlands/9200000088082120/
-                          - generic:
-                            - img
-                        - generic:
-                          - link:
-                            - /url: /be/nl/p/prisma-woordenboek-engels-nederlands/9200000088082120/?promo=main_860_deals_for_you___product_0_9200000088082120
-                            - paragraph: Prisma woordenboek Engels-Nederlands
-                          - generic:
-                            - generic:
-                              - generic: De prijs van dit product is 10 euro en 99 cent.
-                              - generic: "10"
-                              - generic: ","
-                              - generic: "99"
-                        - button:
-                          - generic:
-                            - img
-                  - listitem:
-                    - generic:
-                      - generic:
-                        - link:
-                          - /url: /be/nl/p/wie-praat-die-gaat/9300000223684677/
-                          - generic:
-                            - img
-                        - generic:
-                          - link:
-                            - /url: /be/nl/p/wie-praat-die-gaat/9300000223684677/?promo=main_860_deals_for_you___product_1_9300000223684677
-                            - paragraph: Wie praat, die gaat
-                          - generic:
-                            - generic:
-                              - generic: De prijs van dit product is 27 euro en 99 cent.
-                              - generic: "27"
-                              - generic: ","
-                              - generic: "99"
-                        - button:
-                          - generic:
-                            - img
-                  - listitem:
-                    - generic:
-                      - generic:
-                        - link:
-                          - /url: /be/nl/p/kambukka-lagoon-drinkfles-voor-kinderen-400ml-police-patrol-met-geintegreerd-rietje-drinkbus-kinderen-drinkbeker-voor-school/9300000225668141/
-                          - generic:
-                            - img
-                        - generic:
-                          - link:
-                            - /url: /be/nl/p/kambukka-lagoon-drinkfles-voor-kinderen-400ml-police-patrol-met-geintegreerd-rietje-drinkbus-kinderen-drinkbeker-voor-school/9300000225668141/?promo=main_860_deals_for_you___product_2_9300000225668141
-                            - paragraph: Kambukka Lagoon Drinkfles voor kinderen 400ml Police Patrol - met geïntegreerd rietje - drinkbus kinderen - drinkbeker voor school
-                          - generic:
-                            - generic:
-                              - generic: De prijs van dit product is 18 euro en 95 cent.
-                              - generic: "18"
-                              - generic: ","
-                              - generic: "95"
-                            - generic:
-                              - generic: 1+1 gratis
-                            - paragraph:
-                              - generic:
-                                - text: Meestal
-                                - generic: 22,95
-                              - button:
-                                - generic:
-                                  - img
-                            - generic: De adviesprijs is 22 euro en 95 cent.
-                        - button:
-                          - generic:
-                            - img
-                  - listitem:
-                    - generic:
-                      - generic:
-                        - link:
-                          - /url: /be/nl/p/de-zoete-zusjes-de-zoete-zusjes-gaan-op-avontuur/9300000227182400/
-                          - generic:
-                            - img
-                        - generic:
-                          - link:
-                            - /url: /be/nl/p/de-zoete-zusjes-de-zoete-zusjes-gaan-op-avontuur/9300000227182400/?promo=main_860_deals_for_you___product_3_9300000227182400
-                            - paragraph: De Zoete Zusjes - De Zoete Zusjes gaan op avontuur
-                          - generic:
-                            - generic:
-                              - generic: De prijs van dit product is 15 euro en 99 cent.
-                              - generic: "15"
-                              - generic: ","
-                              - generic: "99"
-                        - button:
-                          - generic:
-                            - img
-                  - listitem:
-                    - generic:
-                      - generic:
-                        - link:
-                          - /url: /be/nl/p/pampers-sensitive-billendoekjes-0-plastic-1248-babydoekjes/9300000078289087/
-                          - generic:
-                            - img
-                        - generic:
-                          - link:
-                            - /url: /be/nl/p/pampers-sensitive-billendoekjes-0-plastic-1248-babydoekjes/9300000078289087/?promo=main_860_deals_for_you___product_4_9300000078289087
-                            - paragraph: Pampers Sensitive Billendoekjes - 0% plastic - 24 pakken - 1248 Babydoekjes
-                          - generic:
-                            - generic:
-                              - generic: De prijs van dit product is 29 euro en 95 cent.
-                              - generic: "29"
-                              - generic: ","
-                              - generic: "95"
-                        - button:
-                          - generic:
-                            - img
-                  - listitem:
-                    - generic:
-                      - generic:
-                        - link:
-                          - /url: /be/nl/p/donkey-kong-bananza-nintendo-switch-2/9300000228511225/
-                          - generic:
-                            - img
-                        - generic:
-                          - link:
-                            - /url: /be/nl/p/donkey-kong-bananza-nintendo-switch-2/9300000228511225/?promo=main_860_deals_for_you___product_5_9300000228511225
-                            - paragraph: Donkey Kong Bananza - Nintendo Switch 2
-                          - generic:
-                            - generic:
-                              - generic: De prijs van dit product is 63 euro en 99 cent.
-                              - generic: "63"
-                              - generic: ","
-                              - generic: "99"
-                            - paragraph:
-                              - generic:
-                                - text: Meestal
-                                - generic: 69,99
-                              - button:
-                                - generic:
-                                  - img
-                            - generic: De adviesprijs is 69 euro en 99 cent.
-                        - button:
-                          - generic:
-                            - img
-        - generic:
-          - generic:
-            - generic:
-              - heading [level=2]:
-                - generic:
-                  - text: Meer
-                  - strong: Topkeuzes
-            - generic:
-              - link:
-                - /url: "#«R53air5»"
-                - text: Sla deze carousel over
-              - generic:
-                - list:
-                  - listitem:
-                    - generic:
-                      - generic:
-                        - link:
-                          - /url: /be/nl/p/prisma-woordenboek-nederlands/9200000088082118/
-                          - generic:
-                            - img
-                        - generic:
-                          - link:
-                            - /url: /be/nl/p/prisma-woordenboek-nederlands/9200000088082118/?promo=main_862_top_picks_for_you___product_0_9200000088082118
-                            - paragraph: Prisma woordenboek Nederlands
-                          - generic:
-                            - generic:
-                              - generic: De prijs van dit product is 10 euro en 99 cent.
-                              - generic: "10"
-                              - generic: ","
-                              - generic: "99"
-                        - button:
-                          - generic:
-                            - img
-                  - listitem:
-                    - generic:
-                      - generic:
-                        - link:
-                          - /url: /be/nl/p/kirby-en-de-vergeten-wereld-nintendo-switch-2-edition-de-sterren-wereld/9300000229136857/
-                          - generic:
-                            - img
-                        - generic:
-                          - link:
-                            - /url: /be/nl/p/kirby-en-de-vergeten-wereld-nintendo-switch-2-edition-de-sterren-wereld/9300000229136857/?promo=main_862_top_picks_for_you___product_1_9300000229136857
-                            - paragraph: Kirby en de Vergeten Wereld - Nintendo Switch 2 Edition + De Sterren wereld
-                          - generic:
-                            - generic:
-                              - generic: De prijs van dit product is 69 euro en 99 cent.
-                              - generic: "69"
-                              - generic: ","
-                              - generic: "99"
-                        - button:
-                          - generic:
-                            - img
-                  - listitem:
-                    - generic:
-                      - generic:
-                        - link:
-                          - /url: /be/nl/p/carme-mini-2-in-1-car-dongle-carplay-dongle-android-auto-dongle-draadloos-carplay-android-auto-zwart/9300000192998357/
-                          - generic:
-                            - img
-                        - generic:
-                          - link:
-                            - /url: /be/nl/p/carme-mini-2-in-1-car-dongle-carplay-dongle-android-auto-dongle-draadloos-carplay-android-auto-zwart/9300000192998357/?promo=main_862_top_picks_for_you___product_2_9300000192998357
-                            - paragraph: CarMe Mini 2-in-1 CarPlay Dongle - Draadloos CarPlay & Android Auto - Android Auto Dongle - Zwart
-                          - generic:
-                            - generic:
-                              - generic: De prijs van dit product is 29 euro en 95 cent.
-                              - generic: "29"
-                              - generic: ","
-                              - generic: "95"
-                        - button:
-                          - generic:
-                            - img
-                  - listitem:
-                    - generic:
-                      - generic:
-                        - link:
-                          - /url: /be/nl/p/expect-miracles/9300000227112837/
-                          - generic:
-                            - img
-                        - generic:
-                          - link:
-                            - /url: /be/nl/p/expect-miracles/9300000227112837/?promo=main_862_top_picks_for_you___product_3_9300000227112837
-                            - paragraph: Expect Miracles
-                          - generic:
-                            - generic:
-                              - generic: De prijs van dit product is 22 euro en 99 cent.
-                              - generic: "22"
-                              - generic: ","
-                              - generic: "99"
-                        - button:
-                          - generic:
-                            - img
-                  - listitem:
-                    - generic:
-                      - generic:
-                        - link:
-                          - /url: /be/nl/p/10-euro-playstation-store-tegoed-psn-playstation-network-kaart/9200000113877194/
-                          - generic:
-                            - img
-                        - generic:
-                          - link:
-                            - /url: /be/nl/p/10-euro-playstation-store-tegoed-psn-playstation-network-kaart/9200000113877194/?promo=main_862_top_picks_for_you___product_4_9200000113877194
-                            - paragraph: 10 euro PlayStation Store tegoed - PSN Playstation Store Kaart (NL)
-                          - paragraph:
-                            - generic: Niet leverbaar
-                        - button:
-                          - generic:
-                            - img
-                  - listitem:
-                    - generic:
-                      - generic:
-                        - link:
-                          - /url: /be/nl/p/gezond-met-dokter-elise/9300000196849035/
-                          - generic:
-                            - img
-                        - generic:
-                          - link:
-                            - /url: /be/nl/p/gezond-met-dokter-elise/9300000196849035/?promo=main_862_top_picks_for_you___product_5_9300000196849035
-                            - paragraph: Gezond(er) met dokter Elise
-                          - generic:
-                            - generic:
-                              - generic: De prijs van dit product is 25 euro en 99 cent.
-                              - generic: "25"
-                              - generic: ","
-                              - generic: "99"
-                        - button:
-                          - generic:
-                            - img
-        - generic:
-          - generic:
-            - generic:
-              - heading [level=2]:
-                - generic:
-                  - strong: Meer van
-                  - text: onze merken
-            - link:
-              - /url: "#«rjo»"
-              - text: Sla deze carousel over
-            - generic:
-              - button:
-                - generic:
-                  - img
-              - list:
-                - listitem:
-                  - generic:
-                    - link:
-                      - /url: /be/nl/pb/Perfect%20grillresultaat%20met%20Tefal%20OptiGrill/5082322/tefal-optigrill
-                      - generic:
-                        - generic:
-                          - generic:
-                            - img
-                          - generic:
-                            - paragraph: Perfect grillresultaat
-                            - paragraph: keer op keer
-                - listitem:
-                  - generic:
-                    - link:
-                      - /url: /be/nl/pb/loreal/12925562/multi-div-beauty-must-haves
-                      - generic:
-                        - generic:
-                          - generic:
-                            - img
-                          - generic:
-                            - paragraph: Beauty Must-Haves
-                            - paragraph: voor jou geselecteerd
-                - listitem:
-                  - generic:
-                    - link:
-                      - /url: /be/nl/pb/lego-duplo/4648554/sloddervosjes-bestaan-niet
-                      - generic:
-                        - generic:
-                          - generic:
-                            - img
-                          - generic:
-                            - paragraph: Sloddervosjes?
-                            - paragraph: Die bestaan niet
-                - listitem:
-                  - generic:
-                    - link:
-                      - /url: /be/nl/pb/samsung/4984286/samsung-galaxy-foldables
-                      - generic:
-                        - generic:
-                          - generic:
-                            - img
-                          - generic:
-                            - paragraph: De nieuwe Foldables
-                            - paragraph: zo licht en krachtig kan je toekomst zijn
-                - listitem:
-                  - generic:
-                    - link:
-                      - /url: /be/nl/pb/nescafe-dolce-gusto/5069804/nescafe-dolce-gusto-neo
-                      - generic:
-                        - generic:
-                          - generic:
-                            - img
-                          - generic:
-                            - paragraph: Proef de toekomst
-                            - paragraph: met NESCAFÉ Dolce Gusto NEO
-                - listitem:
-                  - generic:
-                    - link:
-                      - /url: /be/nl/pb/Bescherm%20je%20huisdier%20met%20Frontline/600002089/bescherm-je-huisdier-met-frontline
-                      - generic:
-                        - generic:
-                          - generic:
-                            - img
-                          - generic:
-                            - paragraph: Bescherm je huisdier
-                            - paragraph: in één simpele stap met Frontline
-        - generic:
-          - generic:
-            - generic:
-              - link:
-                - /url: "#«rdj»"
-                - text: Sla deze carousel over
-              - generic:
-                - list:
-                  - listitem:
-                    - generic:
-                      - link:
-                        - /url: https://www.bol.com/be/nl/sf/outlet/
-                  - listitem:
-                    - generic:
-                      - link:
-                        - /url: https://www.bol.com/be/nl/cmp/aanvuldeals/2012/
-                        - paragraph:
-                          - generic: Aanvuldeals
-                          - text: tot 50% korting*
-                  - listitem:
-                    - generic:
-                      - link:
-                        - /url: https://www.bol.com/be/nl/cmp/elektronica-acties/1887/
-                        - paragraph:
-                          - text: De beste
-                          - generic: elektronicadeals
-                  - listitem:
-                    - generic:
-                      - link:
-                        - /url: https://www.bol.com/be/nl/cmp/woondeals/1912/
-                        - paragraph:
-                          - generic: Woondeals
-                          - text: voor elke kamer
-                  - listitem:
-                    - generic:
-                      - link:
-                        - /url: https://www.bol.com/be/nl/cmp/select-deals/1826/
-                        - paragraph:
-                          - generic: Exclusieve
-                          - text: Select-korting
-                  - listitem:
-                    - generic:
-                      - link:
-                        - /url: https://www.bol.com/be/nl/sf/huishoudwinkel/
-                        - paragraph:
-                          - generic: Alles voor je huishouden,
-                          - text: zó in huis
-        - generic:
-          - generic:
-            - generic:
-              - heading [level=2]:
-                - generic:
-                  - strong: Topkeuzes
-            - generic:
-              - link:
-                - /url: "#«rjp»"
-                - text: Sla deze carousel over
-              - generic:
-                - list:
-                  - listitem:
-                    - generic:
-                      - generic:
-                        - link:
-                          - /url: /be/nl/p/casio-fx-82nl-wetenschappelijke-rekenmachine-speciaal-ontwikkeld-voor-het-nederlands-voortgezet-onderwijs-en-de-meeste-vervolgopleidingen-de-fx-82nl-is-de-opvolger-van-de-fx-82ms-2-en-fx-82ex/9300000132810574/
-                          - generic:
-                            - img
-                        - generic:
-                          - link:
-                            - /url: /be/nl/p/casio-fx-82nl-wetenschappelijke-rekenmachine-speciaal-ontwikkeld-voor-het-nederlands-voortgezet-onderwijs-en-de-meeste-vervolgopleidingen-de-fx-82nl-is-de-opvolger-van-de-fx-82ms-2-en-fx-82ex/9300000132810574/?promo=main_861_new_for_you___product_0_9300000132810574
-                            - paragraph: Casio fx-82NL rekenmachine - wetenschappelijke rekenmachine - voor de middelbare school
-                          - generic:
-                            - generic:
-                              - generic: De prijs van dit product is 14 euro en 89 cent.
-                              - generic: "14"
-                              - generic: ","
-                              - generic: "89"
-                            - paragraph:
-                              - generic:
-                                - text: Meestal
-                                - generic: 18,42
-                              - button:
-                                - generic:
-                                  - img
-                            - generic: De adviesprijs is 18 euro en 42 cent.
-                        - button:
-                          - generic:
-                            - img
-                  - listitem:
-                    - generic:
-                      - generic:
-                        - link:
-                          - /url: /be/nl/p/wat-we-kunnen-weten/9300000231479026/
-                          - generic:
-                            - img
-                        - generic:
-                          - link:
-                            - /url: /be/nl/p/wat-we-kunnen-weten/9300000231479026/?promo=main_861_new_for_you___product_1_9300000231479026
-                            - paragraph: Wat we kunnen weten
-                          - generic:
-                            - generic:
-                              - generic: De prijs van dit product is 27 euro en 50 cent.
-                              - generic: "27"
-                              - generic: ","
-                              - generic: "50"
-                        - button:
-                          - generic:
-                            - img
-                  - listitem:
-                    - generic:
-                      - generic:
-                        - link:
-                          - /url: /be/nl/p/pampers-premium-protection-maat-4-174-luiers-maandbox/9300000138922868/
-                          - generic:
-                            - img
-                        - generic:
-                          - link:
-                            - /url: /be/nl/p/pampers-premium-protection-maat-4-174-luiers-maandbox/9300000138922868/?promo=main_861_new_for_you___product_2_9300000138922868
-                            - paragraph: Pampers Premium Protection - Maat 4 (9kg-14kg) - 174 Luiers - Maandbox
-                          - generic:
-                            - generic:
-                              - generic: De prijs van dit product is 53 euro en 99 cent.
-                              - generic: "53"
-                              - generic: ","
-                              - generic: "99"
-                            - generic:
-                              - generic: korting
-                            - paragraph:
-                              - generic:
-                                - text: Meestal
-                                - generic: 58,79
-                              - button:
-                                - generic:
-                                  - img
-                            - generic: De adviesprijs is 58 euro en 79 cent.
-                        - button:
-                          - generic:
-                            - img
-                  - listitem:
-                    - generic:
-                      - generic:
-                        - link:
-                          - /url: /be/nl/p/een-pan/9300000227900646/
-                          - generic:
-                            - img
-                        - generic:
-                          - link:
-                            - /url: /be/nl/p/een-pan/9300000227900646/?promo=main_861_new_for_you___product_3_9300000227900646
-                            - paragraph: Eén pan
-                          - generic:
-                            - generic:
-                              - generic: De prijs van dit product is 29 euro en 99 cent.
-                              - generic: "29"
-                              - generic: ","
-                              - generic: "99"
-                        - button:
-                          - generic:
-                            - img
-                  - listitem:
-                    - generic:
-                      - generic:
-                        - link:
-                          - /url: /be/nl/p/nintendo-switch-2-mario-kart-world-bundel-zwart/9300000228511188/
-                          - generic:
-                            - img
-                        - generic:
-                          - link:
-                            - /url: /be/nl/p/nintendo-switch-2-mario-kart-world-bundel-zwart/9300000228511188/?promo=main_861_new_for_you___product_4_9300000228511188
-                            - paragraph: "Nintendo Switch 2 - Mario Kart: World Bundel - Zwart"
-                          - generic:
-                            - generic:
-                              - generic: De prijs van dit product is 509 euro en 99 cent.
-                              - generic: "509"
-                              - generic: ","
-                              - generic: "99"
-                        - button:
-                          - generic:
-                            - img
-                  - listitem:
-                    - generic:
-                      - generic:
-                        - link:
-                          - /url: /be/nl/p/lego-f1-raceauto-collectibles-71049/9300000198346112/
-                          - generic:
-                            - img
-                        - generic:
-                          - link:
-                            - /url: /be/nl/p/lego-f1-raceauto-collectibles-71049/9300000198346112/?promo=main_861_new_for_you___product_5_9300000198346112
-                            - paragraph: LEGO F1 raceauto collectibles, 1 van de 12 willekeurige raceauto's - 71049
-                          - generic:
-                            - generic:
-                              - generic: De prijs van dit product is 3 euro en 49 cent.
-                              - generic: "3"
-                              - generic: ","
-                              - generic: "49"
-                            - generic:
-                              - generic: 3+1 gratis
-                        - button:
-                          - generic:
-                            - img
-        - generic:
-          - generic:
-            - generic:
-              - heading [level=2]:
-                - generic:
-                  - text: Ontdek
-                  - strong: onze favorieten
-            - generic:
-              - link:
-                - /url: "#«rdk»"
-                - text: Sla deze carousel over
-              - generic:
-                - list:
-                  - listitem:
-                    - link:
-                      - /url: /be/nl/l/hondenvoer/12750/
-                      - article:
-                        - generic:
-                          - paragraph: Hondenvoer & Snacks
-                  - listitem:
-                    - link:
-                      - /url: /be/nl/l/schoonmaakmiddelen/20495/
-                      - article:
-                        - generic:
-                          - paragraph: Schoonmaakmiddelen
-                  - listitem:
-                    - link:
-                      - /url: /be/nl/l/romanceboeken/40494/
-                      - article:
-                        - generic:
-                          - paragraph: Romance
-                  - listitem:
-                    - link:
-                      - /url: /be/nl/l/audio-voor-jou/64498/
-                      - article:
-                        - generic:
-                          - paragraph: Audio voor jou
-                  - listitem:
-                    - link:
-                      - /url: /be/nl/l/bouwsets/20001/
-                      - article:
-                        - generic:
-                          - paragraph: Bouwsets
-                  - listitem:
-                    - link:
-                      - /url: /be/nl/l/wasmiddelen-wasverzachters/61601/
-                      - article:
-                        - generic:
-                          - paragraph: Wasmiddelen & Wasverzachters
-        - generic:
-          - generic:
-            - generic:
-              - generic:
-                - generic:
-                  - link:
-                    - /url: /be/nl/deals/
-                    - article:
-                      - generic:
-                        - paragraph:
-                          - text: Alle aanbiedingen
-                          - generic: op een rij
-              - generic:
-                - generic:
-                  - link:
-                    - /url: https://www.bol.com/nl/ra/tot-15--korting-op-telefoons---tablets/443624/
-                    - article:
-                      - generic:
-                        - generic:
-                          - generic:
-                            - generic:
-                              - generic:
-                                - img
-                                - heading [level=2]: Dagdeal
-                              - paragraph:
-                                - generic: 01:35:58
-                      - generic:
-                        - paragraph:
-                          - text: "Alléén vandaag: tot 15% korting* op telefoons & tablets"
-                          - generic: "*op de meest getoonde prijs"
-              - generic:
-                - generic:
-                  - link:
-                    - /url: /be/nl/ra/tot-66-korting-op-o-a-dreft-lenor-en-swiffer/431957
-                    - article:
-                      - generic:
-                        - paragraph:
-                          - text: Tot 50% korting*
-                          - generic: op o.a. Dreft & Lenor
-        - generic:
-          - generic:
-            - generic:
-              - heading [level=2]:
-                - strong: Cadeaus
-                - text: voor iedereen
-            - link:
-              - /url: "#«rki»"
-              - text: Sla deze carousel over
-            - generic:
-              - list:
-                - listitem:
-                  - generic:
-                    - link:
-                      - /url: /be/nl/sf/cadeauwinkel-volwassenen/
-                      - article:
-                        - generic:
-                          - paragraph: Cadeauwinkel volwassenen
-                - listitem:
-                  - generic:
-                    - link:
-                      - /url: /be/nl/sf/cadeauwinkel-kinderen/
-                      - article:
-                        - generic:
-                          - paragraph: Kids cadeauwinkel
-                - listitem:
-                  - generic:
-                    - link:
-                      - /url: /be/nl/sf/verjaardag
-                      - article:
-                        - generic:
-                          - paragraph: Verjaardag
-                - listitem:
-                  - generic:
-                    - link:
-                      - /url: /be/nl/sf/originele-cadeaus
-                      - article:
-                        - generic:
-                          - paragraph: Originele cadeaus
-        - generic:
-          - generic:
-            - generic:
-              - heading [level=2]:
-                - generic:
-                  - strong: Shop
-                  - text: de look
-              - link:
-                - /url: /be/nl/sdl/shop-de-look
-                - generic:
-                  - img
-                - text: Ontdek alle looks
-            - link:
-              - /url: "#«rkj»"
-              - text: Sla deze carousel over
-            - generic:
-              - button:
-                - generic:
-                  - img
-              - list:
-                - listitem:
-                  - generic:
-                    - link:
-                      - /url: /be/nl/sdl/mode/dames/28424
-                      - article:
-                        - generic:
-                          - paragraph: Dames
-                - listitem:
-                  - generic:
-                    - link:
-                      - /url: /be/nl/sdl/mode/heren/24714
-                      - article:
-                        - generic:
-                          - paragraph: Heren
-                - listitem:
-                  - generic:
-                    - link:
-                      - /url: /be/nl/sdl/mode/kinderen/31967
-                      - article:
-                        - generic:
-                          - paragraph: Kinderen
-                - listitem:
-                  - generic:
-                    - link:
-                      - /url: /be/nl/sdl/wonen/woonkamer/62727
-                      - article:
-                        - generic:
-                          - paragraph: Woonkamer
-                - listitem:
-                  - generic:
-                    - link:
-                      - /url: /be/nl/sdl/wonen/slaapkamer/98747
-                      - article:
-                        - generic:
-                          - paragraph: Slaapkamer
-                - listitem:
-                  - generic:
-                    - link:
-                      - /url: /be/nl/sdl/wonen/badkamer/83589
-                      - article:
-                        - generic:
-                          - paragraph: Badkamer
-                - listitem:
-                  - generic:
-                    - link:
-                      - /url: /be/nl/sdl/wonen/eetkamer/68666
-                      - article:
-                        - generic:
-                          - paragraph: Eetkamer
-                - listitem:
-                  - generic:
-                    - link:
-                      - /url: /be/nl/sdl/wonen/keuken/87523
-                      - article:
-                        - generic:
-                          - paragraph: Keuken
-                - listitem:
-                  - generic:
-                    - link:
-                      - /url: /be/nl/sdl/wonen/tuin/91983
-                      - article:
-                        - generic:
-                          - paragraph: Tuin
-                - listitem:
-                  - generic:
-                    - link:
-                      - /url: /be/nl/sdl/wonen/werkkamer/61012
-                      - article:
-                        - generic:
-                          - paragraph: Werkkamer
-                - listitem:
-                  - generic:
-                    - link:
-                      - /url: /be/nl/sdl/wonen/hal/69874
-                      - article:
-                        - generic:
-                          - paragraph: Hal
-                - listitem:
-                  - generic:
-                    - link:
-                      - /url: /be/nl/sdl/wonen/kopen-of-slopen/66894
-                      - article:
-                        - generic:
-                          - paragraph: Kopen of Slopen
-                - listitem:
-                  - generic:
-                    - link:
-                      - /url: /be/nl/sdl/baby-peuter/baby-peuter/55624
-                      - article:
-                        - generic:
-                          - paragraph: Baby & Peuter
-                - listitem:
-                  - generic:
-                    - link:
-                      - /url: /be/nl/sdl/gaming-elektronica/gaming/83403
-                      - article:
-                        - generic:
-                          - paragraph: Gaming
-                - listitem:
-                  - generic:
-                    - link:
-                      - /url: /be/nl/sdl/gaming-elektronica/elektronica/18762
-                      - article:
-                        - generic:
-                          - paragraph: Elektronica
-                - listitem:
-                  - generic:
-                    - link:
-                      - /url: /be/nl/sdl/specials/kerstdecoratie/77778
-                      - article:
-                        - generic:
-                          - paragraph: Kerstdecoratie
-                - listitem:
-                  - generic:
-                    - link:
-                      - /url: /be/nl/sdl/specials/kerstdiner/11711
-                      - article:
-                        - generic:
-                          - paragraph: Kerstdiner
-                - listitem:
-                  - generic:
-                    - link:
-                      - /url: /be/nl/sdl/specials/kerstlooks/48311
-                      - article:
-                        - generic:
-                          - paragraph: Kerstlooks
-                - listitem:
-                  - generic:
-                    - link:
-                      - /url: /be/nl/sdl/tuin/tuin/91983
-                      - article:
-                        - generic:
-                          - paragraph: Tuin
-        - generic:
-          - generic:
-            - generic:
-              - generic:
-                - heading [level=2]:
-                  - generic:
-                    - strong: Ontdek alles
-                    - text: bij bol
-            - navigation:
-              - list:
-                - listitem:
-                  - list:
-                    - listitem:
-                      - heading [level=3]: Boeken
-                      - list:
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/boeken/8299/
-                            - text: Boeken
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/nederlandse-boeken/8299/8293/
-                            - text: Nederlandstalige boeken
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/engelse-boeken/8299/8292/
-                            - text: Engelstalige boeken
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/ebooks/8299/7419/
-                            - text: E-books
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/e-readers/10681/
-                            - text: E-readers
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/sf/kobo-plus/
-                            - text: Kobo Plus abonnement
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/tweedehands-boeken/8299/1426/
-                            - text: Tweedehands boeken
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/luisterboeken/8299/7420/
-                            - text: Luisterboeken
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/boeken-studieboeken/8299/67400/
-                            - text: Studieboeken
-                    - listitem:
-                      - heading [level=3]: Muziek, Film & Games
-                      - list:
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/sf/merchandise/
-                            - text: Merchandise
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/sf/muziek/
-                            - text: Muziek
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/films-en-series-op-dvd/53445/
-                            - text: DVD
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/films-en-series-op-blu-ray/53446/
-                            - text: Blu-ray
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/series/3133/30291/
-                            - text: TV-series
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/gaming/3135/
-                            - text: Games
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/sf/gameshardware/
-                            - text: Consoles & accessoires
-                    - listitem:
-                      - heading [level=3]: Sport, Outdoor & Reizen
-                      - list:
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/sportartikelen/14648/
-                            - text: Sport
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/sportkleding/17377/
-                            - text: Sportkleding
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/kamperen-outdoor/15270/
-                            - text: Kamperen & Outdoor
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/reisbagage-reisaccessoires/16799/
-                            - text: Reisbagage
-                - listitem:
-                  - list:
-                    - listitem:
-                      - heading [level=3]: Computer & Elektronica
-                      - list:
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/sf/computer/
-                            - text: Computer
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/sf/mobile/
-                            - text: Telefonie
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/tablets/10656/
-                            - text: Tablets
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/sf/huishoudelijke-apparaten/
-                            - text: Huishoudelijke apparaten
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/sf/keukenapparaten/
-                            - text: Keukenapparaten
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/fotocamera-s/4070/
-                            - text: Camera's
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/smartwatches/18157/
-                            - text: Smartwatches
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/navigatie-accessoires/4005/
-                            - text: Navigatie
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/tv-s/7291/
-                            - text: Televisies
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/sf/audio-hifi/
-                            - text: Audio & Hifi
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/sf/persoonlijke-verzorging/
-                            - text: Persoonlijke verzorging
-                    - listitem:
-                      - heading [level=3]: Speelgoed & Hobby
-                      - list:
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/speelgoed/7934/
-                            - text: Speelgoed
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/hobby-creatief/10505/
-                            - text: Hobby & Creatief
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/buitenspeelgoed/10494/
-                            - text: Buitenspeelgoed
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/verkleedkleding-merch/10516/
-                            - text: Verkleedkleding
-                    - listitem:
-                      - heading [level=3]: Cadeau & Inspiratie
-                      - list:
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/m/cadeaubon-bestellen/
-                            - text: Cadeaubonnen
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/sf/cadeauwinkel-volwassenen/
-                            - text: Cadeauwinkel
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/sf/lees/
-                            - text: Lees Magazine
-                - listitem:
-                  - list:
-                    - listitem:
-                      - heading [level=3]: Koken & Tafelen
-                      - list:
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/koken-tafelen/11764/
-                            - text: Koken & Tafelen
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/barbecues/11771/
-                            - text: Barbecues
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/pannen/11767/
-                            - text: Pannen
-                    - listitem:
-                      - heading [level=3]: Huishouden
-                      - list:
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/huishouden/12001/
-                            - text: Huishouden
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/prullenbakken/12022/
-                            - text: Prullenbakken
-                    - listitem:
-                      - heading [level=3]: Tuin
-                      - list:
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/sf/tuin/
-                            - text: Tuin
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/tuinmeubelen/12975/
-                            - text: Tuinmeubelen
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/tuingereedschap/13061/
-                            - text: Tuingereedschap
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/loungesets/14344/
-                            - text: Loungesets
-                    - listitem:
-                      - heading [level=3]: Dier
-                      - list:
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/dieren/12748/
-                            - text: Dier
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/hondenwinkel/12749/
-                            - text: Hond
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/kattenwinkel/12835/
-                            - text: Katten
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/paardenwinkel/12939/
-                            - text: Paard & Ruiter
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/knaagdierenwinkel/12888/
-                            - text: Knaagdieren
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/aquariumwinkel/12885/
-                            - text: Vissen
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/reptielen-benodigdheden/12924/
-                            - text: Reptielen
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/vogelwinkel/22258/
-                            - text: Vogels
-                - listitem:
-                  - list:
-                    - listitem:
-                      - heading [level=3]: Wonen
-                      - list:
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/woonartikelen/14035/
-                            - text: Wonen
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/meubels/25152/
-                            - text: Meubels
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/beddengoed/14193/
-                            - text: Beddengoed
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/verlichting/14258/
-                            - text: Verlichting
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/woonaccessoires/14124/
-                            - text: Woonaccessoires
-                    - listitem:
-                      - heading [level=3]: Klussen
-                      - list:
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/sf/klussen/
-                            - text: Klussen
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/sf/elektrisch-gereedschap/
-                            - text: Elektrisch gereedschap
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/sf/werkkleding-bescherming/
-                            - text: Werkkleding & Bescherming
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/verfspullen/13261/
-                            - text: Verfspullen
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/behang/13271/
-                            - text: Behang
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/sf/bouwmaterialen/
-                            - text: Bouwmaterialen
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/alle-artikelen/
-                            - text: Sanitair
-                    - listitem:
-                      - heading [level=3]: Mooi & Gezond
-                      - list:
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/verzorgingsproducten/12442/
-                            - text: Verzorging
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/make-up/12383/
-                            - text: Make-up
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/parfum/12428/
-                            - text: Parfum
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/sf/parfum-en-luxe-verzorging/
-                            - text: Luxe & Professionele verzorging
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/giftsets/12687/
-                            - text: Geschenksets
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/sf/gezondheid/
-                            - text: Gezondheid
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/erotiek/12605/
-                            - text: Erotiek
-                - listitem:
-                  - list:
-                    - listitem:
-                      - heading [level=3]: Damesmode
-                      - list:
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/damesmode/46673/
-                            - text: Damesmode
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/dameskleding/47198/
-                            - text: Dameskleding
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/dames-schoenen/37400/
-                            - text: Dames schoenen
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/lingerie/46974/
-                            - text: Lingerie
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/dames-accessoires/46829/
-                            - text: Dames accessoires
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/sieraden-horloges/67198/
-                            - text: Dames sieraden & horloges
-                    - listitem:
-                      - heading [level=3]: Herenmode
-                      - list:
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/herenmode/47024/
-                            - text: Herenmode
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/herenkleding/47410/
-                            - text: Herenkleding
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/heren-schoenen/37401/
-                            - text: Heren schoenen
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/heren-ondergoed/47173/
-                            - text: Heren ondergoed
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/heren-accessoires/47102/
-                            - text: Heren accessoires
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/sieraden-horloges/67199/
-                            - text: Heren sieraden & horloges
-                    - listitem:
-                      - heading [level=3]: Baby & Kind
-                      - list:
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/sf/baby/
-                            - text: Baby & Kind
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/babykamers/11286/
-                            - text: Babykamer
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/onderweg/11272/
-                            - text: Onderweg
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/babyverzorging/11306/
-                            - text: Babyverzorging
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/babykleding/21357/
-                            - text: Babykleding
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/kindermode/16947/
-                            - text: Kinderkleding
-                - listitem:
-                  - list:
-                    - listitem:
-                      - heading [level=3]: Eten & Drinken
-                      - list:
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/sf/eten-drinken/
-                            - text: Eten & Drinken
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/sf/koffiewinkel/
-                            - text: Koffie
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/thee/20616/
-                            - text: Thee
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/alcoholvrije-drank-en-accessoires/64414/
-                            - text: Frisdranken
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/koek-en-chocolade/63490/
-                            - text: Snoep, Koek, Chocolade
-                    - listitem:
-                      - heading [level=3]: Auto & Motor
-                      - list:
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/auto-motor/43646/
-                            - text: Auto & Motor
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/autoaccessoires/43647/
-                            - text: Auto-accessoires
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/auto-onderhoud/43649/
-                            - text: Auto-onderhoud
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/auto-onderdelen/43648/
-                            - text: Auto-onderdelen
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/motoraccessoires/43650/
-                            - text: Motoraccessoires
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/motorkleding/43652/
-                            - text: Motorkleding
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/motoronderhoud-onderdelen/43651/
-                            - text: Motoronderhoud & -onderdelen
-                    - listitem:
-                      - heading [level=3]: School & Kantoor
-                      - list:
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/kantoorartikelen/51820/
-                            - text: Kantoorartikelen
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/-/10571/
-                            - text: Schoolspullen
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/dagboeken-vriendenboekjes/31133/
-                            - text: Dagboeken & Vriendenboeken
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/wenskaarten/25960/
-                            - text: Wenskaarten
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/tijdschriften-puzzelboeken/54827/
-                            - text: Tijdschriften & Puzzelboeken
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/fotoalbums-accessoires/21024/
-                            - text: Fotoalbums & Accessoires
-                        - listitem:
-                          - link:
-                            - /url: /be/nl/l/cadeauverpakkingen-cadeaupapier/26013/
-                            - text: Cadeaupapier & Verpakkingen
-    - contentinfo:
-      - generic:
-        - generic:
-          - generic:
-            - heading [level=2]: Service & contact
-          - generic:
-            - figure:
-              - img
-            - generic:
-              - heading [level=3]:
-                - strong: Snel regelen in je account
-              - paragraph:
-                - link:
-                  - /url: /be/nl/rnwy/account/bestellingen/overzicht
-                  - text: Volg je bestelling
-                - text: ","
-                - link:
-                  - /url: /be/nl/rnwy/account/facturen
-                  - text: betaal facturen
-                - text: of
-                - link:
-                  - /url: /be/nl/account/retourneren/overzicht
-                  - text: retourneer een artikel
-                - text: .
-          - generic:
-            - figure:
-              - img
-            - generic:
-              - heading [level=3]:
-                - strong: Heb je ons nodig?
-              - paragraph:
-                - text: We helpen je graag.
-                - link:
-                  - /url: /be/nl/m/klantenservice
-                  - text: Onze klantenservice
-                - text: is dag en nacht open.
-      - generic:
-        - list:
-          - listitem:
-            - heading [level=3]:
-              - link:
+                        - img
+                    - button "In winkelwagen" [ref=e2189] [cursor=pointer]:
+                      - img [ref=e2191] [cursor=pointer]
+                      - img [ref=e2194] [cursor=pointer]
+            - generic [ref=e2199]:
+              - generic [ref=e2200]:
+                - generic [ref=e2202]:
+                  - link "LEGO Friends Emma's Magische Koffer -30414 (polybag)" [ref=e2203] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-friends-emma-s-magische-koffer-30414/9300000043029649/
+                    - img "LEGO Friends Emma's Magische Koffer -30414 (polybag)" [ref=e2205] [cursor=pointer]
+                  - button "Op je verlanglijstje" [ref=e2206] [cursor=pointer]:
+                    - img [ref=e2208] [cursor=pointer]
+                - generic [ref=e2211]:
+                  - checkbox "Vergelijk met andere artikelen" [ref=e2212] [cursor=pointer]
+                  - generic [ref=e2213] [cursor=pointer]: Vergelijk met andere artikelen
+              - generic [ref=e2214]:
+                - generic [ref=e2215]:
+                  - list [ref=e2217]:
+                    - listitem [ref=e2218]:
+                      - link "LEGO" [ref=e2219] [cursor=pointer]:
+                        - /url: /be/nl/pb/lego/4648554/
+                  - link "LEGO Friends Emma's Magische Koffer -30414 (polybag)" [ref=e2220] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-friends-emma-s-magische-koffer-30414/9300000043029649/
+                    - heading "LEGO Friends Emma's Magische Koffer -30414 (polybag)" [level=2] [ref=e2221] [cursor=pointer]
+                  - list [ref=e2222]:
+                    - listitem [ref=e2223]: 67 onderdelen
+                    - listitem [ref=e2224]: "| Geen minifiguren"
+                    - listitem [ref=e2225]: "| 2023"
+                  - generic [ref=e2227]:
+                    - img "Gemiddeld 5 van de 5 sterren uit 2 reviews" [ref=e2228]:
+                      - img [ref=e2229]:
+                        - img [ref=e2231]
+                        - img [ref=e2235]
+                      - img [ref=e2237]:
+                        - img [ref=e2239]
+                        - img [ref=e2243]
+                      - img [ref=e2245]:
+                        - img [ref=e2247]
+                        - img [ref=e2251]
+                      - img [ref=e2253]:
+                        - img [ref=e2255]
+                        - img [ref=e2259]
+                      - img [ref=e2261]:
+                        - img [ref=e2263]
+                        - img [ref=e2267]
+                    - paragraph [ref=e2269]:
+                      - generic [ref=e2270]:
+                        - text: (
+                        - generic [ref=e2271]: "2"
+                        - text: )
+                  - paragraph [ref=e2272]: Lego Bags 30414 Emma's Magische Doos Laat kinderen allerlei leuke trucjes uitvoeren met LEGO Friends...
+                - generic [ref=e2273]:
+                  - generic [ref=e2274]:
+                    - generic [ref=e2275]:
+                      - heading "Prijsinformatie en bestellen" [level=2] [ref=e2276]
+                      - generic [ref=e2280]:
+                        - generic [ref=e2281]: De prijs van dit product is '5' euro en '99' cent
+                        - generic [ref=e2282]: "5"
+                        - generic [ref=e2283]: ","
+                        - generic [ref=e2284]: "99"
+                    - generic [ref=e2286]:
+                      - generic [ref=e2287]: 1 - 2 weken
+                      - button "Toon meer informatie over levertijd" [ref=e2289]:
+                        - img [ref=e2291]
+                    - button "Verkoop door Starbricks95 Belgie Wat je kan verwachten" [ref=e2295] [cursor=pointer]:
+                      - generic [ref=e2296] [cursor=pointer]:
+                        - generic [ref=e2297] [cursor=pointer]:
+                          - generic [ref=e2298] [cursor=pointer]: Verkoop door
+                          - generic [ref=e2299] [cursor=pointer]: Starbricks95 Belgie
+                        - generic [ref=e2300] [cursor=pointer]: Wat je kan verwachten
+                  - button "In winkelwagen" [ref=e2304] [cursor=pointer]:
+                    - img [ref=e2306] [cursor=pointer]
+                    - img [ref=e2309] [cursor=pointer]
+            - generic [ref=e2314]:
+              - generic [ref=e2315]:
+                - generic [ref=e2317]:
+                  - link "LEGO Disney Princess 30695 - Het mini tuinkasteel van Assepoester" [ref=e2318] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-het-mini-tuinkasteel-van-assepoester-30695/9300000221571834/
+                    - img "LEGO Disney Princess 30695 - Het mini tuinkasteel van Assepoester" [ref=e2320] [cursor=pointer]
+                  - button "Op je verlanglijstje" [ref=e2321] [cursor=pointer]:
+                    - img [ref=e2323] [cursor=pointer]
+                - generic [ref=e2326]:
+                  - checkbox "Vergelijk met andere artikelen" [ref=e2327] [cursor=pointer]
+                  - generic [ref=e2328] [cursor=pointer]: Vergelijk met andere artikelen
+              - generic [ref=e2329]:
+                - generic [ref=e2330]:
+                  - list [ref=e2332]:
+                    - listitem [ref=e2333]:
+                      - link "LEGO" [ref=e2334] [cursor=pointer]:
+                        - /url: /be/nl/pb/lego/4648554/
+                    - listitem [ref=e2335]:
+                      - text: "&"
+                      - link "Assepoester" [ref=e2336] [cursor=pointer]:
+                        - /url: /be/nl/b/speelgoed-assepoester/1330123+7934/
+                    - listitem [ref=e2337]:
+                      - text: "&"
+                      - link "Disney Princess" [ref=e2338] [cursor=pointer]:
+                        - /url: /be/nl/b/speelgoed-disney-princess/3509533+7934/
+                  - link "LEGO Disney Princess 30695 - Het mini tuinkasteel van Assepoester" [ref=e2339] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-het-mini-tuinkasteel-van-assepoester-30695/9300000221571834/
+                    - heading "LEGO Disney Princess 30695 - Het mini tuinkasteel van Assepoester" [level=2] [ref=e2340] [cursor=pointer]
+                  - list [ref=e2341]:
+                    - listitem [ref=e2342]: 52 onderdelen
+                    - listitem [ref=e2343]: "| 1 minifiguren"
+                    - listitem [ref=e2344]: "| 2025"
+                  - paragraph [ref=e2345]: Fans van Assepoester beleven hun eigen prinsessen-avonturen met deze leuke LEGO Disney Princess mini...
+                - generic [ref=e2346]:
+                  - generic [ref=e2347]:
+                    - generic [ref=e2348]:
+                      - heading "Prijsinformatie en bestellen" [level=2] [ref=e2349]
+                      - generic [ref=e2353]:
+                        - generic [ref=e2354]: De prijs van dit product is '6' euro en '00' cent
+                        - generic [ref=e2355]: "6"
+                        - generic [ref=e2356]: ","
+                        - generic [ref=e2357]: "-"
+                    - generic [ref=e2358]:
+                      - generic [ref=e2359]:
+                        - paragraph [ref=e2360]:
+                          - text: Meestal
+                          - generic [ref=e2361]: 7,99
+                        - button [ref=e2363]:
+                          - img [ref=e2365]
+                        - generic [ref=e2368]: "7.99"
+                      - strong [ref=e2371]: Je bespaart 25%
+                    - generic [ref=e2372]:
+                      - generic [ref=e2373]:
+                        - generic [ref=e2374]: Huidige voorraad bijna op bij deze verkoper
+                        - generic [ref=e2375]: Select
+                      - generic [ref=e2376]:
+                        - generic [ref=e2377]: Voor 23:59 uur besteld, morgen in huis
+                        - button "Toon meer informatie over levertijd" [ref=e2379]:
+                          - img [ref=e2381]
+                    - button "Verkoop door JB-Bricks Wat je kan verwachten" [ref=e2385] [cursor=pointer]:
+                      - generic [ref=e2386] [cursor=pointer]:
+                        - generic [ref=e2387] [cursor=pointer]:
+                          - generic [ref=e2388] [cursor=pointer]: Verkoop door
+                          - generic [ref=e2389] [cursor=pointer]: JB-Bricks
+                        - generic [ref=e2390] [cursor=pointer]: Wat je kan verwachten
+                  - button "In winkelwagen" [ref=e2394] [cursor=pointer]:
+                    - img [ref=e2396] [cursor=pointer]
+                    - img [ref=e2399] [cursor=pointer]
+            - generic [ref=e2404]:
+              - generic [ref=e2405]:
+                - generic [ref=e2407]:
+                  - link "LEGO Creator Pasen 30690 - Paasei Schilderen met Kuiken (paperbag)" [ref=e2408] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-creator-30690-paasei-schilderen-met-kuiken/9300000225436247/
+                    - img "LEGO Creator Pasen 30690 - Paasei Schilderen met Kuiken (paperbag)" [ref=e2410] [cursor=pointer]
+                  - button "Op je verlanglijstje" [ref=e2411] [cursor=pointer]:
+                    - img [ref=e2413] [cursor=pointer]
+                - generic [ref=e2416]:
+                  - checkbox "Vergelijk met andere artikelen" [ref=e2417] [cursor=pointer]
+                  - generic [ref=e2418] [cursor=pointer]: Vergelijk met andere artikelen
+              - generic [ref=e2419]:
+                - generic [ref=e2420]:
+                  - list [ref=e2422]:
+                    - listitem [ref=e2423]:
+                      - link "LEGO" [ref=e2424] [cursor=pointer]:
+                        - /url: /be/nl/pb/lego/4648554/
+                  - link "LEGO Creator Pasen 30690 - Paasei Schilderen met Kuiken (paperbag)" [ref=e2425] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-creator-30690-paasei-schilderen-met-kuiken/9300000225436247/
+                    - heading "LEGO Creator Pasen 30690 - Paasei Schilderen met Kuiken (paperbag)" [level=2] [ref=e2426] [cursor=pointer]
+                  - list [ref=e2427]:
+                    - listitem [ref=e2428]: 65 onderdelen
+                    - listitem [ref=e2429]: "| 0 minifiguren"
+                    - listitem [ref=e2430]: "| 2023"
+                  - paragraph [ref=e2431]: Vier de paasdagen met deze leuke LEGO Creator 30690 Paasei Schilderen met Kuiken speelset van een schattig...
+                - generic [ref=e2432]:
+                  - generic [ref=e2433]:
+                    - generic [ref=e2434]:
+                      - heading "Prijsinformatie en bestellen" [level=2] [ref=e2435]
+                      - generic [ref=e2439]:
+                        - generic [ref=e2440]: De prijs van dit product is '6' euro en '46' cent
+                        - generic [ref=e2441]: "6"
+                        - generic [ref=e2442]: ","
+                        - generic [ref=e2443]: "46"
+                    - generic [ref=e2444]: Of bespaar 15% als je er 6 koopt
+                    - generic [ref=e2446]:
+                      - generic [ref=e2447]: Uiterlijk 5 september in huis
+                      - button "Toon meer informatie over levertijd" [ref=e2449]:
+                        - img [ref=e2451]
+                    - button "Verkoop door DVDOutlet.nl BE Wat je kan verwachten" [ref=e2455] [cursor=pointer]:
+                      - generic [ref=e2456] [cursor=pointer]:
+                        - generic [ref=e2457] [cursor=pointer]:
+                          - generic [ref=e2458] [cursor=pointer]: Verkoop door
+                          - generic [ref=e2459] [cursor=pointer]: DVDOutlet.nl BE
+                        - generic [ref=e2460] [cursor=pointer]: Wat je kan verwachten
+                  - generic [ref=e2461]:
+                    - link "Bekijk en bestel" [ref=e2463] [cursor=pointer]:
+                      - /url: /be/nl/p/lego-creator-30690-paasei-schilderen-met-kuiken/9300000225436247/
+                      - img [ref=e2465] [cursor=pointer]
+                      - text: Bekijk en bestel
+                    - paragraph [ref=e2471]:
+                      - link "Meer verkopers" [ref=e2472] [cursor=pointer]:
+                        - /url: /be/nl/prijsoverzicht/lego-creator-30690-paasei-schilderen-met-kuiken/9300000225436247/?filter=new&sort=price&sortOrder=asc&suggestionType=browse
+                      - text: vanaf
+                      - strong [ref=e2473]: 6,12
+                      - text: per stuk
+            - generic [ref=e2476]:
+              - generic [ref=e2477]:
+                - generic [ref=e2479]:
+                  - link "LEGO City Space 30694 - Ruimtewetenschaps mecha (polybag)" [ref=e2480] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-city-space-30694-ruimtewetenschapsmecha/9300000221596454/
+                    - img "LEGO City Space 30694 - Ruimtewetenschaps mecha (polybag)" [ref=e2482] [cursor=pointer]
+                  - button "Op je verlanglijstje" [ref=e2483] [cursor=pointer]:
+                    - img [ref=e2485] [cursor=pointer]
+                - generic [ref=e2488]:
+                  - checkbox "Vergelijk met andere artikelen" [ref=e2489] [cursor=pointer]
+                  - generic [ref=e2490] [cursor=pointer]: Vergelijk met andere artikelen
+              - generic [ref=e2491]:
+                - generic [ref=e2492]:
+                  - list [ref=e2494]:
+                    - listitem [ref=e2495]:
+                      - link "LEGO" [ref=e2496] [cursor=pointer]:
+                        - /url: /be/nl/pb/lego/4648554/
+                  - link "LEGO City Space 30694 - Ruimtewetenschaps mecha (polybag)" [ref=e2497] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-city-space-30694-ruimtewetenschapsmecha/9300000221596454/
+                    - heading "LEGO City Space 30694 - Ruimtewetenschaps mecha (polybag)" [level=2] [ref=e2498] [cursor=pointer]
+                  - list [ref=e2499]:
+                    - listitem [ref=e2500]: 49 onderdelen
+                    - listitem [ref=e2501]: "| 0 minifiguren"
+                    - listitem [ref=e2502]: "| 2023"
+                  - paragraph [ref=e2503]: Trakteer een jonge ruimtefan op deze futuristische LEGO® City Ruimtewetenschapsmecha met grijphanden...
+                - generic [ref=e2504]:
+                  - generic [ref=e2505]:
+                    - generic [ref=e2506]:
+                      - heading "Prijsinformatie en bestellen" [level=2] [ref=e2507]
+                      - generic [ref=e2511]:
+                        - generic [ref=e2512]: De prijs van dit product is '6' euro en '25' cent
+                        - generic [ref=e2513]: "6"
+                        - generic [ref=e2514]: ","
+                        - generic [ref=e2515]: "25"
+                    - generic [ref=e2517]:
+                      - generic [ref=e2518]: 1 - 2 weken
+                      - button "Toon meer informatie over levertijd" [ref=e2520]:
+                        - img [ref=e2522]
+                    - button "Verkoop door Starbricks95 Belgie Wat je kan verwachten" [ref=e2526] [cursor=pointer]:
+                      - generic [ref=e2527] [cursor=pointer]:
+                        - generic [ref=e2528] [cursor=pointer]:
+                          - generic [ref=e2529] [cursor=pointer]: Verkoop door
+                          - generic [ref=e2530] [cursor=pointer]: Starbricks95 Belgie
+                        - generic [ref=e2531] [cursor=pointer]: Wat je kan verwachten
+                  - button "In winkelwagen" [ref=e2535] [cursor=pointer]:
+                    - img [ref=e2537] [cursor=pointer]
+                    - img [ref=e2540] [cursor=pointer]
+            - generic [ref=e2545]:
+              - generic [ref=e2546]:
+                - generic [ref=e2548]:
+                  - link "Biobuddi MIX van 3500 bouwstenen (compatible met o.a. LEGO) meer dan 3,5 kg in grote volle 10 liter emmer + 6 x bouwplaat 25.5 cm x 25.5 cm" [ref=e2549] [cursor=pointer]:
+                    - /url: /be/nl/p/biobuddi-mix-van-3500-bouwstenen-meer-dan-3-5-kg-in-grote-volle-10-liter-emmer-6-x-bouwplaat-25-5-cm-x-25-5-cm/9300000173222522/
+                    - img "Biobuddi MIX van 3500 bouwstenen (compatible met o.a. LEGO) meer dan 3,5 kg in grote volle 10 liter emmer + 6 x bouwplaat 25.5 cm x 25.5 cm" [ref=e2551] [cursor=pointer]
+                  - button "Op je verlanglijstje" [ref=e2552] [cursor=pointer]:
+                    - img [ref=e2554] [cursor=pointer]
+                - generic [ref=e2557]:
+                  - checkbox "Vergelijk met andere artikelen" [ref=e2558] [cursor=pointer]
+                  - generic [ref=e2559] [cursor=pointer]: Vergelijk met andere artikelen
+              - generic [ref=e2560]:
+                - generic [ref=e2561]:
+                  - button "Gesponsord" [ref=e2563] [cursor=pointer]:
+                    - generic [ref=e2564] [cursor=pointer]:
+                      - generic [ref=e2565] [cursor=pointer]: Gesponsord
+                      - img [ref=e2566] [cursor=pointer]
+                  - list [ref=e2569]:
+                    - listitem [ref=e2570]:
+                      - link "BiOBUDDi" [ref=e2571] [cursor=pointer]:
+                        - /url: /be/nl/b/speelgoed-biobuddi/16337125+7934/
+                  - link "Biobuddi MIX van 3500 bouwstenen (compatible met o.a. LEGO) meer dan 3,5 kg in grote volle 10 liter emmer + 6 x bouwplaat 25.5 cm x 25.5 cm" [ref=e2572] [cursor=pointer]:
+                    - /url: /be/nl/p/biobuddi-mix-van-3500-bouwstenen-meer-dan-3-5-kg-in-grote-volle-10-liter-emmer-6-x-bouwplaat-25-5-cm-x-25-5-cm/9300000173222522/
+                    - heading "Biobuddi MIX van 3500 bouwstenen (compatible met o.a. LEGO) meer dan 3,5 kg in grote volle 10 liter emmer + 6 x bouwplaat 25.5 cm x 25.5 cm" [level=2] [ref=e2573] [cursor=pointer]
+                  - list [ref=e2574]:
+                    - listitem [ref=e2575]: 3500 onderdelen
+                    - listitem [ref=e2576]: "| Geen minifiguren"
+                  - generic [ref=e2578]:
+                    - img "Gemiddeld 4 van de 5 sterren uit 1 reviews" [ref=e2579]:
+                      - img [ref=e2580]:
+                        - img [ref=e2582]
+                        - img [ref=e2586]
+                      - img [ref=e2588]:
+                        - img [ref=e2590]
+                        - img [ref=e2594]
+                      - img [ref=e2596]:
+                        - img [ref=e2598]
+                        - img [ref=e2602]
+                      - img [ref=e2604]:
+                        - img [ref=e2606]
+                        - img [ref=e2610]
+                      - img [ref=e2612]:
+                        - img [ref=e2614]
+                        - img [ref=e2616]
+                    - paragraph [ref=e2618]:
+                      - generic [ref=e2619]:
+                        - text: (
+                        - generic [ref=e2620]: "1"
+                        - text: )
+                  - paragraph [ref=e2621]: Biobuddi Mix van Ongeveer 3500 Stenen 3,5 Kilo (Compatible met o. a. Lego) in Emmer tevens krijg je er...
+                - generic [ref=e2622]:
+                  - generic [ref=e2623]:
+                    - generic [ref=e2624]:
+                      - heading "Prijsinformatie en bestellen" [level=2] [ref=e2625]
+                      - generic [ref=e2629]:
+                        - generic [ref=e2630]: De prijs van dit product is '79' euro en '00' cent
+                        - generic [ref=e2631]: "79"
+                        - generic [ref=e2632]: ","
+                        - generic [ref=e2633]: "-"
+                    - generic [ref=e2634]: Of bespaar 18% als je er 6 koopt
+                    - generic [ref=e2635]:
+                      - generic [ref=e2637]: Op voorraad
+                      - generic [ref=e2638]:
+                        - generic [ref=e2639]: Voor 15:00 uur besteld, morgen in huis
+                        - button "Toon meer informatie over levertijd" [ref=e2641]:
+                          - img [ref=e2643]
+                    - button "Verkoop door Bestprices4goods Wat je kan verwachten" [ref=e2647] [cursor=pointer]:
+                      - generic [ref=e2648] [cursor=pointer]:
+                        - generic [ref=e2649] [cursor=pointer]:
+                          - generic [ref=e2650] [cursor=pointer]: Verkoop door
+                          - generic [ref=e2651] [cursor=pointer]: Bestprices4goods
+                        - generic [ref=e2652] [cursor=pointer]: Wat je kan verwachten
+                  - link "Bekijk en bestel" [ref=e2655] [cursor=pointer]:
+                    - /url: /be/nl/p/biobuddi-mix-van-3500-bouwstenen-meer-dan-3-5-kg-in-grote-volle-10-liter-emmer-6-x-bouwplaat-25-5-cm-x-25-5-cm/9300000173222522/
+                    - img [ref=e2657] [cursor=pointer]
+                    - text: Bekijk en bestel
+            - generic [ref=e2662]:
+              - generic [ref=e2663]:
+                - generic [ref=e2665]:
+                  - link "LEGO Disney Princess Asha's welkomstkraampje - 30661" [ref=e2666] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-disney-princess-30661-asha-s-welkomstkraampje/9300000169177453/
+                    - img "LEGO Disney Princess Asha's welkomstkraampje - 30661" [ref=e2668] [cursor=pointer]
+                  - button "Op je verlanglijstje" [ref=e2669] [cursor=pointer]:
+                    - img [ref=e2671] [cursor=pointer]
+                - generic [ref=e2674]:
+                  - checkbox "Vergelijk met andere artikelen" [ref=e2675] [cursor=pointer]
+                  - generic [ref=e2676] [cursor=pointer]: Vergelijk met andere artikelen
+              - generic [ref=e2677]:
+                - generic [ref=e2678]:
+                  - list [ref=e2680]:
+                    - listitem [ref=e2681]:
+                      - link "LEGO" [ref=e2682] [cursor=pointer]:
+                        - /url: /be/nl/pb/lego/4648554/
+                    - listitem [ref=e2683]:
+                      - text: "&"
+                      - link "LEGO" [ref=e2684] [cursor=pointer]:
+                        - /url: /be/nl/pb/lego/4648554/
+                    - listitem [ref=e2685]:
+                      - text: "&"
+                      - link "Disney Princess" [ref=e2686] [cursor=pointer]:
+                        - /url: /be/nl/b/speelgoed-disney-princess/3509533+7934/
+                  - link "LEGO Disney Princess Asha's welkomstkraampje - 30661" [ref=e2687] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-disney-princess-30661-asha-s-welkomstkraampje/9300000169177453/
+                    - heading "LEGO Disney Princess Asha's welkomstkraampje - 30661" [level=2] [ref=e2688] [cursor=pointer]
+                  - list [ref=e2689]:
+                    - listitem [ref=e2690]: 46 onderdelen
+                    - listitem [ref=e2691]: "| 1 minifiguren"
+                    - listitem [ref=e2692]: "| 2024"
+                  - generic [ref=e2694]:
+                    - img "Gemiddeld 5 van de 5 sterren uit 1 reviews" [ref=e2695]:
+                      - img [ref=e2696]:
+                        - img [ref=e2698]
+                        - img [ref=e2702]
+                      - img [ref=e2704]:
+                        - img [ref=e2706]
+                        - img [ref=e2710]
+                      - img [ref=e2712]:
+                        - img [ref=e2714]
+                        - img [ref=e2718]
+                      - img [ref=e2720]:
+                        - img [ref=e2722]
+                        - img [ref=e2726]
+                      - img [ref=e2728]:
+                        - img [ref=e2730]
+                        - img [ref=e2734]
+                    - paragraph [ref=e2736]:
+                      - generic [ref=e2737]:
+                        - text: (
+                        - generic [ref=e2738]: "1"
+                        - text: )
+                  - paragraph [ref=e2739]: Prikkel de fantasie van fans van de Disney film Wish met deze bouwbare set, inclusief een welkomstkraampje...
+                - generic [ref=e2740]:
+                  - generic [ref=e2741]:
+                    - generic [ref=e2742]:
+                      - heading "Prijsinformatie en bestellen" [level=2] [ref=e2743]
+                      - generic [ref=e2747]:
+                        - generic [ref=e2748]: De prijs van dit product is '6' euro en '25' cent
+                        - generic [ref=e2749]: "6"
+                        - generic [ref=e2750]: ","
+                        - generic [ref=e2751]: "25"
+                    - generic [ref=e2753]:
+                      - generic [ref=e2754]: 1 - 2 weken
+                      - button "Toon meer informatie over levertijd" [ref=e2756]:
+                        - img [ref=e2758]
+                    - button "Verkoop door Starbricks95 Belgie Wat je kan verwachten" [ref=e2762] [cursor=pointer]:
+                      - generic [ref=e2763] [cursor=pointer]:
+                        - generic [ref=e2764] [cursor=pointer]:
+                          - generic [ref=e2765] [cursor=pointer]: Verkoop door
+                          - generic [ref=e2766] [cursor=pointer]: Starbricks95 Belgie
+                        - generic [ref=e2767] [cursor=pointer]: Wat je kan verwachten
+                  - button "In winkelwagen" [ref=e2771] [cursor=pointer]:
+                    - img [ref=e2773] [cursor=pointer]
+                    - img [ref=e2776] [cursor=pointer]
+            - generic [ref=e2781]:
+              - generic [ref=e2782]:
+                - generic [ref=e2784]:
+                  - link "LEGO City 30570 - Wildlife Rescue Hovercraft (polybag)" [ref=e2785] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-city-30570-wildlife-rescue-hovercraft/9300000043029655/
+                    - img "LEGO City 30570 - Wildlife Rescue Hovercraft (polybag)" [ref=e2787] [cursor=pointer]
+                  - button "Op je verlanglijstje" [ref=e2788] [cursor=pointer]:
+                    - img [ref=e2790] [cursor=pointer]
+                - generic [ref=e2793]:
+                  - checkbox "Vergelijk met andere artikelen" [ref=e2794] [cursor=pointer]
+                  - generic [ref=e2795] [cursor=pointer]: Vergelijk met andere artikelen
+              - generic [ref=e2796]:
+                - generic [ref=e2797]:
+                  - list [ref=e2799]:
+                    - listitem [ref=e2800]:
+                      - link "LEGO" [ref=e2801] [cursor=pointer]:
+                        - /url: /be/nl/pb/lego/4648554/
+                  - link "LEGO City 30570 - Wildlife Rescue Hovercraft (polybag)" [ref=e2802] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-city-30570-wildlife-rescue-hovercraft/9300000043029655/
+                    - heading "LEGO City 30570 - Wildlife Rescue Hovercraft (polybag)" [level=2] [ref=e2803] [cursor=pointer]
+                  - list [ref=e2804]:
+                    - listitem [ref=e2805]: 29 onderdelen
+                    - listitem [ref=e2806]: "| 1 minifiguren"
+                    - listitem [ref=e2807]: "| 2021"
+                  - generic [ref=e2809]:
+                    - img "Gemiddeld 4.5 van de 5 sterren uit 34 reviews" [ref=e2810]:
+                      - img [ref=e2811]:
+                        - img [ref=e2813]
+                        - img [ref=e2817]
+                      - img [ref=e2819]:
+                        - img [ref=e2821]
+                        - img [ref=e2825]
+                      - img [ref=e2827]:
+                        - img [ref=e2829]
+                        - img [ref=e2833]
+                      - img [ref=e2835]:
+                        - img [ref=e2837]
+                        - img [ref=e2841]
+                      - img [ref=e2843]:
+                        - img [ref=e2845]
+                        - img [ref=e2849]
+                    - paragraph [ref=e2851]:
+                      - generic [ref=e2852]:
+                        - text: (
+                        - generic [ref=e2853]: "34"
+                        - text: )
+                  - paragraph [ref=e2854]: Lego Bags 30570 Wildlife Rescue Hovercraft Laat kinderen kennismaken met de spannende wereld van wilde...
+                - generic [ref=e2855]:
+                  - generic [ref=e2856]:
+                    - generic [ref=e2857]:
+                      - heading "Prijsinformatie en bestellen" [level=2] [ref=e2858]
+                      - generic [ref=e2862]:
+                        - generic [ref=e2863]: De prijs van dit product is '6' euro en '29' cent
+                        - generic [ref=e2864]: "6"
+                        - generic [ref=e2865]: ","
+                        - generic [ref=e2866]: "29"
+                    - generic [ref=e2867]:
+                      - generic [ref=e2868]:
+                        - paragraph [ref=e2869]:
+                          - text: Meestal
+                          - generic [ref=e2870]: 8,90
+                        - button [ref=e2872]:
+                          - img [ref=e2874]
+                        - generic [ref=e2877]: "8.90"
+                      - strong [ref=e2880]: Je bespaart 29%
+                    - generic [ref=e2882]:
+                      - generic [ref=e2883]: 1 - 2 weken
+                      - button "Toon meer informatie over levertijd" [ref=e2885]:
+                        - img [ref=e2887]
+                    - button "Verkoop door Starbricks95 Belgie Wat je kan verwachten" [ref=e2891] [cursor=pointer]:
+                      - generic [ref=e2892] [cursor=pointer]:
+                        - generic [ref=e2893] [cursor=pointer]:
+                          - generic [ref=e2894] [cursor=pointer]: Verkoop door
+                          - generic [ref=e2895] [cursor=pointer]: Starbricks95 Belgie
+                        - generic [ref=e2896] [cursor=pointer]: Wat je kan verwachten
+                  - button "In winkelwagen" [ref=e2900] [cursor=pointer]:
+                    - img [ref=e2902] [cursor=pointer]
+                    - img [ref=e2905] [cursor=pointer]
+            - generic [ref=e2910]:
+              - generic [ref=e2911]:
+                - generic [ref=e2913]:
+                  - link "LEGO NEXO KNIGHTS NEXO Krachten Combiset 1 - 70372" [ref=e2914] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-nexo-knights-nexo-krachten-combiset-1-70372/9200000065981160/
+                    - img "LEGO NEXO KNIGHTS NEXO Krachten Combiset 1 - 70372" [ref=e2916] [cursor=pointer]
+                  - button "Op je verlanglijstje" [ref=e2917] [cursor=pointer]:
+                    - img [ref=e2919] [cursor=pointer]
+                - generic [ref=e2922]:
+                  - checkbox "Vergelijk met andere artikelen" [ref=e2923] [cursor=pointer]
+                  - generic [ref=e2924] [cursor=pointer]: Vergelijk met andere artikelen
+              - generic [ref=e2925]:
+                - generic [ref=e2926]:
+                  - list [ref=e2928]:
+                    - listitem [ref=e2929]:
+                      - link "LEGO" [ref=e2930] [cursor=pointer]:
+                        - /url: /be/nl/pb/lego/4648554/
+                    - listitem [ref=e2931]:
+                      - text: "&"
+                      - link "LEGO" [ref=e2932] [cursor=pointer]:
+                        - /url: /be/nl/pb/lego/4648554/
+                  - link "LEGO NEXO KNIGHTS NEXO Krachten Combiset 1 - 70372" [ref=e2933] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-nexo-knights-nexo-krachten-combiset-1-70372/9200000065981160/
+                    - heading "LEGO NEXO KNIGHTS NEXO Krachten Combiset 1 - 70372" [level=2] [ref=e2934] [cursor=pointer]
+                  - list [ref=e2935]:
+                    - listitem [ref=e2936]: 10 onderdelen
+                    - listitem [ref=e2937]: "| Geen minifiguren"
+                    - listitem [ref=e2938]: "| 2017"
+                  - paragraph [ref=e2939]: Er zitten vijf NEXO Powers in deze verzegelde 'geheime' verpakking welke ga jij kiezen en combineren...
+                - generic [ref=e2940]:
+                  - generic [ref=e2941]:
+                    - generic [ref=e2942]:
+                      - heading "Prijsinformatie en bestellen" [level=2] [ref=e2943]
+                      - generic [ref=e2947]:
+                        - generic [ref=e2948]: De prijs van dit product is '6' euro en '46' cent
+                        - generic [ref=e2949]: "6"
+                        - generic [ref=e2950]: ","
+                        - generic [ref=e2951]: "46"
+                    - generic [ref=e2952]: Of bespaar 15% als je er 6 koopt
+                    - generic [ref=e2954]:
+                      - generic [ref=e2955]: Uiterlijk 5 september in huis
+                      - button "Toon meer informatie over levertijd" [ref=e2957]:
+                        - img [ref=e2959]
+                    - button "Verkoop door DVDOutlet.nl BE Wat je kan verwachten" [ref=e2963] [cursor=pointer]:
+                      - generic [ref=e2964] [cursor=pointer]:
+                        - generic [ref=e2965] [cursor=pointer]:
+                          - generic [ref=e2966] [cursor=pointer]: Verkoop door
+                          - generic [ref=e2967] [cursor=pointer]: DVDOutlet.nl BE
+                        - generic [ref=e2968] [cursor=pointer]: Wat je kan verwachten
+                  - link "Bekijk en bestel" [ref=e2971] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-nexo-knights-nexo-krachten-combiset-1-70372/9200000065981160/
+                    - img [ref=e2973] [cursor=pointer]
+                    - text: Bekijk en bestel
+            - generic [ref=e2978]:
+              - generic [ref=e2979]:
+                - generic [ref=e2981]:
+                  - link "DUPLO 30324 My Town Surprise (Polybag)" [ref=e2982] [cursor=pointer]:
+                    - /url: /be/nl/p/duplo-30324-my-town-surprise/9200000095339820/
+                    - img "DUPLO 30324 My Town Surprise (Polybag)" [ref=e2984] [cursor=pointer]
+                  - button "Op je verlanglijstje" [ref=e2985] [cursor=pointer]:
+                    - img [ref=e2987] [cursor=pointer]
+                - generic [ref=e2990]:
+                  - checkbox "Vergelijk met andere artikelen" [ref=e2991] [cursor=pointer]
+                  - generic [ref=e2992] [cursor=pointer]: Vergelijk met andere artikelen
+              - generic [ref=e2993]:
+                - generic [ref=e2994]:
+                  - list [ref=e2996]:
+                    - listitem [ref=e2997]:
+                      - link "LEGO" [ref=e2998] [cursor=pointer]:
+                        - /url: /be/nl/pb/lego/4648554/
+                  - link "DUPLO 30324 My Town Surprise (Polybag)" [ref=e2999] [cursor=pointer]:
+                    - /url: /be/nl/p/duplo-30324-my-town-surprise/9200000095339820/
+                    - heading "DUPLO 30324 My Town Surprise (Polybag)" [level=2] [ref=e3000] [cursor=pointer]
+                  - list [ref=e3001]:
+                    - listitem [ref=e3002]: 3 onderdelen
+                    - listitem [ref=e3003]: "| 1 minifiguren"
+                    - listitem [ref=e3004]: "| 2017"
+                  - paragraph [ref=e3005]: Breid je LEGO DUPLO-wereld uit met deze set. In het zakje zitten een LEGO DUPLO-figuur en twee losse...
+                - generic [ref=e3006]:
+                  - generic [ref=e3007]:
+                    - generic [ref=e3008]:
+                      - heading "Prijsinformatie en bestellen" [level=2] [ref=e3009]
+                      - generic [ref=e3013]:
+                        - generic [ref=e3014]: De prijs van dit product is '6' euro en '49' cent
+                        - generic [ref=e3015]: "6"
+                        - generic [ref=e3016]: ","
+                        - generic [ref=e3017]: "49"
+                    - generic [ref=e3019]:
+                      - generic [ref=e3020]: 1 - 2 weken
+                      - button "Toon meer informatie over levertijd" [ref=e3022]:
+                        - img [ref=e3024]
+                    - button "Verkoop door Starbricks95 Belgie Wat je kan verwachten" [ref=e3028] [cursor=pointer]:
+                      - generic [ref=e3029] [cursor=pointer]:
+                        - generic [ref=e3030] [cursor=pointer]:
+                          - generic [ref=e3031] [cursor=pointer]: Verkoop door
+                          - generic [ref=e3032] [cursor=pointer]: Starbricks95 Belgie
+                        - generic [ref=e3033] [cursor=pointer]: Wat je kan verwachten
+                  - button "In winkelwagen" [ref=e3037] [cursor=pointer]:
+                    - img [ref=e3039] [cursor=pointer]
+                    - img [ref=e3042] [cursor=pointer]
+            - generic [ref=e3047]:
+              - generic [ref=e3048]:
+                - generic [ref=e3050]:
+                  - link "LEGO Dots 30557 - Fotohouder Kubus Konijn (polybag)" [ref=e3051] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-dots-30557-fotohouder-kubus/9300000043022886/
+                    - img "LEGO Dots 30557 - Fotohouder Kubus Konijn (polybag)" [ref=e3053] [cursor=pointer]
+                  - button "Op je verlanglijstje" [ref=e3054] [cursor=pointer]:
+                    - img [ref=e3056] [cursor=pointer]
+                - generic [ref=e3059]:
+                  - checkbox "Vergelijk met andere artikelen" [ref=e3060] [cursor=pointer]
+                  - generic [ref=e3061] [cursor=pointer]: Vergelijk met andere artikelen
+              - generic [ref=e3062]:
+                - generic [ref=e3063]:
+                  - list [ref=e3065]:
+                    - listitem [ref=e3066]:
+                      - link "LEGO" [ref=e3067] [cursor=pointer]:
+                        - /url: /be/nl/pb/lego/4648554/
+                  - link "LEGO Dots 30557 - Fotohouder Kubus Konijn (polybag)" [ref=e3068] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-dots-30557-fotohouder-kubus/9300000043022886/
+                    - heading "LEGO Dots 30557 - Fotohouder Kubus Konijn (polybag)" [level=2] [ref=e3069] [cursor=pointer]
+                  - list [ref=e3070]:
+                    - listitem [ref=e3071]: 109 onderdelen
+                    - listitem [ref=e3072]: "| Geen minifiguren"
+                    - listitem [ref=e3073]: "| 2023"
+                  - paragraph [ref=e3074]: Foto kubus konijn Niet geschikt voor kinderen jonger dan 36 maanden, vanwege verstikkingsgevaar door...
+                - generic [ref=e3075]:
+                  - generic [ref=e3076]:
+                    - generic [ref=e3077]:
+                      - heading "Prijsinformatie en bestellen" [level=2] [ref=e3078]
+                      - generic [ref=e3082]:
+                        - generic [ref=e3083]: De prijs van dit product is '6' euro en '75' cent
+                        - generic [ref=e3084]: "6"
+                        - generic [ref=e3085]: ","
+                        - generic [ref=e3086]: "75"
+                    - generic [ref=e3088]:
+                      - generic [ref=e3089]: 1 - 2 weken
+                      - button "Toon meer informatie over levertijd" [ref=e3091]:
+                        - img [ref=e3093]
+                    - button "Verkoop door Starbricks95 Belgie Wat je kan verwachten" [ref=e3097] [cursor=pointer]:
+                      - generic [ref=e3098] [cursor=pointer]:
+                        - generic [ref=e3099] [cursor=pointer]:
+                          - generic [ref=e3100] [cursor=pointer]: Verkoop door
+                          - generic [ref=e3101] [cursor=pointer]: Starbricks95 Belgie
+                        - generic [ref=e3102] [cursor=pointer]: Wat je kan verwachten
+                  - button "In winkelwagen" [ref=e3106] [cursor=pointer]:
+                    - img [ref=e3108] [cursor=pointer]
+                    - img [ref=e3111] [cursor=pointer]
+            - generic [ref=e3116]:
+              - generic [ref=e3117]:
+                - generic [ref=e3119]:
+                  - link "LEGO Ninjago 30593 - Lloyd Suit Mech (Polybag)" [ref=e3120] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-ninjago-30593-lloyd-suit-mech/9300000110400732/
+                    - img "LEGO Ninjago 30593 - Lloyd Suit Mech (Polybag)" [ref=e3122] [cursor=pointer]
+                  - button "Op je verlanglijstje" [ref=e3123] [cursor=pointer]:
+                    - img [ref=e3125] [cursor=pointer]
+                - generic [ref=e3128]:
+                  - checkbox "Vergelijk met andere artikelen" [ref=e3129] [cursor=pointer]
+                  - generic [ref=e3130] [cursor=pointer]: Vergelijk met andere artikelen
+              - generic [ref=e3131]:
+                - generic [ref=e3132]:
+                  - list [ref=e3134]:
+                    - listitem [ref=e3135]:
+                      - link "LEGO" [ref=e3136] [cursor=pointer]:
+                        - /url: /be/nl/pb/lego/4648554/
+                  - link "LEGO Ninjago 30593 - Lloyd Suit Mech (Polybag)" [ref=e3137] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-ninjago-30593-lloyd-suit-mech/9300000110400732/
+                    - heading "LEGO Ninjago 30593 - Lloyd Suit Mech (Polybag)" [level=2] [ref=e3138] [cursor=pointer]
+                  - list [ref=e3139]:
+                    - listitem [ref=e3140]: 55 onderdelen
+                    - listitem [ref=e3141]: "| Geen minifiguren"
+                    - listitem [ref=e3142]: "| 2023"
+                  - generic [ref=e3144]:
+                    - img "Gemiddeld 5 van de 5 sterren uit 1 reviews" [ref=e3145]:
+                      - img [ref=e3146]:
+                        - img [ref=e3148]
+                        - img [ref=e3152]
+                      - img [ref=e3154]:
+                        - img [ref=e3156]
+                        - img [ref=e3160]
+                      - img [ref=e3162]:
+                        - img [ref=e3164]
+                        - img [ref=e3168]
+                      - img [ref=e3170]:
+                        - img [ref=e3172]
+                        - img [ref=e3176]
+                      - img [ref=e3178]:
+                        - img [ref=e3180]
+                        - img [ref=e3184]
+                    - paragraph [ref=e3186]:
+                      - generic [ref=e3187]:
+                        - text: (
+                        - generic [ref=e3188]: "1"
+                        - text: )
+                  - paragraph [ref=e3189]: Lego Bags 30593 Ninjago Lloyd Suit Mech NINJAGO fans zullen het geweldig vinden om te doen alsof ze Lloyd...
+                - generic [ref=e3190]:
+                  - generic [ref=e3191]:
+                    - generic [ref=e3192]:
+                      - heading "Prijsinformatie en bestellen" [level=2] [ref=e3193]
+                      - generic [ref=e3197]:
+                        - generic [ref=e3198]: De prijs van dit product is '6' euro en '75' cent
+                        - generic [ref=e3199]: "6"
+                        - generic [ref=e3200]: ","
+                        - generic [ref=e3201]: "75"
+                    - generic [ref=e3202]:
+                      - generic [ref=e3203]:
+                        - paragraph [ref=e3204]:
+                          - text: Meestal
+                          - generic [ref=e3205]: 7,49
+                        - button [ref=e3207]:
+                          - img [ref=e3209]
+                        - generic [ref=e3212]: "7.49"
+                      - strong [ref=e3215]: Je bespaart 10%
+                    - generic [ref=e3217]:
+                      - generic [ref=e3218]: 1 - 2 weken
+                      - button "Toon meer informatie over levertijd" [ref=e3220]:
+                        - img [ref=e3222]
+                    - button "Verkoop door Starbricks95 Belgie Wat je kan verwachten" [ref=e3226] [cursor=pointer]:
+                      - generic [ref=e3227] [cursor=pointer]:
+                        - generic [ref=e3228] [cursor=pointer]:
+                          - generic [ref=e3229] [cursor=pointer]: Verkoop door
+                          - generic [ref=e3230] [cursor=pointer]: Starbricks95 Belgie
+                        - generic [ref=e3231] [cursor=pointer]: Wat je kan verwachten
+                  - button "In winkelwagen" [ref=e3235] [cursor=pointer]:
+                    - img [ref=e3237] [cursor=pointer]
+                    - img [ref=e3240] [cursor=pointer]
+            - generic [ref=e3245]:
+              - generic [ref=e3246]:
+                - generic [ref=e3248]:
+                  - link "LEGO NINJAGO® Tempelstrijd van Kai en Rapton (polybag) - 30650" [ref=e3249] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-ninjago-tempelstrijd-van-kai-en-rapton-30650/9300000152184944/
+                    - img "LEGO NINJAGO® Tempelstrijd van Kai en Rapton (polybag) - 30650" [ref=e3251] [cursor=pointer]
+                  - button "Op je verlanglijstje" [ref=e3252] [cursor=pointer]:
+                    - img [ref=e3254] [cursor=pointer]
+                - generic [ref=e3257]:
+                  - checkbox "Vergelijk met andere artikelen" [ref=e3258] [cursor=pointer]
+                  - generic [ref=e3259] [cursor=pointer]: Vergelijk met andere artikelen
+              - generic [ref=e3260]:
+                - generic [ref=e3261]:
+                  - list [ref=e3263]:
+                    - listitem [ref=e3264]:
+                      - link "LEGO" [ref=e3265] [cursor=pointer]:
+                        - /url: /be/nl/pb/lego/4648554/
+                    - listitem [ref=e3266]:
+                      - text: "&"
+                      - link "LEGO" [ref=e3267] [cursor=pointer]:
+                        - /url: /be/nl/pb/lego/4648554/
+                  - link "LEGO NINJAGO® Tempelstrijd van Kai en Rapton (polybag) - 30650" [ref=e3268] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-ninjago-tempelstrijd-van-kai-en-rapton-30650/9300000152184944/
+                    - heading "LEGO NINJAGO® Tempelstrijd van Kai en Rapton (polybag) - 30650" [level=2] [ref=e3269] [cursor=pointer]
+                  - list [ref=e3270]:
+                    - listitem [ref=e3271]: 47 onderdelen
+                    - listitem [ref=e3272]: "| Geen minifiguren"
+                    - listitem [ref=e3273]: "| 2023"
+                  - generic [ref=e3275]:
+                    - img "Gemiddeld 4.3 van de 5 sterren uit 3 reviews" [ref=e3276]:
+                      - img [ref=e3277]:
+                        - img [ref=e3279]
+                        - img [ref=e3283]
+                      - img [ref=e3285]:
+                        - img [ref=e3287]
+                        - img [ref=e3291]
+                      - img [ref=e3293]:
+                        - img [ref=e3295]
+                        - img [ref=e3299]
+                      - img [ref=e3301]:
+                        - img [ref=e3303]
+                        - img [ref=e3307]
+                      - img [ref=e3309]:
+                        - img [ref=e3311]
+                        - img [ref=e3315]
+                    - paragraph [ref=e3317]:
+                      - generic [ref=e3318]:
+                        - text: (
+                        - generic [ref=e3319]: "3"
+                        - text: )
+                  - paragraph [ref=e3320]: Het duel van Kai en Rapton in de tempel Niet geschikt voor kinderen jonger dan 36 maanden, vanwege verstikkingsgevaar...
+                - generic [ref=e3321]:
+                  - generic [ref=e3322]:
+                    - generic [ref=e3323]:
+                      - heading "Prijsinformatie en bestellen" [level=2] [ref=e3324]
+                      - generic [ref=e3328]:
+                        - generic [ref=e3329]: De prijs van dit product is '6' euro en '86' cent
+                        - generic [ref=e3330]: "6"
+                        - generic [ref=e3331]: ","
+                        - generic [ref=e3332]: "86"
+                    - generic [ref=e3333]: Of bespaar 15% als je er 6 koopt
+                    - generic [ref=e3335]:
+                      - generic [ref=e3336]: Uiterlijk 5 september in huis
+                      - button "Toon meer informatie over levertijd" [ref=e3338]:
+                        - img [ref=e3340]
+                    - button "Verkoop door DVDOutlet.nl BE Wat je kan verwachten" [ref=e3344] [cursor=pointer]:
+                      - generic [ref=e3345] [cursor=pointer]:
+                        - generic [ref=e3346] [cursor=pointer]:
+                          - generic [ref=e3347] [cursor=pointer]: Verkoop door
+                          - generic [ref=e3348] [cursor=pointer]: DVDOutlet.nl BE
+                        - generic [ref=e3349] [cursor=pointer]: Wat je kan verwachten
+                  - link "Bekijk en bestel" [ref=e3352] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-ninjago-tempelstrijd-van-kai-en-rapton-30650/9300000152184944/
+                    - img [ref=e3354] [cursor=pointer]
+                    - text: Bekijk en bestel
+            - generic [ref=e3359]:
+              - generic [ref=e3360]:
+                - generic [ref=e3362]:
+                  - link "LEGO 30651 Harry Potter Zwerkbal Training Polybag" [ref=e3363] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-30651-harry-potter-zwerkbal-training-polybag/9300000144385962/
+                    - img "LEGO 30651 Harry Potter Zwerkbal Training Polybag" [ref=e3365] [cursor=pointer]
+                  - button "Op je verlanglijstje" [ref=e3366] [cursor=pointer]:
+                    - img [ref=e3368] [cursor=pointer]
+                - generic [ref=e3371]:
+                  - checkbox "Vergelijk met andere artikelen" [ref=e3372] [cursor=pointer]
+                  - generic [ref=e3373] [cursor=pointer]: Vergelijk met andere artikelen
+              - generic [ref=e3374]:
+                - generic [ref=e3375]:
+                  - list [ref=e3377]:
+                    - listitem [ref=e3378]:
+                      - link "Harry Potter" [ref=e3379] [cursor=pointer]:
+                        - /url: /be/nl/b/speelgoed-harry-potter/1666027+7934/
+                    - listitem [ref=e3380]:
+                      - text: "&"
+                      - link "LEGO" [ref=e3381] [cursor=pointer]:
+                        - /url: /be/nl/pb/lego/4648554/
+                  - link "LEGO 30651 Harry Potter Zwerkbal Training Polybag" [ref=e3382] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-30651-harry-potter-zwerkbal-training-polybag/9300000144385962/
+                    - heading "LEGO 30651 Harry Potter Zwerkbal Training Polybag" [level=2] [ref=e3383] [cursor=pointer]
+                  - list [ref=e3384]:
+                    - listitem [ref=e3385]: 55 onderdelen
+                    - listitem [ref=e3386]: "| 1 minifiguren"
+                    - listitem [ref=e3387]: "| 2023"
+                  - generic [ref=e3389]:
+                    - img "Gemiddeld 4 van de 5 sterren uit 4 reviews" [ref=e3390]:
+                      - img [ref=e3391]:
+                        - img [ref=e3393]
+                        - img [ref=e3397]
+                      - img [ref=e3399]:
+                        - img [ref=e3401]
+                        - img [ref=e3405]
+                      - img [ref=e3407]:
+                        - img [ref=e3409]
+                        - img [ref=e3413]
+                      - img [ref=e3415]:
+                        - img [ref=e3417]
+                        - img [ref=e3421]
+                      - img [ref=e3423]:
+                        - img [ref=e3425]
+                        - img [ref=e3427]
+                    - paragraph [ref=e3429]:
+                      - generic [ref=e3430]:
+                        - text: (
+                        - generic [ref=e3431]: "4"
+                        - text: )
+                  - paragraph [ref=e3432]: Harry Potter LEGO Polybag. Jonge heksen, tovenaars en dreuzels trainen hun Zwerkbal™ vaardigheden met...
+                - generic [ref=e3433]:
+                  - generic [ref=e3434]:
+                    - generic [ref=e3435]:
+                      - heading "Prijsinformatie en bestellen" [level=2] [ref=e3436]
+                      - generic [ref=e3440]:
+                        - generic [ref=e3441]: De prijs van dit product is '6' euro en '91' cent
+                        - generic [ref=e3442]: "6"
+                        - generic [ref=e3443]: ","
+                        - generic [ref=e3444]: "91"
+                    - generic [ref=e3445]: Of bespaar 10% als je er 4 koopt
+                    - generic [ref=e3446]:
+                      - generic [ref=e3447]:
+                        - generic [ref=e3448]: Huidige voorraad bijna op bij deze verkoper
+                        - generic [ref=e3449]: Select
+                      - generic [ref=e3450]:
+                        - generic [ref=e3451]: Voor 23:59 uur besteld, morgen in huis
+                        - button "Toon meer informatie over levertijd" [ref=e3453]:
+                          - img [ref=e3455]
+                    - button "Verkoop door JB-Bricks Wat je kan verwachten" [ref=e3459] [cursor=pointer]:
+                      - generic [ref=e3460] [cursor=pointer]:
+                        - generic [ref=e3461] [cursor=pointer]:
+                          - generic [ref=e3462] [cursor=pointer]: Verkoop door
+                          - generic [ref=e3463] [cursor=pointer]: JB-Bricks
+                        - generic [ref=e3464] [cursor=pointer]: Wat je kan verwachten
+                  - link "Bekijk en bestel" [ref=e3467] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-30651-harry-potter-zwerkbal-training-polybag/9300000144385962/
+                    - img [ref=e3469] [cursor=pointer]
+                    - text: Bekijk en bestel
+            - generic [ref=e3474]:
+              - generic [ref=e3475]:
+                - generic [ref=e3477]:
+                  - link "LEGO Harry Potter 30677 - Draco in het Verboden Bos (polybag)" [ref=e3478] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-harry-potter-30677-draco-in-het-verboden-bos/9300000174117952/
+                    - img "LEGO Harry Potter 30677 - Draco in het Verboden Bos (polybag)" [ref=e3480] [cursor=pointer]
+                  - button "Op je verlanglijstje" [ref=e3481] [cursor=pointer]:
+                    - img [ref=e3483] [cursor=pointer]
+                - generic [ref=e3486]:
+                  - checkbox "Vergelijk met andere artikelen" [ref=e3487] [cursor=pointer]
+                  - generic [ref=e3488] [cursor=pointer]: Vergelijk met andere artikelen
+              - generic [ref=e3489]:
+                - generic [ref=e3490]:
+                  - list [ref=e3492]:
+                    - listitem [ref=e3493]:
+                      - link "LEGO" [ref=e3494] [cursor=pointer]:
+                        - /url: /be/nl/pb/lego/4648554/
+                    - listitem [ref=e3495]:
+                      - text: "&"
+                      - link "Harry Potter" [ref=e3496] [cursor=pointer]:
+                        - /url: /be/nl/b/speelgoed-harry-potter/1666027+7934/
+                  - link "LEGO Harry Potter 30677 - Draco in het Verboden Bos (polybag)" [ref=e3497] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-harry-potter-30677-draco-in-het-verboden-bos/9300000174117952/
+                    - heading "LEGO Harry Potter 30677 - Draco in het Verboden Bos (polybag)" [level=2] [ref=e3498] [cursor=pointer]
+                  - list [ref=e3499]:
+                    - listitem [ref=e3500]: 33 onderdelen
+                    - listitem [ref=e3501]: "| 1 minifiguren"
+                    - listitem [ref=e3502]: "| 2023"
+                  - generic [ref=e3504]:
+                    - img "Gemiddeld 4.5 van de 5 sterren uit 2 reviews" [ref=e3505]:
+                      - img [ref=e3506]:
+                        - img [ref=e3508]
+                        - img [ref=e3512]
+                      - img [ref=e3514]:
+                        - img [ref=e3516]
+                        - img [ref=e3520]
+                      - img [ref=e3522]:
+                        - img [ref=e3524]
+                        - img [ref=e3528]
+                      - img [ref=e3530]:
+                        - img [ref=e3532]
+                        - img [ref=e3536]
+                      - img [ref=e3538]:
+                        - img [ref=e3540]
+                        - img [ref=e3544]
+                    - paragraph [ref=e3546]:
+                      - generic [ref=e3547]:
+                        - text: (
+                        - generic [ref=e3548]: "2"
+                        - text: )
+                  - paragraph [ref=e3549]: Prikkel de verbeelding van jonge Harry Potter fans met dit minimodel van het Verboden Bos, een Draco...
+                - generic [ref=e3550]:
+                  - generic [ref=e3551]:
+                    - generic [ref=e3552]:
+                      - heading "Prijsinformatie en bestellen" [level=2] [ref=e3553]
+                      - generic [ref=e3557]:
+                        - generic [ref=e3558]: De prijs van dit product is '6' euro en '99' cent
+                        - generic [ref=e3559]: "6"
+                        - generic [ref=e3560]: ","
+                        - generic [ref=e3561]: "99"
+                    - generic [ref=e3562]: Of bespaar 10% als je er 4 koopt
+                    - generic [ref=e3563]:
+                      - generic [ref=e3564]:
+                        - generic [ref=e3565]: Huidige voorraad bijna op bij deze verkoper
+                        - generic [ref=e3566]: Select
+                      - generic [ref=e3567]:
+                        - generic [ref=e3568]: Voor 23:59 uur besteld, morgen in huis
+                        - button "Toon meer informatie over levertijd" [ref=e3570]:
+                          - img [ref=e3572]
+                    - button "Verkoop door JB-Bricks Wat je kan verwachten" [ref=e3576] [cursor=pointer]:
+                      - generic [ref=e3577] [cursor=pointer]:
+                        - generic [ref=e3578] [cursor=pointer]:
+                          - generic [ref=e3579] [cursor=pointer]: Verkoop door
+                          - generic [ref=e3580] [cursor=pointer]: JB-Bricks
+                        - generic [ref=e3581] [cursor=pointer]: Wat je kan verwachten
+                  - generic [ref=e3582]:
+                    - link "Bekijk en bestel" [ref=e3584] [cursor=pointer]:
+                      - /url: /be/nl/p/lego-harry-potter-30677-draco-in-het-verboden-bos/9300000174117952/
+                      - img [ref=e3586] [cursor=pointer]
+                      - text: Bekijk en bestel
+                    - paragraph [ref=e3592]:
+                      - link "Meer verkopers" [ref=e3593] [cursor=pointer]:
+                        - /url: /be/nl/prijsoverzicht/lego-harry-potter-30677-draco-in-het-verboden-bos/9300000174117952/?filter=new&sort=price&sortOrder=asc&suggestionType=browse
+                      - text: vanaf
+                      - strong [ref=e3594]: 4,99
+                      - text: per stuk
+            - generic [ref=e3597]:
+              - generic [ref=e3598]:
+                - generic [ref=e3600]:
+                  - link "The Lego Movie Giant Eraser - gum" [ref=e3601] [cursor=pointer]:
+                    - /url: /be/nl/p/the-lego-movie-giant-eraser-gum/9200000128234734/
+                    - img "The Lego Movie Giant Eraser - gum" [ref=e3603] [cursor=pointer]
+                  - button "Op je verlanglijstje" [ref=e3604] [cursor=pointer]:
+                    - img [ref=e3606] [cursor=pointer]
+                - generic [ref=e3609]:
+                  - checkbox "Vergelijk met andere artikelen" [ref=e3610] [cursor=pointer]
+                  - generic [ref=e3611] [cursor=pointer]: Vergelijk met andere artikelen
+              - generic [ref=e3612]:
+                - generic [ref=e3613]:
+                  - list [ref=e3615]:
+                    - listitem [ref=e3616]:
+                      - link "The Lego Movie" [ref=e3617] [cursor=pointer]:
+                        - /url: /be/nl/b/speelgoed-the-lego-movie/600013503+7934/
+                  - link "The Lego Movie Giant Eraser - gum" [ref=e3618] [cursor=pointer]:
+                    - /url: /be/nl/p/the-lego-movie-giant-eraser-gum/9200000128234734/
+                    - heading "The Lego Movie Giant Eraser - gum" [level=2] [ref=e3619] [cursor=pointer]
+                  - list
+                  - paragraph [ref=e3620]: Mega gum van Lego the Movie 5+
+                - generic [ref=e3621]:
+                  - generic [ref=e3622]:
+                    - generic [ref=e3623]:
+                      - heading "Prijsinformatie en bestellen" [level=2] [ref=e3624]
+                      - generic [ref=e3628]:
+                        - generic [ref=e3629]: De prijs van dit product is '6' euro en '99' cent
+                        - generic [ref=e3630]: "6"
+                        - generic [ref=e3631]: ","
+                        - generic [ref=e3632]: "99"
+                    - generic [ref=e3634]:
+                      - generic [ref=e3635]: Voor 15:00 uur besteld, dinsdag in huis
+                      - button "Toon meer informatie over levertijd" [ref=e3637]:
+                        - img [ref=e3639]
+                    - button "Verkoop door van Schaik & van Schaik Wat je kan verwachten" [ref=e3643] [cursor=pointer]:
+                      - generic [ref=e3644] [cursor=pointer]:
+                        - generic [ref=e3645] [cursor=pointer]:
+                          - generic [ref=e3646] [cursor=pointer]: Verkoop door
+                          - generic [ref=e3647] [cursor=pointer]: van Schaik & van Schaik
+                        - generic [ref=e3648] [cursor=pointer]: Wat je kan verwachten
+                  - button "In winkelwagen" [ref=e3652] [cursor=pointer]:
+                    - img [ref=e3654] [cursor=pointer]
+                    - img [ref=e3657] [cursor=pointer]
+            - generic [ref=e3662]:
+              - generic [ref=e3663]:
+                - generic [ref=e3665]:
+                  - link "LEGO Super Mario 30389 Fuzzy en het Paddenstoelplatform - (polybag)" [ref=e3666] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-super-mario-30389-fuzzy-en-het-paddenstoelplatform/9300000040924386/
+                    - img "LEGO Super Mario 30389 Fuzzy en het Paddenstoelplatform - (polybag)" [ref=e3668] [cursor=pointer]
+                  - button "Op je verlanglijstje" [ref=e3669] [cursor=pointer]:
+                    - img [ref=e3671] [cursor=pointer]
+                - generic [ref=e3674]:
+                  - checkbox "Vergelijk met andere artikelen" [ref=e3675] [cursor=pointer]
+                  - generic [ref=e3676] [cursor=pointer]: Vergelijk met andere artikelen
+              - generic [ref=e3677]:
+                - generic [ref=e3678]:
+                  - list [ref=e3680]:
+                    - listitem [ref=e3681]:
+                      - link "Super Mario" [ref=e3682] [cursor=pointer]:
+                        - /url: /be/nl/b/speelgoed-super-mario/10558846+7934/
+                    - listitem [ref=e3683]:
+                      - text: "&"
+                      - link "LEGO" [ref=e3684] [cursor=pointer]:
+                        - /url: /be/nl/pb/lego/4648554/
+                  - link "LEGO Super Mario 30389 Fuzzy en het Paddenstoelplatform - (polybag)" [ref=e3685] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-super-mario-30389-fuzzy-en-het-paddenstoelplatform/9300000040924386/
+                    - heading "LEGO Super Mario 30389 Fuzzy en het Paddenstoelplatform - (polybag)" [level=2] [ref=e3686] [cursor=pointer]
+                  - list [ref=e3687]:
+                    - listitem [ref=e3688]: 39 onderdelen
+                    - listitem [ref=e3689]: "| Geen minifiguren"
+                    - listitem [ref=e3690]: "| 2023"
+                  - paragraph [ref=e3691]: Lego Bags 30389 Fuzzy en Paddenstoelplatform Uitbreiding Geef de interactieve LEGO Super Mario speelervaring...
+                - generic [ref=e3692]:
+                  - generic [ref=e3693]:
+                    - generic [ref=e3694]:
+                      - heading "Prijsinformatie en bestellen" [level=2] [ref=e3695]
+                      - generic [ref=e3699]:
+                        - generic [ref=e3700]: De prijs van dit product is '6' euro en '99' cent
+                        - generic [ref=e3701]: "6"
+                        - generic [ref=e3702]: ","
+                        - generic [ref=e3703]: "99"
+                    - generic [ref=e3704]: Of bespaar 10% als je er 4 koopt
+                    - generic [ref=e3705]:
+                      - generic [ref=e3706]:
+                        - generic [ref=e3707]: Huidige voorraad bijna op bij deze verkoper
+                        - generic [ref=e3708]: Select
+                      - generic [ref=e3709]:
+                        - generic [ref=e3710]: Voor 23:59 uur besteld, morgen in huis
+                        - button "Toon meer informatie over levertijd" [ref=e3712]:
+                          - img [ref=e3714]
+                    - button "Verkoop door JB-Bricks Wat je kan verwachten" [ref=e3718] [cursor=pointer]:
+                      - generic [ref=e3719] [cursor=pointer]:
+                        - generic [ref=e3720] [cursor=pointer]:
+                          - generic [ref=e3721] [cursor=pointer]: Verkoop door
+                          - generic [ref=e3722] [cursor=pointer]: JB-Bricks
+                        - generic [ref=e3723] [cursor=pointer]: Wat je kan verwachten
+                  - generic [ref=e3724]:
+                    - link "Bekijk en bestel" [ref=e3726] [cursor=pointer]:
+                      - /url: /be/nl/p/lego-super-mario-30389-fuzzy-en-het-paddenstoelplatform/9300000040924386/
+                      - img [ref=e3728] [cursor=pointer]
+                      - text: Bekijk en bestel
+                    - paragraph [ref=e3734]:
+                      - link "Meer verkopers" [ref=e3735] [cursor=pointer]:
+                        - /url: /be/nl/prijsoverzicht/lego-super-mario-30389-fuzzy-en-het-paddenstoelplatform/9300000040924386/?filter=new&sort=price&sortOrder=asc&suggestionType=browse
+                      - text: vanaf
+                      - strong [ref=e3736]: 4,99
+                      - text: per stuk
+        - list [ref=e3739]:
+          - listitem [ref=e3740]:
+            - generic "huidige pagina 1" [ref=e3741]: "1"
+          - listitem [ref=e3742]:
+            - link "ga naar pagina 2" [ref=e3743] [cursor=pointer]:
+              - /url: https://www.bol.com/be/nl/s/?searchtext=lego&N=7934&sort=price0&page=2
+              - text: "2"
+          - listitem [ref=e3744]:
+            - link "ga naar pagina 3" [ref=e3745] [cursor=pointer]:
+              - /url: https://www.bol.com/be/nl/s/?searchtext=lego&N=7934&sort=price0&page=3
+              - text: "3"
+          - listitem [ref=e3746]:
+            - link "ga naar pagina 4" [ref=e3747] [cursor=pointer]:
+              - /url: https://www.bol.com/be/nl/s/?searchtext=lego&N=7934&sort=price0&page=4
+              - text: "4"
+          - listitem [ref=e3748]:
+            - generic [ref=e3749]: …
+          - listitem [ref=e3750]:
+            - link "ga naar pagina 10" [ref=e3751] [cursor=pointer]:
+              - /url: https://www.bol.com/be/nl/s/?searchtext=lego&N=7934&sort=price0&page=10
+              - text: "10"
+          - button "volgende" [ref=e3752] [cursor=pointer]:
+            - img [ref=e3754] [cursor=pointer]
+  - contentinfo [ref=e3758]:
+    - generic [ref=e3760]:
+      - heading "Service & contact" [level=2] [ref=e3762]
+      - generic [ref=e3763]:
+        - figure [ref=e3764]:
+          - img [ref=e3765]
+        - generic [ref=e3767]:
+          - heading "Snel regelen in je account" [level=3] [ref=e3768]:
+            - strong [ref=e3769]: Snel regelen in je account
+          - paragraph [ref=e3770]:
+            - link "Volg je bestelling" [ref=e3771] [cursor=pointer]:
+              - /url: /be/nl/rnwy/account/bestellingen/overzicht
+            - text: ","
+            - link "betaal facturen" [ref=e3772] [cursor=pointer]:
+              - /url: /be/nl/rnwy/account/facturen
+            - text: of
+            - link "retourneer een artikel" [ref=e3773] [cursor=pointer]:
+              - /url: /be/nl/account/retourneren/overzicht
+            - text: .
+      - generic [ref=e3774]:
+        - figure [ref=e3775]:
+          - img [ref=e3776]
+        - generic [ref=e3778]:
+          - heading "Heb je ons nodig?" [level=3] [ref=e3779]:
+            - strong [ref=e3780]: Heb je ons nodig?
+          - paragraph [ref=e3781]:
+            - text: We helpen je graag.
+            - link "Onze klantenservice" [ref=e3782] [cursor=pointer]:
+              - /url: /be/nl/m/klantenservice
+            - text: is dag en nacht open.
+    - generic [ref=e3783]:
+      - list [ref=e3784]:
+        - listitem [ref=e3785]:
+          - heading "Klantenservice" [level=3] [ref=e3786]:
+            - link "Klantenservice" [ref=e3787] [cursor=pointer]:
+              - /url: /be/nl/m/klantenservice
+          - list [ref=e3788]:
+            - listitem [ref=e3789]:
+              - link "Contact opnemen" [ref=e3790] [cursor=pointer]:
                 - /url: /be/nl/m/klantenservice
-                - text: Klantenservice
-            - list:
-              - listitem:
-                - link:
-                  - /url: /be/nl/m/klantenservice
-                  - text: Contact opnemen
-              - listitem:
-                - link:
-                  - /url: /be/nl/m/bestellen
-                  - text: Bestellen & Leveren
-              - listitem:
-                - link:
-                  - /url: /be/nl/m/betalen
-                  - text: Betalen
-              - listitem:
-                - link:
-                  - /url: /be/nl/m/retourneren
-                  - text: Retourneren
-              - listitem:
-                - link:
-                  - /url: /be/nl/m/garantie/subject/62650041
-                  - text: Garantie & Reparatie
-              - listitem:
-                - link:
-                  - /url: /be/nl/inf/terugroepacties-van-artikelen/49922/
-                  - text: Terugroepacties
-          - listitem:
-            - heading [level=3]:
-              - link:
-                - /url: //pers.bol.com/nl/het-verhaal/
-                - text: Over bol
-            - list:
-              - listitem:
-                - link:
-                  - /url: /be/nl/sf/winkelen-zonder-zorgen
-                  - text: De voordelen van bol
-              - listitem:
-                - link:
-                  - /url: //pers.bol.com
-                  - text: Nieuws
-              - listitem:
-                - link:
-                  - /url: /be/nl/sf/mobiele-app
-                  - text: De bol app
-              - listitem:
-                - link:
-                  - /url: //banen.bol.com/
-                  - text: Werken bij bol
-              - listitem:
-                - link:
-                  - /url: /be/nl/sf/duurzaamheid/
-                  - text: Bol & duurzaamheid
-              - listitem:
-                - link:
-                  - /url: /be/nl/sf/bollebozen
-                  - text: Bollebozen
-              - listitem:
-                - link:
-                  - /url: /be/nl/tc/toegankelijkheidsverklaring/
-                  - text: Toegankelijkheidsverklaring
-              - listitem:
-                - link:
-                  - /url: /be/nl/klantenservice/a/5715110588841984/bedrijfsgegevens
-                  - text: Bedrijfsgegevens
-          - listitem:
-            - heading [level=3]:
-              - link:
-                - /url: /be/nl/sf/zakendoen-met-bolcom
-                - text: Zakendoen met bol
-            - list:
-              - listitem:
-                - link:
-                  - /url: //partnerplatform.bol.com/
-                  - text: Zakelijk verkopen
-              - listitem:
-                - link:
-                  - /url: /be/nl/sf/zakelijk-bestellen
-                  - text: Zakelijk bestellen
-              - listitem:
-                - link:
-                  - /url: //cadeaukaart.bol.com/
-                  - text: Zakelijke cadeaukaarten
-              - listitem:
-                - link:
-                  - /url: //adverteren.bol.com
-                  - text: Adverteren
-              - listitem:
-                - link:
-                  - /url: //affiliate.bol.com/nl/
-                  - text: Affiliate Marketing
-          - listitem:
-            - heading [level=3]:
-              - strong: Wil je ons volgen?
-            - generic:
-              - link:
-                - /url: //www.facebook.com/bolpuntcom
-                - generic:
-                  - img
-              - link:
-                - /url: //www.pinterest.com/bol
-                - generic:
-                  - img
-              - link:
-                - /url: //www.instagram.com/bol
-                - generic:
-                  - img
-              - link:
-                - /url: //www.youtube.com/user/bolcom
-                - generic:
-                  - img
-              - link:
-                - /url: //www.linkedin.com/company/11699
-                - generic:
-                  - img
-              - link:
-                - /url: //www.tiktok.com/@bol
-                - generic:
-                  - img
-            - paragraph:
-              - link:
-                - /url: /be/nl/rnwy/account/newsletters
-                - text: Meld je aan
-              - text: voor korting en inspiratie in je mailbox
-        - generic:
-          - paragraph:
-            - img
-          - generic:
-            - img
-            - img
-            - img
-            - img
-            - img
-            - img
-            - img
-            - img
-            - img
-          - generic:
-            - list:
-              - listitem:
-                - link:
-                  - /url: //www.becommerce.be/report/html/becommerce_certification.report_certificate/15194
-                  - generic: Certificaat Thuiswinkel Waarborg
-                  - img
-              - listitem:
-                - text: "|"
-                - link:
-                  - /url: /be/nl/tc/
-                  - text: Algemene voorwaarden
-              - listitem:
-                - text: "|"
-                - link:
-                  - /url: /be/nl/tc/privacybeleid
-                  - text: Privacy
-              - listitem:
-                - text: "|"
-                - link:
-                  - /url: /be/nl/tc/cookiebeleid
-                  - text: Cookies
-              - listitem:
-                - text: "|"
-                - link:
-                  - /url: /be/nl/tc/copyright
-                  - text: ©
-                - text: 1999-2025 bol.com b.v.
-            - paragraph:
-              - text: "* De voordelen van bol.com gelden niet voor het gehele assortiment."
-              - link:
+            - listitem [ref=e3791]:
+              - link "Bestellen & Leveren" [ref=e3792] [cursor=pointer]:
+                - /url: /be/nl/m/bestellen
+            - listitem [ref=e3793]:
+              - link "Betalen" [ref=e3794] [cursor=pointer]:
+                - /url: /be/nl/m/betalen
+            - listitem [ref=e3795]:
+              - link "Retourneren" [ref=e3796] [cursor=pointer]:
+                - /url: /be/nl/m/retourneren
+            - listitem [ref=e3797]:
+              - link "Garantie & Reparatie" [ref=e3798] [cursor=pointer]:
+                - /url: /be/nl/m/garantie/subject/62650041
+            - listitem [ref=e3799]:
+              - link "Terugroepacties" [ref=e3800] [cursor=pointer]:
+                - /url: /be/nl/inf/terugroepacties-van-artikelen/49922/
+        - listitem [ref=e3801]:
+          - heading "Over bol" [level=3] [ref=e3802]:
+            - link "Over bol" [ref=e3803] [cursor=pointer]:
+              - /url: //pers.bol.com/nl/het-verhaal/
+          - list [ref=e3804]:
+            - listitem [ref=e3805]:
+              - link "De voordelen van bol" [ref=e3806] [cursor=pointer]:
                 - /url: /be/nl/sf/winkelen-zonder-zorgen
-                - text: Bekijk de voorwaarden
-              - text: Alle prijzen zijn inclusief BTW en andere heffingen en exclusief eventuele
-              - link:
-                - /url: /be/nl/klantenservice/a/5711226101301248/bezorgopties-en-kosten
-                - text: verzendkosten
-              - text: en
-              - link:
-                - /url: /be/nl/klantenservice/a/5711226101301248/bezorgopties-en-kosten
-                - text: servicekosten
+            - listitem [ref=e3807]:
+              - link "Nieuws" [ref=e3808] [cursor=pointer]:
+                - /url: //pers.bol.com
+            - listitem [ref=e3809]:
+              - link "De bol app" [ref=e3810] [cursor=pointer]:
+                - /url: /be/nl/sf/mobiele-app
+            - listitem [ref=e3811]:
+              - link "Werken bij bol" [ref=e3812] [cursor=pointer]:
+                - /url: //banen.bol.com/
+            - listitem [ref=e3813]:
+              - link "Bol & duurzaamheid" [ref=e3814] [cursor=pointer]:
+                - /url: /be/nl/sf/duurzaamheid/
+            - listitem [ref=e3815]:
+              - link "Bollebozen" [ref=e3816] [cursor=pointer]:
+                - /url: /be/nl/sf/bollebozen
+            - listitem [ref=e3817]:
+              - link "Toegankelijkheidsverklaring" [ref=e3818] [cursor=pointer]:
+                - /url: /be/nl/tc/toegankelijkheidsverklaring/
+            - listitem [ref=e3819]:
+              - link "Bedrijfsgegevens" [ref=e3820] [cursor=pointer]:
+                - /url: /be/nl/klantenservice/a/5715110588841984/bedrijfsgegevens
+        - listitem [ref=e3821]:
+          - heading "Zakendoen met bol" [level=3] [ref=e3822]:
+            - link "Zakendoen met bol" [ref=e3823] [cursor=pointer]:
+              - /url: /be/nl/sf/zakendoen-met-bolcom
+          - list [ref=e3824]:
+            - listitem [ref=e3825]:
+              - link "Zakelijk verkopen" [ref=e3826] [cursor=pointer]:
+                - /url: //partnerplatform.bol.com/
+            - listitem [ref=e3827]:
+              - link "Zakelijk bestellen" [ref=e3828] [cursor=pointer]:
+                - /url: /be/nl/sf/zakelijk-bestellen
+            - listitem [ref=e3829]:
+              - link "Zakelijke cadeaukaarten" [ref=e3830] [cursor=pointer]:
+                - /url: //cadeaukaart.bol.com/
+            - listitem [ref=e3831]:
+              - link "Adverteren" [ref=e3832] [cursor=pointer]:
+                - /url: //adverteren.bol.com
+            - listitem [ref=e3833]:
+              - link "Affiliate Marketing" [ref=e3834] [cursor=pointer]:
+                - /url: //affiliate.bol.com/nl/
+        - listitem [ref=e3835]:
+          - heading "Wil je ons volgen?" [level=3] [ref=e3836]:
+            - strong [ref=e3837]: Wil je ons volgen?
+          - generic [ref=e3838]:
+            - link "Volg ons op de facebook pagina van bol" [ref=e3839] [cursor=pointer]:
+              - /url: //www.facebook.com/bolpuntcom
+              - img [ref=e3841] [cursor=pointer]
+            - link "Volg ons op de pinterest pagina van bol" [ref=e3843] [cursor=pointer]:
+              - /url: //www.pinterest.com/bol
+              - img [ref=e3845] [cursor=pointer]
+            - link "Volg ons op de instagram pagina van bol" [ref=e3847] [cursor=pointer]:
+              - /url: //www.instagram.com/bol
+              - img [ref=e3849] [cursor=pointer]
+            - link "Volg ons op de youtube pagina van bol" [ref=e3853] [cursor=pointer]:
+              - /url: //www.youtube.com/user/bolcom
+              - img [ref=e3855] [cursor=pointer]
+            - link "Volg ons op de linkedin pagina van bol" [ref=e3857] [cursor=pointer]:
+              - /url: //www.linkedin.com/company/11699
+              - img [ref=e3859] [cursor=pointer]
+            - link "Volg ons op de TikTok pagina van bol" [ref=e3861] [cursor=pointer]:
+              - /url: //www.tiktok.com/@bol
+              - img [ref=e3863] [cursor=pointer]
+          - paragraph [ref=e3865]:
+            - link "Meld je aan" [ref=e3866] [cursor=pointer]:
+              - /url: /be/nl/rnwy/account/newsletters
+            - text: voor korting en inspiratie in je mailbox
+      - generic [ref=e3867]:
+        - paragraph [ref=e3868]:
+          - img "bol de winkel van ons allemaal" [ref=e3869]
+        - generic [ref=e3871]:
+          - img [ref=e3872]
+          - img [ref=e3877]
+          - img [ref=e3882]
+          - img [ref=e3892]
+          - img [ref=e3895]
+          - img [ref=e3903]
+          - img [ref=e3906]
+          - img [ref=e3912]
+          - img [ref=e3916]
+        - generic [ref=e3925]:
+          - list [ref=e3926]:
+            - listitem [ref=e3927]:
+              - link "Certificaat Thuiswinkel Waarborg" [ref=e3928] [cursor=pointer]:
+                - /url: //www.becommerce.be/report/html/becommerce_certification.report_certificate/15194
+                - generic [ref=e3929] [cursor=pointer]: Certificaat Thuiswinkel Waarborg
+                - img [ref=e3930] [cursor=pointer]
+            - listitem [ref=e3935]:
+              - text: "|"
+              - link "Algemene voorwaarden" [ref=e3936] [cursor=pointer]:
+                - /url: /be/nl/tc/
+            - listitem [ref=e3937]:
+              - text: "|"
+              - link "Privacy" [ref=e3938] [cursor=pointer]:
+                - /url: /be/nl/tc/privacybeleid
+            - listitem [ref=e3939]:
+              - text: "|"
+              - link "Cookies" [ref=e3940] [cursor=pointer]:
+                - /url: /be/nl/tc/cookiebeleid
+            - listitem [ref=e3941]:
+              - text: "|"
+              - link "©" [ref=e3942] [cursor=pointer]:
+                - /url: /be/nl/tc/copyright
+              - text: 1999-2025 bol.com b.v.
+          - paragraph [ref=e3943]:
+            - text: "* De voordelen van bol.com gelden niet voor het gehele assortiment."
+            - link "Bekijk de voorwaarden" [ref=e3944] [cursor=pointer]:
+              - /url: /be/nl/sf/winkelen-zonder-zorgen
+            - text: Alle prijzen zijn inclusief BTW en andere heffingen en exclusief eventuele
+            - link "verzendkosten" [ref=e3945] [cursor=pointer]:
+              - /url: /be/nl/klantenservice/a/5711226101301248/bezorgopties-en-kosten
+            - text: en
+            - link "servicekosten" [ref=e3946] [cursor=pointer]:
+              - /url: /be/nl/klantenservice/a/5711226101301248/bezorgopties-en-kosten
 ```

@@ -1,5 +1,5 @@
 import { Page, Locator, expect } from '@playwright/test';
-import { SearchComponent } from '../components/Search-component';
+import { SearchComponent } from '../components/search-component';
 
 export class SearchResultsPage {
   private page: Page;

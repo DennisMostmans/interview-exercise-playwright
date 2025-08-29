@@ -8,17 +8,16 @@ export class CountryLanguageModal {
   constructor(page: Page) {
     this.page = page;
     this.countryBtn = page.getByRole('button', { name: /Land België.*Taal Nederlands/i });
-    this.doorgaanBtn = page.getByRole('button', { name: /Doorgaan/i });
+    this.doorgaanBtn = page.getByRole('button', { name: 'Doorgaan' });
   }
 
   /**
-   * Wait until no visible modal/overlay blocks interactions anymore
+   * Waits until the modal overlay is fully gone (no visible overlays remain).
+   * Uses the site-specific class that actually blocks clicks.
    */
-  async waitForOverlaysToClose(timeout: number = 5000) {
-    const visibleOverlays = this.page.locator(
-      '[role="dialog"]:visible, [aria-modal="true"]:visible, .modal:visible, .overlay:visible, [data-state="open"]:visible'
-    );
-    await expect(visibleOverlays).toHaveCount(0, { timeout });
+  async waitForOverlaysToClose(timeout: number = 8000) {
+    const visibleOverlay = this.page.locator('.modal__overlay:visible');
+    await expect(visibleOverlay, 'Waiting for modal overlay to disappear').toHaveCount(0, { timeout });
   }
 
   private async clickIfVisible(locator: Locator, options: { force?: boolean } = {}) {
@@ -45,32 +44,26 @@ export class CountryLanguageModal {
     }
 
     try {
-      await this.doorgaanBtn.click({ timeout: 2000 });
+      await this.doorgaanBtn.click({ timeout: 3000 });
     } catch {
-      console.warn('Normal click failed, trying fallback');
-      await this.page.evaluate(() => {
-        document.querySelectorAll('[role="dialog"], [data-state="open"], .modal, .overlay')
-          .forEach(el => (el as HTMLElement).style.display = 'none');
-      });
-      await this.clickIfVisible(this.doorgaanBtn, { force: true });
+      // Last-resort click if standard actionability is flaky while overlay animates.
+      await this.doorgaanBtn.click({ force: true, timeout: 2000 });
     }
 
-    // Wait until the button is gone (hidden OR detached)
+    // Wait until either the button disappears or the overlay is gone, whichever comes first.
     await Promise.race([
       this.doorgaanBtn.waitFor({ state: 'hidden', timeout: 4000 }),
       this.doorgaanBtn.waitFor({ state: 'detached', timeout: 4000 }),
+      this.waitForOverlaysToClose(8000),
     ]);
-
-  // And ensure no other visible overlays remain
-  await this.waitForOverlaysToClose(6000);
   }
 
   /**
-   * Safe to call at any time — handles modal if it appears
+   * Safe to call at any time — handles modal if it appears and waits for overlay to be gone
    */
   async handleLanguagePopup() {
     await this.handleCountryButton();
     await this.handleDoorgaanButton();
-  await this.waitForOverlaysToClose(6000);
+    await this.waitForOverlaysToClose(8000);
   }
 }

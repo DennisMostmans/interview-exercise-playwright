@@ -58,7 +58,8 @@ export class ProductDetailPage {
 
         await this.addToCartButton.click();
 
-        const errorTitle = this.page.locator('h2.notification__title:visible');
+        const errorTitle = this.page.getByRole('heading', { level: 2, name: /excuses|technische fout/i });
+        await errorTitle.waitFor({ state: 'attached'});
         await expect(errorTitle).toBeVisible({ timeout: 5000 });
 
         await errorTitle.evaluate(el => el.scrollIntoView({ behavior: 'auto', block: 'center' }));

@@ -1,6 +1,7 @@
+// ...existing code...
 import { Page, expect } from "@playwright/test";
 import { CookieBanner } from "../components/cookie-banner";
-import { SearchComponent } from "../components/Search-component";
+import { SearchComponent } from "../components/search-component"; // fixed casing
 import { CountryLanguageModal } from "../components/language-popup";
 
 export class Homepage {
@@ -18,10 +19,12 @@ export class Homepage {
         await this.page.goto('https://www.bol.com/be/nl/');
         await this.cookieBanner.acceptAll();
         await this.countryLanguageModal.handleLanguagePopup();
-        }
+        await this.countryLanguageModal.waitForOverlaysToClose(8000);
+    }
     
     async search(query: string): Promise<void> {
         await this.searchComponent.search(query);
         await this.searchComponent.verifySearchUrl(query);
     }
 }
+// ...existing code...

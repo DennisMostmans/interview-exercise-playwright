@@ -1,6 +1,7 @@
+// ...existing code...
 import { Page, Locator, expect } from "@playwright/test";
 import { CountryLanguageModal } from "./language-popup";
-   
+
 export class SearchComponent{
     private countryLanguageModal: CountryLanguageModal;
 
@@ -13,23 +14,37 @@ export class SearchComponent{
     }
 
     private get searchButton(): Locator {
-        return this.page.getByRole('button', { name: 'Zoeken' });
+        return this.page.locator('[data-test="search-button"]');
     }
 
     async search(query: string) {
-    await this.searchBox.waitFor({ state: 'visible', timeout: 5000 });
-    await this.searchBox.fill(query);  
-    await this.searchButton.waitFor({state: 'visible', timeout: 5000 });
-    try {
-        await this.searchButton.click({ trial: false});
-    } catch {
-        console.warn("Search button blocked, falling back to Enter");
-        await this.searchBox.press("Enter");
+        await this.countryLanguageModal.waitForOverlaysToClose();
+        await expect(this.searchBox).toBeVisible();
+        await this.searchBox.fill(query);
+        try {
+            await expect(this.searchBox).toHaveValue(query);
+        } catch  {
+            await this.searchBox.fill(query);
+            await expect (this.searchBox).toHaveValue(query, { timeout: 2000 });
+        }
+
+        // Ensure the modal overlay is fully gone before interacting with the header
+
+        await expect(this.searchButton).toBeVisible();
+        await expect(this.searchButton).toBeEnabled();
+
+        try {
+            await this.searchButton.click({ trial: true, timeout: 8000 });
+            await this.searchButton.click();
+        } catch {
+            await this.searchBox.focus();
+            await this.searchBox.press("Enter");
+        }
     }
-}
 
     async verifySearchUrl(query: string) {
         const encodedQuery = encodeURIComponent(query);
         await expect(this.page).toHaveURL(new RegExp(`/s/\\?searchtext=${encodedQuery}`));
     }
 }
+// ...existing code...
