@@ -2,8 +2,8 @@ import { Page, expect } from '@playwright/test';
 import { Prices } from '../helpers/Prices';
 
 export class SortDropdown {
-  private page: Page;
-  private prices: Prices;
+  private readonly page: Page;
+  private readonly prices: Prices;
 
   constructor(page: Page) {
     this.page = page;
@@ -13,9 +13,12 @@ export class SortDropdown {
   async sortByPriceAscending(): Promise<void> {
     await this.page.selectOption('select[label="Sortering"]', 'PRICE_ASC');
     await expect.poll(async () => {
-            const allPrices = await this.prices.getAllPrices();
-            const first3 = allPrices.slice(0, 3);
-            return first3[0] <= first3[1] && first3[1] <= first3[2];
-        }, { timeout: 10000 }).toBe(true);
-    }
+      const allPrices = (await this.prices.getAllPrices()).map(Number);
+      if (allPrices.length < 3) return false;
+      const [first, second, third] = allPrices.slice(0, 3);
+      return first <= second && second <= third;
+    }, {
+      timeout: 10000,
+    }).toBe(true);
+  }
 }

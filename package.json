@@ -22,7 +22,7 @@
   "homepage": "https://github.com/DennisMostmans/interview-exercise-playwright#readme",
   "devDependencies": {
     "@playwright/test": "^1.55.0",
+    "@types/node": "^24.3.0",
     "playwright": "^1.55.0"
   }
-  
 }

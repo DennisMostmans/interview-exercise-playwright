@@ -8,7 +8,7 @@ import { Prices } from "../../src/helpers/Prices.ts";
 import { Filter } from "../../src/components/filters.ts";
 import { SortDropdown } from "../../src/components/sort-dropdown.ts";
 
-test.describe('Homepage Search Functionality', () => {
+test.describe('Filter / Sorting functionality', () => {
     let homepage: Homepage;
     let searchComponent: SearchComponent;
     let screenshotHelper: ScreenshotHelper;

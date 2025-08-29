@@ -6,7 +6,7 @@ import { SearchResultsPage } from "../../src/pages/search-results-page.ts";
 import { Pagination } from "../../src/components/pagination.ts";
 import { ProductDetailPage } from "../../src/pages/product-detail-page.ts";
 
-test.describe('Homepage Search Functionality', () => {
+test.describe('Verification of pagination', () => {
     let homepage: Homepage;
     let screenshotHelper: ScreenshotHelper;
     let searchResultsPage: SearchResultsPage;
@@ -22,7 +22,7 @@ test.describe('Homepage Search Functionality', () => {
         await homepage.goto();
     });
 
-    test('Pagination', async ({ page }) => {
+    test('Navigate to second page and compare first 5 titles.', async ({ page }) => {
     await homepage.search(searchScenarios.lego.searchTerm);
     await searchResultsPage.verifySearchResults();
 

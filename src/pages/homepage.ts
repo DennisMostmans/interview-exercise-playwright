@@ -16,7 +16,8 @@ export class Homepage {
     }
 
     async goto(): Promise<void> {
-        await this.page.goto('https://www.bol.com/be/nl/');
+        const baseUrl = process.env.BASE_URL ?? 'https://www.bol.com/be/nl/';
+        await this.page.goto(baseUrl);
         await this.cookieBanner.acceptAll();
         await this.countryLanguageModal.handleLanguagePopup();
         await this.countryLanguageModal.waitForOverlaysToClose(8000);

@@ -22,7 +22,7 @@ test.describe('Homepage Search Functionality', () => {
         await homepage.goto();
     });
 
-    test('Search for lego products on homepage', async ({ page }) => {
+    test('Search for lego products on homepage and check for results', async ({ page }) => {
         await homepage.search(searchScenarios.lego.searchTerm);
         await searchResultsPage.verifySearchResults();
         await prices.getAllPrices();

@@ -6,7 +6,7 @@ import { SearchResultsPage } from "../../src/pages/search-results-page.ts";
 import { Pagination } from "../../src/components/pagination.ts";
 import { ProductDetailPage } from "../../src/pages/product-detail-page.ts";
 
-test.describe('Homepage Search Functionality', () => {
+test.describe('Product detail page', () => {
     let homepage: Homepage;
     let screenshotHelper: ScreenshotHelper;
     let searchResultsPage: SearchResultsPage;
@@ -22,7 +22,7 @@ test.describe('Homepage Search Functionality', () => {
         await homepage.goto();
     });
 
-    test('Select the first barbie product', async ({ page }) => {
+    test('check visibility of all product details, block cart actions and remain on PDP after add-to-cart click', async ({ page }) => {
         await homepage.search(searchScenarios.lego.searchTerm);
         await searchResultsPage.verifySearchResults();
 
