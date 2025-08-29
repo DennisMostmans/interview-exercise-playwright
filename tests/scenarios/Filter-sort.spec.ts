@@ -1,6 +1,6 @@
 import {test, expect} from "@playwright/test";
 import { Homepage } from "../../src/pages/homepage";
-import { SearchComponent } from "../../src/components/Search-component";
+import { SearchComponent } from "../../src/components/search-component";
 import { searchScenarios } from "../Fixtures/test-data";
 import { ScreenshotHelper } from "../../src/helpers/screenshot-helper";
 import { SearchResultsPage } from "../../src/pages/search-results-page.ts";

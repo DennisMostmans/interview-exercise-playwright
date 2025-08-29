@@ -40,6 +40,12 @@ export class SearchComponent{
             await this.searchBox.focus();
             await this.searchBox.press("Enter");
         }
+        const current = await this.searchBox.inputValue();
+        if (current !== query) {
+            await this.countryLanguageModal.waitForOverlaysToClose();
+            await this.searchBox.fill(query);
+            await expect(this.searchBox).toHaveValue(query, { timeout: 2000 });
+        }
     }
 
     async verifySearchUrl(query: string) {
