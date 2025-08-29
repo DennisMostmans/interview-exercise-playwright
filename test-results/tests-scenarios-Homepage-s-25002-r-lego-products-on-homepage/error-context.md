@@ -1,0 +1,2017 @@
+# Page snapshot
+
+```yaml
+- generic:
+  - generic:
+    - banner:
+      - link:
+        - /url: "#searchfor"
+        - text: Ga naar zoeken
+      - link:
+        - /url: "#mainContent"
+        - text: Ga naar hoofdinhoud
+      - complementary:
+        - generic:
+          - link:
+            - /url: /be/nl/sf/winkelen-zonder-zorgen
+            - generic: lekker winkelen zonder zorgen
+            - list:
+              - listitem:
+                - generic:
+                  - strong: Gratis
+                  - text: verzending vanaf 25,-
+              - listitem:
+                - generic: Bezorging dezelfde dag, 's avonds of in het weekend*
+              - listitem:
+                - generic:
+                  - strong: Gratis
+                  - text: retourneren
+          - link:
+            - /url: /be/nl/select
+            - generic: Select
+            - generic: Ontdek nu de 4 voordelen
+      - generic:
+        - generic:
+          - link:
+            - /url: /be/nl/
+            - img
+        - generic:
+          - search:
+            - generic:
+              - textbox [active]: lego
+              - button:
+                - generic:
+                  - img
+              - button:
+                - generic:
+                  - img
+              - listbox:
+                - option:
+                  - link:
+                    - /url: /be/nl/s/?searchtext=lego&suggestionType=regular&suggestFragment=lego
+                    - generic:
+                      - img
+                    - generic:
+                      - generic: lego
+                - option:
+                  - link:
+                    - /url: /be/nl/s/?searchtext=lego+star+wars&suggestionType=regular&suggestFragment=lego
+                    - generic:
+                      - img
+                    - generic:
+                      - generic: lego
+                      - generic: star wars
+                - option:
+                  - link:
+                    - /url: /be/nl/s/?searchtext=lego+technic&suggestionType=regular&suggestFragment=lego
+                    - generic:
+                      - img
+                    - generic:
+                      - generic: lego
+                      - generic: technic
+                - option:
+                  - link:
+                    - /url: /be/nl/s/?searchtext=lego+city&suggestionType=regular&suggestFragment=lego
+                    - generic:
+                      - img
+                    - generic:
+                      - generic: lego
+                      - generic: city
+                - option:
+                  - link:
+                    - /url: /be/nl/s/?searchtext=lego+ninjago&suggestionType=regular&suggestFragment=lego
+                    - generic:
+                      - img
+                    - generic:
+                      - generic: lego
+                      - generic: ninjago
+                - option:
+                  - link:
+                    - /url: /be/nl/s/?searchtext=lego+friends&suggestionType=regular&suggestFragment=lego
+                    - generic:
+                      - img
+                    - generic:
+                      - generic: lego
+                      - generic: friends
+                - option:
+                  - link:
+                    - /url: /be/nl/s/?searchtext=lego+harry+potter&suggestionType=regular&suggestFragment=lego
+                    - generic:
+                      - img
+                    - generic:
+                      - generic: lego
+                      - generic: harry potter
+                - option:
+                  - link:
+                    - /url: /be/nl/s/?searchtext=lego+botanical&suggestionType=regular&suggestFragment=lego
+                    - generic:
+                      - img
+                    - generic:
+                      - generic: lego
+                      - generic: botanical
+                - option:
+                  - link:
+                    - /url: /be/nl/s/?searchtext=lego+minecraft&suggestionType=regular&suggestFragment=lego
+                    - generic:
+                      - img
+                    - generic:
+                      - generic: lego
+                      - generic: minecraft
+                - option:
+                  - link:
+                    - /url: /be/nl/s/?searchtext=lego+bloemen&suggestionType=regular&suggestFragment=lego
+                    - generic:
+                      - img
+                    - generic:
+                      - generic: lego
+                      - generic: bloemen
+                - option:
+                  - link:
+                    - /url: /be/nl/p/lego-speed-champions-oracle-red-bull-racing-rb20-f1-auto-set-77243/9300000192425954/?suggestionType=featured_product
+                    - generic:
+                      - generic: LEGO Speed Champions Oracle Red Bull Racing RB20 F1 Auto Set - 77243
+                - option:
+                  - link:
+                    - /url: /be/nl/p/lego-icons-rozenboeket-10328/9300000157956429/?suggestionType=featured_product
+                    - generic:
+                      - generic: LEGO Icons Rozenboeket - Botanical Collection - 10328
+        - generic:
+          - generic:
+            - generic:
+              - link:
+                - /url: /nl/account/login.html
+                - generic: Inloggen
+            - generic:
+              - link:
+                - /url: /be/nl/lijstjes/overzicht-lijsten/
+                - generic:
+                  - img
+            - generic:
+              - link:
+                - /url: /be/nl/basket/
+                - generic:
+                  - img
+      - generic:
+        - generic:
+          - navigation:
+            - generic:
+              - list:
+                - listitem:
+                  - button:
+                    - text: Categorieën
+                    - generic:
+                      - img
+                - listitem:
+                  - button:
+                    - text: Cadeaus & Inspiratie
+                    - generic:
+                      - img
+                - listitem:
+                  - button:
+                    - text: Aanbiedingen
+                    - generic:
+                      - img
+          - list:
+            - listitem:
+              - link:
+                - /url: /be/nl/sf/zakendoen-met-bolcom
+                - text: Zakelijk
+            - listitem:
+              - link:
+                - /url: /be/nl/l/cadeaukaarten/20639/
+                - text: Cadeaukaart
+            - listitem:
+              - link:
+                - /url: /be/nl/rnwy/account/bestellingen/overzicht
+                - text: Bestelstatus
+            - listitem:
+              - link:
+                - /url: /be/nl/m/klantenservice
+                - text: Klantenservice
+    - main:
+      - heading [level=1]: Bol, de winkel van ons allemaal
+      - generic:
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - link:
+                  - /url: /be/nl/cmp/Opstart2025/2083/
+                  - generic:
+                    - generic:
+                      - generic:
+                        - img
+                    - generic:
+                      - heading [level=2]:
+                        - text: Weer in het ritme
+                        - generic: alles voor een soepele start
+                      - button [disabled]: Bekijk nu
+        - generic:
+          - generic:
+            - link:
+              - /url: "#«Rbair5»"
+              - text: Sla deze carousel over
+            - generic:
+              - list:
+                - listitem:
+                  - generic:
+                    - link:
+                      - /url: /be/nl/ra/korting-op-mondverfrissing-snacks-pakjes-drinken-voor-school/446775
+                      - generic:
+                        - generic:
+                          - paragraph:
+                            - strong: Korting* op snacks
+                            - text: "& drankjes voor school"
+                        - generic:
+                          - img
+                      - paragraph: "*op de meest getoonde prijs"
+                - listitem:
+                  - generic:
+                    - link:
+                      - /url: /be/nl/ra/nu-tijdelijk-2-plus-1-afwassen-accessoires/440195
+                      - generic:
+                        - generic:
+                          - paragraph:
+                            - strong: 2 + 1 Gratis op
+                            - text: afwassen en schoonmaken
+                        - generic:
+                          - img
+                - listitem:
+                  - generic:
+                    - link:
+                      - /url: /be/nl/ra/2-1-gratis-op-speelgoedcadeautjes/439655
+                      - generic:
+                        - generic:
+                          - paragraph:
+                            - strong: 2+1 gratis
+                            - text: op speelgoedcadeautjes
+                        - generic:
+                          - img
+                - listitem:
+                  - generic:
+                    - link:
+                      - /url: /be/nl/ra/korting-op-mealpreppen-lunchboxen/455374
+                      - generic:
+                        - generic:
+                          - paragraph:
+                            - strong: Korting* op
+                            - text: Meal prep & vershouden
+                        - generic:
+                          - img
+                      - paragraph: "*op de meest getoonde prijs"
+        - generic:
+          - generic:
+            - generic:
+              - heading [level=2]:
+                - generic:
+                  - strong: Populaire
+                  - text: categorieën
+            - generic:
+              - link:
+                - /url: "#«R4dair5»"
+                - text: Sla deze carousel over
+              - generic:
+                - list:
+                  - listitem:
+                    - link:
+                      - /url: /be/nl/l/schooltassen/39075/
+                      - article:
+                        - generic:
+                          - paragraph: Schooltassen
+                  - listitem:
+                    - link:
+                      - /url: /be/nl/l/bouwsets/20001/
+                      - article:
+                        - generic:
+                          - paragraph: Bouwsets
+                  - listitem:
+                    - link:
+                      - /url: /be/nl/l/rugtassen-heren/47075/
+                      - article:
+                        - generic:
+                          - paragraph: Rugtassen
+                  - listitem:
+                    - link:
+                      - /url: /be/nl/l/kasten/14080/
+                      - article:
+                        - generic:
+                          - paragraph: Kasten
+                  - listitem:
+                    - link:
+                      - /url: /be/nl/l/audio-voor-jou/64498/
+                      - article:
+                        - generic:
+                          - paragraph: Audio voor jou
+                  - listitem:
+                    - link:
+                      - /url: /be/nl/l/waterflessen/15296/
+                      - article:
+                        - generic:
+                          - paragraph: Waterflessen
+        - generic:
+          - generic:
+            - generic:
+              - heading [level=3]
+            - link:
+              - /url: "#«R4rair5»"
+              - text: Sla deze carousel over
+            - generic:
+              - list:
+                - listitem
+                - listitem
+                - listitem
+        - generic:
+          - generic:
+            - generic:
+              - link:
+                - /url: "#«riu»"
+                - text: Sla deze carousel over
+              - generic:
+                - list:
+                  - listitem:
+                    - generic:
+                      - link:
+                        - /url: https://www.bol.com/be/nl/cmp/Opstart2025/2083/
+                        - paragraph:
+                          - text: Alles voor een
+                          - generic: soepele start
+                  - listitem:
+                    - generic:
+                      - link:
+                        - /url: https://www.bol.com/be/nl/cmp/Opstart2025/2083/
+                        - paragraph:
+                          - generic: Schoolspullen
+                          - text: voor het nieuwe jaar
+                  - listitem:
+                    - generic:
+                      - link:
+                        - /url: https://www.bol.com/be/nl/sf/laptops/
+                        - paragraph:
+                          - text: Start slim met je
+                          - generic: nieuwe laptop
+                  - listitem:
+                    - generic:
+                      - link:
+                        - /url: https://www.bol.com/be/nl/cmp/fas/1996/
+                        - paragraph:
+                          - text: Scoor je outfit in de
+                          - generic: fashion sale
+                  - listitem:
+                    - generic:
+                      - link:
+                        - /url: https://www.bol.com/be/nl/sf/verjaardag/
+                        - paragraph:
+                          - generic: Top cadeaus
+                          - text: voor de jarige job
+                  - listitem:
+                    - generic:
+                      - link:
+                        - /url: https://www.bol.com/be/nl/cmp/opstart-refurbished-2025/2088/
+                        - paragraph:
+                          - generic: Refurbished voordeel
+                          - text: bij bol
+        - generic:
+          - generic:
+            - generic:
+              - heading [level=2]:
+                - generic:
+                  - strong: Topdeals
+            - generic:
+              - link:
+                - /url: "#«R4vair5»"
+                - text: Sla deze carousel over
+              - generic:
+                - list:
+                  - listitem:
+                    - generic:
+                      - generic:
+                        - link:
+                          - /url: /be/nl/p/pink-gellac-445-butter-yellow-blooming-meadows-collectie-gel-nagellak-15-ml/9300000227832575/
+                          - generic:
+                            - img
+                        - generic:
+                          - link:
+                            - /url: /be/nl/p/pink-gellac-445-butter-yellow-blooming-meadows-collectie-gel-nagellak-15-ml/9300000227832575/?promo=main_860_deals_for_you___product_0_9300000227832575
+                            - paragraph: Pink Gellac Gellak - 445 Butter Yellow 15ml - Gele Gel Nagellak - Gellac - Gel Nagels Producten
+                          - generic:
+                            - generic:
+                              - generic: De prijs van dit product is 16 euro en 99 cent.
+                              - generic: "16"
+                              - generic: ","
+                              - generic: "99"
+                            - generic:
+                              - generic: korting
+                            - paragraph:
+                              - generic:
+                                - text: Meestal
+                                - generic: 19,99
+                              - button:
+                                - generic:
+                                  - img
+                            - generic: De adviesprijs is 19 euro en 99 cent.
+                        - button:
+                          - generic:
+                            - img
+                  - listitem:
+                    - generic:
+                      - generic:
+                        - link:
+                          - /url: /be/nl/p/arlo-hd-draadloze-video-deurbel-met-camera-1-deurbel-wit/9300000169197877/
+                          - generic:
+                            - img
+                        - generic:
+                          - link:
+                            - /url: /be/nl/p/arlo-hd-draadloze-video-deurbel-met-camera-1-deurbel-wit/9300000169197877/?promo=main_860_deals_for_you___product_1_9300000169197877
+                            - paragraph: Arlo HD draadloze video deurbel met camera, 1 deurbel, wit
+                          - generic:
+                            - generic:
+                              - generic: De prijs van dit product is 59 euro en 99 cent.
+                              - generic: "59"
+                              - generic: ","
+                              - generic: "99"
+                            - generic:
+                              - generic: in prijs verlaagd
+                            - paragraph:
+                              - generic:
+                                - text: Meestal
+                                - generic: 83,99
+                              - button:
+                                - generic:
+                                  - img
+                            - generic: De adviesprijs is 83 euro en 99 cent.
+                        - button:
+                          - generic:
+                            - img
+                  - listitem:
+                    - generic:
+                      - generic:
+                        - link:
+                          - /url: /be/nl/p/jack-jones-jprbristol-blazer-noos-heren-colberts/9300000220183396/
+                          - generic:
+                            - img
+                        - generic:
+                          - link:
+                            - /url: /be/nl/p/jack-jones-jprbristol-blazer-noos-heren-colberts/9300000220183396/?promo=main_860_deals_for_you___product_2_9300000220183396
+                            - paragraph: JACK&JONES - JPRBRISTOL BLAZER NOOS - Heren - Colberts
+                          - generic:
+                            - generic:
+                              - generic: De prijs van dit product is 54 euro en 50 cent.
+                              - generic: "54"
+                              - generic: ","
+                              - generic: "50"
+                            - paragraph:
+                              - generic:
+                                - text: Meestal
+                                - generic: 99,99
+                              - button:
+                                - generic:
+                                  - img
+                            - generic: De adviesprijs is 99 euro en 99 cent.
+                        - button:
+                          - generic:
+                            - img
+                  - listitem:
+                    - generic:
+                      - generic:
+                        - link:
+                          - /url: /be/nl/p/shea-butter-nilotica-500ml-100-puur-onbewerkt-natuurlijke-huidverzorging-sheabutter-ongeraffineerd-uit-oost-africa-voor-huid-haar-en-lichaam-zachter-en-beter-smeerbaar/9300000193598679/
+                          - generic:
+                            - img
+                        - generic:
+                          - link:
+                            - /url: /be/nl/p/shea-butter-nilotica-500ml-100-puur-onbewerkt-natuurlijke-huidverzorging-sheabutter-ongeraffineerd-uit-oost-africa-voor-huid-haar-en-lichaam-zachter-en-beter-smeerbaar/9300000193598679/?promo=main_860_deals_for_you___product_3_9300000193598679
+                            - paragraph: Shea Butter Nilotica 500ml | 100% Puur & Onbewerkt | Natuurlijke Huidverzorging | Sheabutter ongeraffineerd uit Oost-Africa voor Huid, Haar en Lichaam | Zachter en beter smeerbaar
+                          - generic:
+                            - generic:
+                              - generic: De prijs van dit product is 27 euro.
+                              - generic: "27"
+                              - generic: ","
+                              - generic: "-"
+                            - generic:
+                              - generic: korting
+                            - paragraph:
+                              - generic:
+                                - text: Meestal
+                                - generic: 44,50
+                              - button:
+                                - generic:
+                                  - img
+                            - generic: De adviesprijs is 44 euro en 50 cent.
+                        - button:
+                          - generic:
+                            - img
+                  - listitem:
+                    - generic:
+                      - generic:
+                        - link:
+                          - /url: /be/nl/p/stoelhoes-auto-autostoel-hoes-universele-autostoelhoezen-set-geschikt-voor-de-meeste-modellen-vuil-en-krasbestendig-ademend-materiaal-zwart/9300000235537627/
+                          - generic:
+                            - img
+                        - generic:
+                          - link:
+                            - /url: /be/nl/p/stoelhoes-auto-autostoel-hoes-universele-autostoelhoezen-set-geschikt-voor-de-meeste-modellen-vuil-en-krasbestendig-ademend-materiaal-zwart/9300000235537627/?promo=main_860_deals_for_you___product_4_9300000235537627
+                            - paragraph: Stoelhoes Auto - Autostoel hoes - Universele Autostoelhoezen Set - Geschikt voor de meeste modellen -vuil- en krasbestendig - ademend materiaal- Zwart
+                          - generic:
+                            - generic:
+                              - generic: De prijs van dit product is 24 euro en 64 cent.
+                              - generic: "24"
+                              - generic: ","
+                              - generic: "64"
+                            - generic:
+                              - generic: korting
+                            - paragraph:
+                              - generic:
+                                - text: Meestal
+                                - generic: 27,38
+                              - button:
+                                - generic:
+                                  - img
+                            - generic: De adviesprijs is 27 euro en 38 cent.
+                        - button:
+                          - generic:
+                            - img
+                  - listitem:
+                    - generic:
+                      - generic:
+                        - link:
+                          - /url: /be/nl/p/krultang-5-in-1-stijltang-airstyler-multistyler-fohnborstel-hairwrap-krulborstel-krultang-met-opzetstukken-2023-editie-april-haardroger-met-borstel-fohn-wit-goud/9300000149282324/
+                          - generic:
+                            - img
+                        - generic:
+                          - link:
+                            - /url: /be/nl/p/krultang-5-in-1-stijltang-airstyler-multistyler-fohnborstel-hairwrap-krulborstel-krultang-met-opzetstukken-2023-editie-april-haardroger-met-borstel-fohn-wit-goud/9300000149282324/?promo=main_860_deals_for_you___product_5_9300000149282324
+                            - paragraph: Krultang 5 In 1 - Stijltang - Airstyler - Multistyler - Fohnborstel - Hairwrap - Krulborstel - Krultang Met Opzetstukken - Haardroger Met Borstel - Föhn - Wit/Goud
+                          - generic:
+                            - generic:
+                              - generic: De prijs van dit product is 36 euro en 95 cent.
+                              - generic: "36"
+                              - generic: ","
+                              - generic: "95"
+                            - generic:
+                              - generic: korting
+                            - paragraph:
+                              - generic:
+                                - text: Meestal
+                                - generic: 39,95
+                              - button:
+                                - generic:
+                                  - img
+                            - generic: De adviesprijs is 39 euro en 95 cent.
+                        - button:
+                          - generic:
+                            - img
+        - generic:
+          - generic:
+            - generic:
+              - heading [level=2]:
+                - generic:
+                  - text: Bekijk onze
+                  - strong: Topkeuzes
+            - generic:
+              - link:
+                - /url: "#«R53air5»"
+                - text: Sla deze carousel over
+              - generic:
+                - list:
+                  - listitem:
+                    - generic:
+                      - generic:
+                        - link:
+                          - /url: /be/nl/p/casio-fx-82nl-wetenschappelijke-rekenmachine-speciaal-ontwikkeld-voor-het-nederlands-voortgezet-onderwijs-en-de-meeste-vervolgopleidingen-de-fx-82nl-is-de-opvolger-van-de-fx-82ms-2-en-fx-82ex/9300000132810574/
+                          - generic:
+                            - img
+                        - generic:
+                          - link:
+                            - /url: /be/nl/p/casio-fx-82nl-wetenschappelijke-rekenmachine-speciaal-ontwikkeld-voor-het-nederlands-voortgezet-onderwijs-en-de-meeste-vervolgopleidingen-de-fx-82nl-is-de-opvolger-van-de-fx-82ms-2-en-fx-82ex/9300000132810574/?promo=main_862_top_picks_for_you___product_0_9300000132810574
+                            - paragraph: Casio fx-82NL rekenmachine - wetenschappelijke rekenmachine - voor de middelbare school
+                          - generic:
+                            - generic:
+                              - generic: De prijs van dit product is 14 euro en 89 cent.
+                              - generic: "14"
+                              - generic: ","
+                              - generic: "89"
+                            - paragraph:
+                              - generic:
+                                - text: Meestal
+                                - generic: 18,42
+                              - button:
+                                - generic:
+                                  - img
+                            - generic: De adviesprijs is 18 euro en 42 cent.
+                        - button:
+                          - generic:
+                            - img
+                  - listitem:
+                    - generic:
+                      - generic:
+                        - link:
+                          - /url: /be/nl/p/pampers-premium-protection-maat-4-174-luiers-maandbox/9300000138922868/
+                          - generic:
+                            - img
+                        - generic:
+                          - link:
+                            - /url: /be/nl/p/pampers-premium-protection-maat-4-174-luiers-maandbox/9300000138922868/?promo=main_862_top_picks_for_you___product_1_9300000138922868
+                            - paragraph: Pampers Premium Protection - Maat 4 (9kg-14kg) - 174 Luiers - Maandbox
+                          - generic:
+                            - generic:
+                              - generic: De prijs van dit product is 53 euro en 99 cent.
+                              - generic: "53"
+                              - generic: ","
+                              - generic: "99"
+                            - generic:
+                              - generic: korting
+                            - paragraph:
+                              - generic:
+                                - text: Meestal
+                                - generic: 58,79
+                              - button:
+                                - generic:
+                                  - img
+                            - generic: De adviesprijs is 58 euro en 79 cent.
+                        - button:
+                          - generic:
+                            - img
+                  - listitem:
+                    - generic:
+                      - generic:
+                        - link:
+                          - /url: /be/nl/p/nintendo-switch-2-mario-kart-world-bundel-zwart/9300000228511188/
+                          - generic:
+                            - img
+                        - generic:
+                          - link:
+                            - /url: /be/nl/p/nintendo-switch-2-mario-kart-world-bundel-zwart/9300000228511188/?promo=main_862_top_picks_for_you___product_2_9300000228511188
+                            - paragraph: "Nintendo Switch 2 - Mario Kart: World Bundel - Zwart"
+                          - generic:
+                            - generic:
+                              - generic: De prijs van dit product is 509 euro en 99 cent.
+                              - generic: "509"
+                              - generic: ","
+                              - generic: "99"
+                        - button:
+                          - generic:
+                            - img
+                  - listitem:
+                    - generic:
+                      - generic:
+                        - link:
+                          - /url: /be/nl/p/prisma-woordenboek-engels-nederlands/9200000088082120/
+                          - generic:
+                            - img
+                        - generic:
+                          - link:
+                            - /url: /be/nl/p/prisma-woordenboek-engels-nederlands/9200000088082120/?promo=main_862_top_picks_for_you___product_3_9200000088082120
+                            - paragraph: Prisma woordenboek Engels-Nederlands
+                          - generic:
+                            - generic:
+                              - generic: De prijs van dit product is 10 euro en 99 cent.
+                              - generic: "10"
+                              - generic: ","
+                              - generic: "99"
+                        - button:
+                          - generic:
+                            - img
+                  - listitem:
+                    - generic:
+                      - generic:
+                        - link:
+                          - /url: /be/nl/p/kambukka-lagoon-drinkfles-voor-kinderen-400ml-police-patrol-met-geintegreerd-rietje-drinkbus-kinderen-drinkbeker-voor-school/9300000225668141/
+                          - generic:
+                            - img
+                        - generic:
+                          - link:
+                            - /url: /be/nl/p/kambukka-lagoon-drinkfles-voor-kinderen-400ml-police-patrol-met-geintegreerd-rietje-drinkbus-kinderen-drinkbeker-voor-school/9300000225668141/?promo=main_862_top_picks_for_you___product_4_9300000225668141
+                            - paragraph: Kambukka Lagoon Drinkfles voor kinderen 400ml Police Patrol - met geïntegreerd rietje - drinkbus kinderen - drinkbeker voor school
+                          - generic:
+                            - generic:
+                              - generic: De prijs van dit product is 18 euro en 95 cent.
+                              - generic: "18"
+                              - generic: ","
+                              - generic: "95"
+                            - generic:
+                              - generic: 1+1 gratis
+                            - paragraph:
+                              - generic:
+                                - text: Meestal
+                                - generic: 22,95
+                              - button:
+                                - generic:
+                                  - img
+                            - generic: De adviesprijs is 22 euro en 95 cent.
+                        - button:
+                          - generic:
+                            - img
+                  - listitem:
+                    - generic:
+                      - generic:
+                        - link:
+                          - /url: /be/nl/p/pampers-sensitive-billendoekjes-0-plastic-1248-babydoekjes/9300000078289087/
+                          - generic:
+                            - img
+                        - generic:
+                          - link:
+                            - /url: /be/nl/p/pampers-sensitive-billendoekjes-0-plastic-1248-babydoekjes/9300000078289087/?promo=main_862_top_picks_for_you___product_5_9300000078289087
+                            - paragraph: Pampers Sensitive Billendoekjes - 0% plastic - 24 pakken - 1248 Babydoekjes
+                          - generic:
+                            - generic:
+                              - generic: De prijs van dit product is 29 euro en 95 cent.
+                              - generic: "29"
+                              - generic: ","
+                              - generic: "95"
+                        - button:
+                          - generic:
+                            - img
+        - generic:
+          - generic:
+            - generic:
+              - heading [level=2]:
+                - generic:
+                  - strong: Meer van
+                  - text: onze merken
+            - link:
+              - /url: "#«riv»"
+              - text: Sla deze carousel over
+            - generic:
+              - button:
+                - generic:
+                  - img
+              - list:
+                - listitem:
+                  - generic:
+                    - link:
+                      - /url: /be/nl/pb/lego-duplo/4648554/rommelkontjes-bestaan-niet
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                          - generic:
+                            - paragraph: Rommelkontjes?
+                            - paragraph: Die bestaan niet
+                - listitem:
+                  - generic:
+                    - link:
+                      - /url: /be/nl/pb/loreal/12925562/multi-div-beauty-must-haves
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                          - generic:
+                            - paragraph: Beauty Must-Haves
+                            - paragraph: voor jou geselecteerd
+                - listitem:
+                  - generic:
+                    - link:
+                      - /url: /be/nl/pb/lego-duplo/4648554/sloddervosjes-bestaan-niet
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                          - generic:
+                            - paragraph: Sloddervosjes?
+                            - paragraph: Die bestaan niet
+                - listitem:
+                  - generic:
+                    - link:
+                      - /url: /be/nl/pb/nescafe-dolce-gusto/5069804/nescafe-dolce-gusto-neo
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                          - generic:
+                            - paragraph: Proef de toekomst
+                            - paragraph: met NESCAFÉ Dolce Gusto NEO
+                - listitem:
+                  - generic:
+                    - link:
+                      - /url: /be/nl/pb/Shokz%20OpenDots%20ONE/605125950/shokz-opendots-one
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                          - generic:
+                            - paragraph: OpenDots ONE
+                            - paragraph: Lichte clip, krachtig geluid
+                - listitem:
+                  - generic:
+                    - link:
+                      - /url: /be/nl/pb/Perfect%20grillresultaat%20met%20Tefal%20OptiGrill/5082322/tefal-optigrill
+                      - generic:
+                        - generic:
+                          - generic:
+                            - img
+                          - generic:
+                            - paragraph: Perfect grillresultaat
+                            - paragraph: keer op keer
+        - generic:
+          - generic:
+            - generic:
+              - link:
+                - /url: "#«rfq»"
+                - text: Sla deze carousel over
+              - generic:
+                - list:
+                  - listitem:
+                    - generic:
+                      - link:
+                        - /url: https://www.bol.com/be/nl/sf/outlet/
+                  - listitem:
+                    - generic:
+                      - link:
+                        - /url: https://www.bol.com/be/nl/cmp/aanvuldeals/2012/
+                        - paragraph:
+                          - generic: Aanvuldeals
+                          - text: tot 50% korting*
+                  - listitem:
+                    - generic:
+                      - link:
+                        - /url: https://www.bol.com/be/nl/cmp/elektronica-acties/1887/
+                        - paragraph:
+                          - text: De beste
+                          - generic: elektronicadeals
+                  - listitem:
+                    - generic:
+                      - link:
+                        - /url: https://www.bol.com/be/nl/cmp/woondeals/1912/
+                        - paragraph:
+                          - generic: Woondeals
+                          - text: voor elke kamer
+                  - listitem:
+                    - generic:
+                      - link:
+                        - /url: https://www.bol.com/be/nl/cmp/select-deals/1826/
+                        - paragraph:
+                          - generic: Exclusieve
+                          - text: Select-korting
+                  - listitem:
+                    - generic:
+                      - link:
+                        - /url: https://www.bol.com/be/nl/sf/huishoudwinkel/
+                        - paragraph:
+                          - generic: Alles voor je huishouden,
+                          - text: zó in huis
+        - generic:
+          - generic:
+            - generic:
+              - heading [level=2]:
+                - generic:
+                  - strong: Nieuw
+                  - text: binnen
+            - generic:
+              - link:
+                - /url: "#«rj0»"
+                - text: Sla deze carousel over
+              - generic:
+                - list:
+                  - listitem:
+                    - generic:
+                      - generic:
+                        - link:
+                          - /url: /be/nl/p/wat-we-kunnen-weten/9300000231479026/
+                          - generic:
+                            - img
+                        - generic:
+                          - link:
+                            - /url: /be/nl/p/wat-we-kunnen-weten/9300000231479026/?promo=main_861_new_for_you___product_0_9300000231479026
+                            - paragraph: Wat we kunnen weten
+                          - generic:
+                            - generic:
+                              - generic: De prijs van dit product is 27 euro en 50 cent.
+                              - generic: "27"
+                              - generic: ","
+                              - generic: "50"
+                        - button:
+                          - generic:
+                            - img
+                  - listitem:
+                    - generic:
+                      - generic:
+                        - link:
+                          - /url: /be/nl/p/een-pan/9300000227900646/
+                          - generic:
+                            - img
+                        - generic:
+                          - link:
+                            - /url: /be/nl/p/een-pan/9300000227900646/?promo=main_861_new_for_you___product_1_9300000227900646
+                            - paragraph: Eén pan
+                          - generic:
+                            - generic:
+                              - generic: De prijs van dit product is 29 euro en 99 cent.
+                              - generic: "29"
+                              - generic: ","
+                              - generic: "99"
+                        - button:
+                          - generic:
+                            - img
+                  - listitem:
+                    - generic:
+                      - generic:
+                        - link:
+                          - /url: /be/nl/p/lego-f1-raceauto-collectibles-71049/9300000198346112/
+                          - generic:
+                            - img
+                        - generic:
+                          - link:
+                            - /url: /be/nl/p/lego-f1-raceauto-collectibles-71049/9300000198346112/?promo=main_861_new_for_you___product_2_9300000198346112
+                            - paragraph: LEGO F1 raceauto collectibles, 1 van de 12 willekeurige raceauto's - 71049
+                          - generic:
+                            - generic:
+                              - generic: De prijs van dit product is 3 euro en 49 cent.
+                              - generic: "3"
+                              - generic: ","
+                              - generic: "49"
+                            - generic:
+                              - generic: 3+1 gratis
+                        - button:
+                          - generic:
+                            - img
+                  - listitem:
+                    - generic:
+                      - generic:
+                        - link:
+                          - /url: /be/nl/p/wie-praat-die-gaat/9300000223684677/
+                          - generic:
+                            - img
+                        - generic:
+                          - link:
+                            - /url: /be/nl/p/wie-praat-die-gaat/9300000223684677/?promo=main_861_new_for_you___product_3_9300000223684677
+                            - paragraph: Wie praat, die gaat
+                          - generic:
+                            - generic:
+                              - generic: De prijs van dit product is 27 euro en 99 cent.
+                              - generic: "27"
+                              - generic: ","
+                              - generic: "99"
+                        - button:
+                          - generic:
+                            - img
+                  - listitem:
+                    - generic:
+                      - generic:
+                        - link:
+                          - /url: /be/nl/p/de-zoete-zusjes-de-zoete-zusjes-gaan-op-avontuur/9300000227182400/
+                          - generic:
+                            - img
+                        - generic:
+                          - link:
+                            - /url: /be/nl/p/de-zoete-zusjes-de-zoete-zusjes-gaan-op-avontuur/9300000227182400/?promo=main_861_new_for_you___product_4_9300000227182400
+                            - paragraph: De Zoete Zusjes - De Zoete Zusjes gaan op avontuur
+                          - generic:
+                            - generic:
+                              - generic: De prijs van dit product is 15 euro en 99 cent.
+                              - generic: "15"
+                              - generic: ","
+                              - generic: "99"
+                        - button:
+                          - generic:
+                            - img
+                  - listitem:
+                    - generic:
+                      - generic:
+                        - link:
+                          - /url: /be/nl/p/donkey-kong-bananza-nintendo-switch-2/9300000228511225/
+                          - generic:
+                            - img
+                        - generic:
+                          - link:
+                            - /url: /be/nl/p/donkey-kong-bananza-nintendo-switch-2/9300000228511225/?promo=main_861_new_for_you___product_5_9300000228511225
+                            - paragraph: Donkey Kong Bananza - Nintendo Switch 2
+                          - generic:
+                            - generic:
+                              - generic: De prijs van dit product is 63 euro en 99 cent.
+                              - generic: "63"
+                              - generic: ","
+                              - generic: "99"
+                            - paragraph:
+                              - generic:
+                                - text: Meestal
+                                - generic: 69,99
+                              - button:
+                                - generic:
+                                  - img
+                            - generic: De adviesprijs is 69 euro en 99 cent.
+                        - button:
+                          - generic:
+                            - img
+        - generic:
+          - generic:
+            - generic:
+              - heading [level=2]:
+                - generic:
+                  - text: Ontdek
+                  - strong: onze favorieten
+            - generic:
+              - link:
+                - /url: "#«rfr»"
+                - text: Sla deze carousel over
+              - generic:
+                - list:
+                  - listitem:
+                    - link:
+                      - /url: /be/nl/l/hondenvoer/12750/
+                      - article:
+                        - generic:
+                          - paragraph: Hondenvoer & Snacks
+                  - listitem:
+                    - link:
+                      - /url: /be/nl/l/schoonmaakmiddelen/20495/
+                      - article:
+                        - generic:
+                          - paragraph: Schoonmaakmiddelen
+                  - listitem:
+                    - link:
+                      - /url: /be/nl/l/romanceboeken/40494/
+                      - article:
+                        - generic:
+                          - paragraph: Romance
+                  - listitem:
+                    - link:
+                      - /url: /be/nl/l/audio-voor-jou/64498/
+                      - article:
+                        - generic:
+                          - paragraph: Audio voor jou
+                  - listitem:
+                    - link:
+                      - /url: /be/nl/l/bouwsets/20001/
+                      - article:
+                        - generic:
+                          - paragraph: Bouwsets
+                  - listitem:
+                    - link:
+                      - /url: /be/nl/l/wasmiddelen-wasverzachters/61601/
+                      - article:
+                        - generic:
+                          - paragraph: Wasmiddelen & Wasverzachters
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - generic:
+                  - link:
+                    - /url: /be/nl/deals/
+                    - article:
+                      - generic:
+                        - paragraph:
+                          - text: Alle aanbiedingen
+                          - generic: op een rij
+              - generic:
+                - generic:
+                  - link:
+                    - /url: https://www.bol.com/nl/ra/tot-15--korting-op-telefoons---tablets/443624/
+                    - article:
+                      - generic:
+                        - generic:
+                          - generic:
+                            - generic:
+                              - generic:
+                                - img
+                                - heading [level=2]: Dagdeal
+                              - paragraph:
+                                - generic: 01:35:58
+                      - generic:
+                        - paragraph:
+                          - text: "Alléén vandaag: tot 15% korting* op telefoons & tablets"
+                          - generic: "*op de meest getoonde prijs"
+              - generic:
+                - generic:
+                  - link:
+                    - /url: /be/nl/ra/tot-66-korting-op-o-a-dreft-lenor-en-swiffer/431957
+                    - article:
+                      - generic:
+                        - paragraph:
+                          - text: Tot 50% korting*
+                          - generic: op o.a. Dreft & Lenor
+        - generic:
+          - generic:
+            - generic:
+              - heading [level=2]:
+                - strong: Cadeaus
+                - text: voor iedereen
+            - link:
+              - /url: "#«rjm»"
+              - text: Sla deze carousel over
+            - generic:
+              - list:
+                - listitem:
+                  - generic:
+                    - link:
+                      - /url: /be/nl/sf/cadeauwinkel-volwassenen/
+                      - article:
+                        - generic:
+                          - paragraph: Cadeauwinkel volwassenen
+                - listitem:
+                  - generic:
+                    - link:
+                      - /url: /be/nl/sf/cadeauwinkel-kinderen/
+                      - article:
+                        - generic:
+                          - paragraph: Kids cadeauwinkel
+                - listitem:
+                  - generic:
+                    - link:
+                      - /url: /be/nl/sf/verjaardag
+                      - article:
+                        - generic:
+                          - paragraph: Verjaardag
+                - listitem:
+                  - generic:
+                    - link:
+                      - /url: /be/nl/sf/originele-cadeaus
+                      - article:
+                        - generic:
+                          - paragraph: Originele cadeaus
+        - generic:
+          - generic:
+            - generic:
+              - heading [level=2]:
+                - generic:
+                  - strong: Shop
+                  - text: de look
+              - link:
+                - /url: /be/nl/sdl/shop-de-look
+                - generic:
+                  - img
+                - text: Ontdek alle looks
+            - link:
+              - /url: "#«rjn»"
+              - text: Sla deze carousel over
+            - generic:
+              - button:
+                - generic:
+                  - img
+              - list:
+                - listitem:
+                  - generic:
+                    - link:
+                      - /url: /be/nl/sdl/mode/dames/28424
+                      - article:
+                        - generic:
+                          - paragraph: Dames
+                - listitem:
+                  - generic:
+                    - link:
+                      - /url: /be/nl/sdl/mode/heren/24714
+                      - article:
+                        - generic:
+                          - paragraph: Heren
+                - listitem:
+                  - generic:
+                    - link:
+                      - /url: /be/nl/sdl/mode/kinderen/31967
+                      - article:
+                        - generic:
+                          - paragraph: Kinderen
+                - listitem:
+                  - generic:
+                    - link:
+                      - /url: /be/nl/sdl/wonen/woonkamer/62727
+                      - article:
+                        - generic:
+                          - paragraph: Woonkamer
+                - listitem:
+                  - generic:
+                    - link:
+                      - /url: /be/nl/sdl/wonen/slaapkamer/98747
+                      - article:
+                        - generic:
+                          - paragraph: Slaapkamer
+                - listitem:
+                  - generic:
+                    - link:
+                      - /url: /be/nl/sdl/wonen/badkamer/83589
+                      - article:
+                        - generic:
+                          - paragraph: Badkamer
+                - listitem:
+                  - generic:
+                    - link:
+                      - /url: /be/nl/sdl/wonen/eetkamer/68666
+                      - article:
+                        - generic:
+                          - paragraph: Eetkamer
+                - listitem:
+                  - generic:
+                    - link:
+                      - /url: /be/nl/sdl/wonen/keuken/87523
+                      - article:
+                        - generic:
+                          - paragraph: Keuken
+                - listitem:
+                  - generic:
+                    - link:
+                      - /url: /be/nl/sdl/wonen/tuin/91983
+                      - article:
+                        - generic:
+                          - paragraph: Tuin
+                - listitem:
+                  - generic:
+                    - link:
+                      - /url: /be/nl/sdl/wonen/werkkamer/61012
+                      - article:
+                        - generic:
+                          - paragraph: Werkkamer
+                - listitem:
+                  - generic:
+                    - link:
+                      - /url: /be/nl/sdl/wonen/hal/69874
+                      - article:
+                        - generic:
+                          - paragraph: Hal
+                - listitem:
+                  - generic:
+                    - link:
+                      - /url: /be/nl/sdl/wonen/kopen-of-slopen/66894
+                      - article:
+                        - generic:
+                          - paragraph: Kopen of Slopen
+                - listitem:
+                  - generic:
+                    - link:
+                      - /url: /be/nl/sdl/baby-peuter/baby-peuter/55624
+                      - article:
+                        - generic:
+                          - paragraph: Baby & Peuter
+                - listitem:
+                  - generic:
+                    - link:
+                      - /url: /be/nl/sdl/gaming-elektronica/gaming/83403
+                      - article:
+                        - generic:
+                          - paragraph: Gaming
+                - listitem:
+                  - generic:
+                    - link:
+                      - /url: /be/nl/sdl/gaming-elektronica/elektronica/18762
+                      - article:
+                        - generic:
+                          - paragraph: Elektronica
+                - listitem:
+                  - generic:
+                    - link:
+                      - /url: /be/nl/sdl/specials/kerstdecoratie/77778
+                      - article:
+                        - generic:
+                          - paragraph: Kerstdecoratie
+                - listitem:
+                  - generic:
+                    - link:
+                      - /url: /be/nl/sdl/specials/kerstdiner/11711
+                      - article:
+                        - generic:
+                          - paragraph: Kerstdiner
+                - listitem:
+                  - generic:
+                    - link:
+                      - /url: /be/nl/sdl/specials/kerstlooks/48311
+                      - article:
+                        - generic:
+                          - paragraph: Kerstlooks
+                - listitem:
+                  - generic:
+                    - link:
+                      - /url: /be/nl/sdl/tuin/tuin/91983
+                      - article:
+                        - generic:
+                          - paragraph: Tuin
+        - generic:
+          - generic:
+            - generic:
+              - generic:
+                - heading [level=2]:
+                  - generic:
+                    - strong: Ontdek alles
+                    - text: bij bol
+            - navigation:
+              - list:
+                - listitem:
+                  - list:
+                    - listitem:
+                      - heading [level=3]: Boeken
+                      - list:
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/boeken/8299/
+                            - text: Boeken
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/nederlandse-boeken/8299/8293/
+                            - text: Nederlandstalige boeken
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/engelse-boeken/8299/8292/
+                            - text: Engelstalige boeken
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/ebooks/8299/7419/
+                            - text: E-books
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/e-readers/10681/
+                            - text: E-readers
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/sf/kobo-plus/
+                            - text: Kobo Plus abonnement
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/tweedehands-boeken/8299/1426/
+                            - text: Tweedehands boeken
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/luisterboeken/8299/7420/
+                            - text: Luisterboeken
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/boeken-studieboeken/8299/67400/
+                            - text: Studieboeken
+                    - listitem:
+                      - heading [level=3]: Muziek, Film & Games
+                      - list:
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/sf/merchandise/
+                            - text: Merchandise
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/sf/muziek/
+                            - text: Muziek
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/films-en-series-op-dvd/53445/
+                            - text: DVD
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/films-en-series-op-blu-ray/53446/
+                            - text: Blu-ray
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/series/3133/30291/
+                            - text: TV-series
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/gaming/3135/
+                            - text: Games
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/sf/gameshardware/
+                            - text: Consoles & accessoires
+                    - listitem:
+                      - heading [level=3]: Sport, Outdoor & Reizen
+                      - list:
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/sportartikelen/14648/
+                            - text: Sport
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/sportkleding/17377/
+                            - text: Sportkleding
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/kamperen-outdoor/15270/
+                            - text: Kamperen & Outdoor
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/reisbagage-reisaccessoires/16799/
+                            - text: Reisbagage
+                - listitem:
+                  - list:
+                    - listitem:
+                      - heading [level=3]: Computer & Elektronica
+                      - list:
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/sf/computer/
+                            - text: Computer
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/sf/mobile/
+                            - text: Telefonie
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/tablets/10656/
+                            - text: Tablets
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/sf/huishoudelijke-apparaten/
+                            - text: Huishoudelijke apparaten
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/sf/keukenapparaten/
+                            - text: Keukenapparaten
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/fotocamera-s/4070/
+                            - text: Camera's
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/smartwatches/18157/
+                            - text: Smartwatches
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/navigatie-accessoires/4005/
+                            - text: Navigatie
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/tv-s/7291/
+                            - text: Televisies
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/sf/audio-hifi/
+                            - text: Audio & Hifi
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/sf/persoonlijke-verzorging/
+                            - text: Persoonlijke verzorging
+                    - listitem:
+                      - heading [level=3]: Speelgoed & Hobby
+                      - list:
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/speelgoed/7934/
+                            - text: Speelgoed
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/hobby-creatief/10505/
+                            - text: Hobby & Creatief
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/buitenspeelgoed/10494/
+                            - text: Buitenspeelgoed
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/verkleedkleding-merch/10516/
+                            - text: Verkleedkleding
+                    - listitem:
+                      - heading [level=3]: Cadeau & Inspiratie
+                      - list:
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/m/cadeaubon-bestellen/
+                            - text: Cadeaubonnen
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/sf/cadeauwinkel-volwassenen/
+                            - text: Cadeauwinkel
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/sf/lees/
+                            - text: Lees Magazine
+                - listitem:
+                  - list:
+                    - listitem:
+                      - heading [level=3]: Koken & Tafelen
+                      - list:
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/koken-tafelen/11764/
+                            - text: Koken & Tafelen
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/barbecues/11771/
+                            - text: Barbecues
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/pannen/11767/
+                            - text: Pannen
+                    - listitem:
+                      - heading [level=3]: Huishouden
+                      - list:
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/huishouden/12001/
+                            - text: Huishouden
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/prullenbakken/12022/
+                            - text: Prullenbakken
+                    - listitem:
+                      - heading [level=3]: Tuin
+                      - list:
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/sf/tuin/
+                            - text: Tuin
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/tuinmeubelen/12975/
+                            - text: Tuinmeubelen
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/tuingereedschap/13061/
+                            - text: Tuingereedschap
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/loungesets/14344/
+                            - text: Loungesets
+                    - listitem:
+                      - heading [level=3]: Dier
+                      - list:
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/dieren/12748/
+                            - text: Dier
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/hondenwinkel/12749/
+                            - text: Hond
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/kattenwinkel/12835/
+                            - text: Katten
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/paardenwinkel/12939/
+                            - text: Paard & Ruiter
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/knaagdierenwinkel/12888/
+                            - text: Knaagdieren
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/aquariumwinkel/12885/
+                            - text: Vissen
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/reptielen-benodigdheden/12924/
+                            - text: Reptielen
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/vogelwinkel/22258/
+                            - text: Vogels
+                - listitem:
+                  - list:
+                    - listitem:
+                      - heading [level=3]: Wonen
+                      - list:
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/woonartikelen/14035/
+                            - text: Wonen
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/meubels/25152/
+                            - text: Meubels
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/beddengoed/14193/
+                            - text: Beddengoed
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/verlichting/14258/
+                            - text: Verlichting
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/woonaccessoires/14124/
+                            - text: Woonaccessoires
+                    - listitem:
+                      - heading [level=3]: Klussen
+                      - list:
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/sf/klussen/
+                            - text: Klussen
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/sf/elektrisch-gereedschap/
+                            - text: Elektrisch gereedschap
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/sf/werkkleding-bescherming/
+                            - text: Werkkleding & Bescherming
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/verfspullen/13261/
+                            - text: Verfspullen
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/behang/13271/
+                            - text: Behang
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/sf/bouwmaterialen/
+                            - text: Bouwmaterialen
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/alle-artikelen/
+                            - text: Sanitair
+                    - listitem:
+                      - heading [level=3]: Mooi & Gezond
+                      - list:
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/verzorgingsproducten/12442/
+                            - text: Verzorging
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/make-up/12383/
+                            - text: Make-up
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/parfum/12428/
+                            - text: Parfum
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/sf/parfum-en-luxe-verzorging/
+                            - text: Luxe & Professionele verzorging
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/giftsets/12687/
+                            - text: Geschenksets
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/sf/gezondheid/
+                            - text: Gezondheid
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/erotiek/12605/
+                            - text: Erotiek
+                - listitem:
+                  - list:
+                    - listitem:
+                      - heading [level=3]: Damesmode
+                      - list:
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/damesmode/46673/
+                            - text: Damesmode
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/dameskleding/47198/
+                            - text: Dameskleding
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/dames-schoenen/37400/
+                            - text: Dames schoenen
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/lingerie/46974/
+                            - text: Lingerie
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/dames-accessoires/46829/
+                            - text: Dames accessoires
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/sieraden-horloges/67198/
+                            - text: Dames sieraden & horloges
+                    - listitem:
+                      - heading [level=3]: Herenmode
+                      - list:
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/herenmode/47024/
+                            - text: Herenmode
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/herenkleding/47410/
+                            - text: Herenkleding
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/heren-schoenen/37401/
+                            - text: Heren schoenen
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/heren-ondergoed/47173/
+                            - text: Heren ondergoed
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/heren-accessoires/47102/
+                            - text: Heren accessoires
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/sieraden-horloges/67199/
+                            - text: Heren sieraden & horloges
+                    - listitem:
+                      - heading [level=3]: Baby & Kind
+                      - list:
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/sf/baby/
+                            - text: Baby & Kind
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/babykamers/11286/
+                            - text: Babykamer
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/onderweg/11272/
+                            - text: Onderweg
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/babyverzorging/11306/
+                            - text: Babyverzorging
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/babykleding/21357/
+                            - text: Babykleding
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/kindermode/16947/
+                            - text: Kinderkleding
+                - listitem:
+                  - list:
+                    - listitem:
+                      - heading [level=3]: Eten & Drinken
+                      - list:
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/sf/eten-drinken/
+                            - text: Eten & Drinken
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/sf/koffiewinkel/
+                            - text: Koffie
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/thee/20616/
+                            - text: Thee
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/alcoholvrije-drank-en-accessoires/64414/
+                            - text: Frisdranken
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/koek-en-chocolade/63490/
+                            - text: Snoep, Koek, Chocolade
+                    - listitem:
+                      - heading [level=3]: Auto & Motor
+                      - list:
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/auto-motor/43646/
+                            - text: Auto & Motor
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/autoaccessoires/43647/
+                            - text: Auto-accessoires
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/auto-onderhoud/43649/
+                            - text: Auto-onderhoud
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/auto-onderdelen/43648/
+                            - text: Auto-onderdelen
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/motoraccessoires/43650/
+                            - text: Motoraccessoires
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/motorkleding/43652/
+                            - text: Motorkleding
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/motoronderhoud-onderdelen/43651/
+                            - text: Motoronderhoud & -onderdelen
+                    - listitem:
+                      - heading [level=3]: School & Kantoor
+                      - list:
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/kantoorartikelen/51820/
+                            - text: Kantoorartikelen
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/-/10571/
+                            - text: Schoolspullen
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/dagboeken-vriendenboekjes/31133/
+                            - text: Dagboeken & Vriendenboeken
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/wenskaarten/25960/
+                            - text: Wenskaarten
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/tijdschriften-puzzelboeken/54827/
+                            - text: Tijdschriften & Puzzelboeken
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/fotoalbums-accessoires/21024/
+                            - text: Fotoalbums & Accessoires
+                        - listitem:
+                          - link:
+                            - /url: /be/nl/l/cadeauverpakkingen-cadeaupapier/26013/
+                            - text: Cadeaupapier & Verpakkingen
+    - contentinfo:
+      - generic:
+        - generic:
+          - generic:
+            - heading [level=2]: Service & contact
+          - generic:
+            - figure:
+              - img
+            - generic:
+              - heading [level=3]:
+                - strong: Snel regelen in je account
+              - paragraph:
+                - link:
+                  - /url: /be/nl/rnwy/account/bestellingen/overzicht
+                  - text: Volg je bestelling
+                - text: ","
+                - link:
+                  - /url: /be/nl/rnwy/account/facturen
+                  - text: betaal facturen
+                - text: of
+                - link:
+                  - /url: /be/nl/account/retourneren/overzicht
+                  - text: retourneer een artikel
+                - text: .
+          - generic:
+            - figure:
+              - img
+            - generic:
+              - heading [level=3]:
+                - strong: Heb je ons nodig?
+              - paragraph:
+                - text: We helpen je graag.
+                - link:
+                  - /url: /be/nl/m/klantenservice
+                  - text: Onze klantenservice
+                - text: is dag en nacht open.
+      - generic:
+        - list:
+          - listitem:
+            - heading [level=3]:
+              - link:
+                - /url: /be/nl/m/klantenservice
+                - text: Klantenservice
+            - list:
+              - listitem:
+                - link:
+                  - /url: /be/nl/m/klantenservice
+                  - text: Contact opnemen
+              - listitem:
+                - link:
+                  - /url: /be/nl/m/bestellen
+                  - text: Bestellen & Leveren
+              - listitem:
+                - link:
+                  - /url: /be/nl/m/betalen
+                  - text: Betalen
+              - listitem:
+                - link:
+                  - /url: /be/nl/m/retourneren
+                  - text: Retourneren
+              - listitem:
+                - link:
+                  - /url: /be/nl/m/garantie/subject/62650041
+                  - text: Garantie & Reparatie
+              - listitem:
+                - link:
+                  - /url: /be/nl/inf/terugroepacties-van-artikelen/49922/
+                  - text: Terugroepacties
+          - listitem:
+            - heading [level=3]:
+              - link:
+                - /url: //pers.bol.com/nl/het-verhaal/
+                - text: Over bol
+            - list:
+              - listitem:
+                - link:
+                  - /url: /be/nl/sf/winkelen-zonder-zorgen
+                  - text: De voordelen van bol
+              - listitem:
+                - link:
+                  - /url: //pers.bol.com
+                  - text: Nieuws
+              - listitem:
+                - link:
+                  - /url: /be/nl/sf/mobiele-app
+                  - text: De bol app
+              - listitem:
+                - link:
+                  - /url: //banen.bol.com/
+                  - text: Werken bij bol
+              - listitem:
+                - link:
+                  - /url: /be/nl/sf/duurzaamheid/
+                  - text: Bol & duurzaamheid
+              - listitem:
+                - link:
+                  - /url: /be/nl/sf/bollebozen
+                  - text: Bollebozen
+              - listitem:
+                - link:
+                  - /url: /be/nl/tc/toegankelijkheidsverklaring/
+                  - text: Toegankelijkheidsverklaring
+              - listitem:
+                - link:
+                  - /url: /be/nl/klantenservice/a/5715110588841984/bedrijfsgegevens
+                  - text: Bedrijfsgegevens
+          - listitem:
+            - heading [level=3]:
+              - link:
+                - /url: /be/nl/sf/zakendoen-met-bolcom
+                - text: Zakendoen met bol
+            - list:
+              - listitem:
+                - link:
+                  - /url: //partnerplatform.bol.com/
+                  - text: Zakelijk verkopen
+              - listitem:
+                - link:
+                  - /url: /be/nl/sf/zakelijk-bestellen
+                  - text: Zakelijk bestellen
+              - listitem:
+                - link:
+                  - /url: //cadeaukaart.bol.com/
+                  - text: Zakelijke cadeaukaarten
+              - listitem:
+                - link:
+                  - /url: //adverteren.bol.com
+                  - text: Adverteren
+              - listitem:
+                - link:
+                  - /url: //affiliate.bol.com/nl/
+                  - text: Affiliate Marketing
+          - listitem:
+            - heading [level=3]:
+              - strong: Wil je ons volgen?
+            - generic:
+              - link:
+                - /url: //www.facebook.com/bolpuntcom
+                - generic:
+                  - img
+              - link:
+                - /url: //www.pinterest.com/bol
+                - generic:
+                  - img
+              - link:
+                - /url: //www.instagram.com/bol
+                - generic:
+                  - img
+              - link:
+                - /url: //www.youtube.com/user/bolcom
+                - generic:
+                  - img
+              - link:
+                - /url: //www.linkedin.com/company/11699
+                - generic:
+                  - img
+              - link:
+                - /url: //www.tiktok.com/@bol
+                - generic:
+                  - img
+            - paragraph:
+              - link:
+                - /url: /be/nl/rnwy/account/newsletters
+                - text: Meld je aan
+              - text: voor korting en inspiratie in je mailbox
+        - generic:
+          - paragraph:
+            - img
+          - generic:
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+            - img
+          - generic:
+            - list:
+              - listitem:
+                - link:
+                  - /url: //www.becommerce.be/report/html/becommerce_certification.report_certificate/15194
+                  - generic: Certificaat Thuiswinkel Waarborg
+                  - img
+              - listitem:
+                - text: "|"
+                - link:
+                  - /url: /be/nl/tc/
+                  - text: Algemene voorwaarden
+              - listitem:
+                - text: "|"
+                - link:
+                  - /url: /be/nl/tc/privacybeleid
+                  - text: Privacy
+              - listitem:
+                - text: "|"
+                - link:
+                  - /url: /be/nl/tc/cookiebeleid
+                  - text: Cookies
+              - listitem:
+                - text: "|"
+                - link:
+                  - /url: /be/nl/tc/copyright
+                  - text: ©
+                - text: 1999-2025 bol.com b.v.
+            - paragraph:
+              - text: "* De voordelen van bol.com gelden niet voor het gehele assortiment."
+              - link:
+                - /url: /be/nl/sf/winkelen-zonder-zorgen
+                - text: Bekijk de voorwaarden
+              - text: Alle prijzen zijn inclusief BTW en andere heffingen en exclusief eventuele
+              - link:
+                - /url: /be/nl/klantenservice/a/5711226101301248/bezorgopties-en-kosten
+                - text: verzendkosten
+              - text: en
+              - link:
+                - /url: /be/nl/klantenservice/a/5711226101301248/bezorgopties-en-kosten
+                - text: servicekosten
+```
