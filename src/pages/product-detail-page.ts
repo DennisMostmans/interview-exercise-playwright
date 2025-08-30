@@ -46,10 +46,29 @@ export class ProductDetailPage {
     }
 
     async disableRoute(context: BrowserContext): Promise<void> {
-        await this.page.route(
-            (url) => url.pathname.includes('addOnPage') || url.pathname.includes('addItems'),
-            route => route.abort()
-        );
+        await context.route(
+            (url: URL | string) => {
+                try {
+                    const u = typeof url === 'string' ? new URL(url) : url;
+                    const p = u.pathname.toLowerCase();
+                    const q = u.search.toLowerCase();
+                    return (
+                        p.includes('/order/basket/additems.html') ||
+                        p.includes('/rnwy/addonpage') ||
+                        p.includes('/nl/ajax/shoppingbasket.html') ||
+                        p.includes('/winkelwagen') ||
+                        q.includes('redirect=/nl/ajax/shoppingbasket.html') ||
+                        q.includes('redirect=%2fnl%2fajax%2fshoppingbasket.html')
+                    );
+                    } catch {
+                    return false;
+                    }
+                },
+                async route => {
+                    // Block all matching requests (XHR/fetch and document) to prevent leaving PDP
+                    await route.abort('blockedbyclient');
+                }
+            );
     }
 
     async ClickAddToCartWithoutAdding(): Promise<void> {

@@ -33,11 +33,11 @@ export class Pagination {
     for (let i = 0; i < count && titles.length < n; i++) {
       const card = cards.nth(i);
 
-      // Skip sponsored cards
+
       const isSponsored = await card.locator('button:has(span:text("Gesponsord"))').count();
       if (isSponsored > 0) continue;
 
-      // Get the h2 title
+
       const titleLocator = card.locator('h2.mb-1.line-clamp-2');
       if (await titleLocator.count() === 0) continue;
 
@@ -54,7 +54,7 @@ export class Pagination {
 
   
   async goToNextPage(): Promise<void> {
-    const firstTitleBefore = (await this.articleTitles.first().innerText().catch(() => '')).trim();
+    const firstNonSponsoredBefore = (await this.getFirstNTitles(1))[0] || '';
 
     const nextLink = this.page.getByRole('link', { name: /volgende/i });
     const nextButton = this.page.getByRole('button', { name: /volgende/i });
@@ -67,15 +67,17 @@ export class Pagination {
       }
     };
 
+    const oldUrl = this.page.url();
+
     await Promise.all([
-      this.page.waitForURL(url => /(?:\?|&)page=2\b/.test(url.toString()), { timeout: 15000 }),
+      this.page.waitForURL(url => url.toString() !== oldUrl, { timeout: 15000 }),
       clickNext(),
     ]);
 
     await expect.poll(async () => {
-      const current = (await this.articleTitles.first().innerText().catch(() => '')).trim();
-      return current !== '' && current !== firstTitleBefore;
-    }, { message: 'Waiting for results to update after pagination' }).toBe(true);
+      const firstNonSponsored = (await this.getFirstNTitles(1))[0] || '';
+      return firstNonSponsored !== '' && firstNonSponsored !== firstNonSponsoredBefore;
+    }, { timeout: 15000, message: 'Waiting for results to update after pagination' }).toBe(true);
   }
 
   async takeScreenshot(name: string): Promise<void> {

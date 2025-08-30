@@ -20,12 +20,11 @@ Belangrijkste risico’s
 - Anti-bot/ratelimiting bij te snelle/parallelle acties.
 - Niet-deterministische prijsweergave/formatting.
 - CI-public runners worden door bol.com-IP’s geblokkeerd.
-- Netwerk-intercept (add-to-cart) kan een white page geven.
 
 Flaky-tests voorkomen (maatregelen)
 - Overlays: centrale wachtconditie op .modal__overlay:visible → 0 voordat we de header (zoekveld/knop) gebruiken.
 - Zoeken: input vullen + expect(toHaveValue). Net vóór submit hercontrole (inputValue), indien leeg nog één keer vullen en direct Enter gebruiken (stabieler dan klikken).
-- Paginatie: screenshot “page1” vóór navigatie; klik “Volgende”; wacht op URL én content change (eerste titel wijzigt) vóór “page2”-screenshot.
+- Paginatie: screenshot “page1” vóór navigatie; klik “Volgende”; wacht op URL én content change (eerste titel zonder ('gesponsord') wijzigt) vóór “page2”-screenshot.
 - Gesponsord filteren: bij het verzamelen van titels “Gesponsord” artikels overslaan.
 - Anti-bot: 1 worker in CI, web-first assertions i.p.v. sleeps, geen onnodige parallelle requests.
 - CI: self-hosted runner met lokaal IP; BASE_URL via env.
@@ -36,10 +35,9 @@ Ervaringen/problemen en oplossingen
 - Prijs testen: moeilijk om prijs te parsen en stabiliseren. Oplossing: normaliseren in Prices.ts, valuta/whitespace strippen, scheidingstekens consistent maken, waar mogelijk met “cents” als integer werken; assert op range i.p.v. exacte waarde.
 - Pop-up land/taal: kwam meermaals terug, blokkeerde de zoekknop. Oplossing: test opent/handelt de modal vroeg op de homepage en wacht tot .modal__overlay weg is.
 - Gesponsorde advertenties: verstoorden page1 vs page2-vergelijking. Oplossing: gesponsorde items detecteren en uitsluiten vóór titelvergelijking.
-- “Rustig aan speedracer”: bol.com blokkeert bij te snelle/parallelle acties. Oplossing: 1 worker, web-first wachten, geen agressieve polling.
+- “Rustig aan speedracer”: bol.com blokkeert bij te snelle/parallelle acties. Oplossing: aangepaste user agents en headers.
 - bol.com blokkeert publieke CI-runners: lokale/self-hosted runner gebruikt met schema.
-- Add-to-cart intercept → white page: nog geen structurele workaround; vermijd abort op kritieke routes of fulfill met een geldige stub.
-- Specifiek gevraagd: “Geen europese notatie , wél wisselende formatting.” Dit is meegenomen in de prijs-normalisatie (flexibel strippen/normaliseren i.p.v. op één notatie te vertrouwen).
+- Add-to-cart intercept → white page: Zorgen dat navigatie niet geblocked wordt, maar add-to-cart related XHR/Fetch wel.
 
 Uitvoering 
 - Installeren en draaien: 
