@@ -58,7 +58,9 @@ async disableRoute(contect: BrowserContext): Promise<void> {
             await route.abort('failed');
         }
         // Block navigations to shopping cart caused by scripts
-        else if (req.isNavigationRequest() && u.pathname.includes('/winkelwagen')) {
+        else if (req.isNavigationRequest() && (u.pathname.includes('/winkelwagen') 
+            || u.pathname.includes('/shoppingbasket') 
+            || u.pathname.includes('/basket'))) {
             await route.abort();
         }
         else {
