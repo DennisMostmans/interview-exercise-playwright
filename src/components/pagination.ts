@@ -54,9 +54,28 @@ export class Pagination {
 
   
   async goToNextPage(): Promise<void> {
+    const firstTitleBefore = (await this.articleTitles.first().innerText().catch(() => '')).trim();
+
+    const nextLink = this.page.getByRole('link', { name: /volgende/i });
     const nextButton = this.page.getByRole('button', { name: /volgende/i });
-    await nextButton.click();
-    await this.page.waitForURL(/page=2/);
+
+    const clickNext = async () => {
+      if (await nextLink.isVisible().catch(() => false)) {
+        await nextLink.click();
+      } else {
+        await nextButton.click();
+      }
+    };
+
+    await Promise.all([
+      this.page.waitForURL(url => /(?:\?|&)page=2\b/.test(url.toString()), { timeout: 15000 }),
+      clickNext(),
+    ]);
+
+    await expect.poll(async () => {
+      const current = (await this.articleTitles.first().innerText().catch(() => '')).trim();
+      return current !== '' && current !== firstTitleBefore;
+    }, { message: 'Waiting for results to update after pagination' }).toBe(true);
   }
 
   async takeScreenshot(name: string): Promise<void> {
