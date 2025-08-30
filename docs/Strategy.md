@@ -37,7 +37,7 @@ Ervaringen/problemen en oplossingen
 - Gesponsorde advertenties: verstoorden page1 vs page2-vergelijking. Oplossing: gesponsorde items detecteren en uitsluiten vóór titelvergelijking.
 - “Rustig aan speedracer”: bol.com blokkeert bij te snelle/parallelle acties. Oplossing: 1 worker, aangepaste user agents en headers.
 - bol.com blokkeert publieke CI-runners: lokale/self-hosted runner gebruikt met schema.
-- Add-to-cart intercept → white page: Zorgen dat navigatie niet geblocked wordt, maar add-to-cart related XHR/Fetch wel.
+- Add-to-cart intercept → white page: lokaal wordt de request geintercept en geblokkeerd wat een error pop up veroorzaakt op de PDP zoals verwacht, op de CI/CD krijgen we een whitepage na de click, wat zorgt voor een false negative.
 
 Uitvoering 
 - Installeren en draaien: 
