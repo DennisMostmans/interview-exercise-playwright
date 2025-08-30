@@ -55,7 +55,11 @@ async disableRoute(contect: BrowserContext): Promise<void> {
             ['xhr', 'fetch'].includes(req.resourceType()) &&
             (u.pathname.includes('addOnPage') || u.pathname.includes('addItems'))
         ) {
-            await route.abort('failed');
+            await route.fulfill({
+                status: 500,
+                contentType: 'text/html',
+                body: '<h2>Excuses, er ging iets mis (simulated)</h2>',
+            });
         }
         // Block navigations to shopping cart caused by scripts
         else if (req.isNavigationRequest() && (u.pathname.includes('/winkelwagen') 
