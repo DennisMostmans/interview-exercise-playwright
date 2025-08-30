@@ -26,10 +26,10 @@ test.describe('Verification of pagination', () => {
     await homepage.search(searchScenarios.lego.searchTerm);
     await searchResultsPage.verifySearchResults();
 
-    // Use new helper to get first 5 titles and take screenshot of page 2
+
     const { page1, page2 } = await pagination.getFirstNTitlesAcrossPages(5, 'page2');
 
-    // Compare titles
+
     const duplicates = await pagination.compareTitles(page1, page2);
     expect(duplicates, `Duplicates found: ${duplicates}`).toEqual([]);
 

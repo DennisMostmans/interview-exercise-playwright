@@ -45,30 +45,44 @@ export class ProductDetailPage {
         await expect(this.addToCartButton).toBeVisible({ timeout: 5000 });
     }
 
-    async disableRoute(context: BrowserContext): Promise<void> {
-        await context.route(
-            (url: URL | string) => {
-                try {
-                    const u = typeof url === 'string' ? new URL(url) : url;
-                    const p = u.pathname.toLowerCase();
-                    const q = u.search.toLowerCase();
-                    return (
-                        p.includes('/order/basket/additems.html') ||
-                        p.includes('/rnwy/addonpage') ||
-                        p.includes('/nl/ajax/shoppingbasket.html') ||
-                        p.includes('/winkelwagen') ||
-                        q.includes('redirect=/nl/ajax/shoppingbasket.html') ||
-                        q.includes('redirect=%2fnl%2fajax%2fshoppingbasket.html')
-                    );
-                    } catch {
-                    return false;
-                    }
-                },
-                async route => {
-                    // Block all matching requests (XHR/fetch and document) to prevent leaving PDP
-                    await route.abort('blockedbyclient');
+    async disableRoute(context: BrowserContext): Promise<() => Promise<void>> {
+        const matcher = '**/*';
+        const handler = async (route: any) => {
+            try {
+                const req = route.request();
+                // Never block navigations/documents to avoid blank page in CI
+                if (req.isNavigationRequest() || req.resourceType() === 'document') {
+                    return route.continue();
                 }
-            );
+
+                const url = req.url().toLowerCase();
+                const u = new URL(url);
+                const p = u.pathname;
+                const q = u.search;
+
+                const matches =
+                    p.includes('/order/basket/additems.html') ||
+                    p.includes('/rnwy/addonpage') ||
+                    p.includes('/nl/ajax/shoppingbasket.html') ||
+                    p.includes('/winkelwagen') ||
+                    q.includes('redirect=/nl/ajax/shoppingbasket.html') ||
+                    q.includes('redirect=%2fnl%2fajax%2fshoppingbasket.html');
+
+                if (matches) {
+                    // Abort only XHR/fetch/etc. to trigger client-side error UI
+                    return route.abort('blockedbyclient');
+                }
+
+                return route.continue();
+            } catch {
+                return route.continue();
+            }
+        };
+
+        await context.route(matcher, handler);
+        return async () => {
+            await context.unroute(matcher, handler);
+        };
     }
 
     async ClickAddToCartWithoutAdding(): Promise<void> {
