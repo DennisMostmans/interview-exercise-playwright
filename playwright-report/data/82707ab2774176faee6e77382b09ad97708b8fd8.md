@@ -1,0 +1,543 @@
+# Page snapshot
+
+```yaml
+- generic [ref=e2]:
+  - banner [ref=e3]:
+    - generic:
+      - link "Ga naar zoeken" [ref=e4] [cursor=pointer]:
+        - /url: "#searchfor"
+      - link "Ga naar hoofdinhoud" [ref=e5] [cursor=pointer]:
+        - /url: "#mainContent"
+    - complementary "Onze voordelen" [ref=e6]:
+      - generic [ref=e7]:
+        - link "lekker winkelen zonder zorgen Gratis verzending vanaf 25,- Bezorging dezelfde dag, 's avonds of in het weekend* Gratis retourneren" [ref=e8] [cursor=pointer]:
+          - /url: /be/nl/sf/winkelen-zonder-zorgen
+          - generic [ref=e9] [cursor=pointer]: lekker winkelen zonder zorgen
+          - list [ref=e10] [cursor=pointer]:
+            - listitem [ref=e11] [cursor=pointer]:
+              - generic [ref=e12] [cursor=pointer]:
+                - strong [ref=e13] [cursor=pointer]: Gratis
+                - text: verzending vanaf 25,-
+            - listitem [ref=e14] [cursor=pointer]:
+              - generic [ref=e15] [cursor=pointer]: Bezorging dezelfde dag, 's avonds of in het weekend*
+            - listitem [ref=e16] [cursor=pointer]:
+              - generic [ref=e17] [cursor=pointer]:
+                - strong [ref=e18] [cursor=pointer]: Gratis
+                - text: retourneren
+        - link "Select Ontdek nu de 4 voordelen" [ref=e19] [cursor=pointer]:
+          - /url: /be/nl/select
+          - generic [ref=e20] [cursor=pointer]: Select
+          - generic [ref=e21] [cursor=pointer]: Ontdek nu de 4 voordelen
+    - generic [ref=e22]:
+      - link "Bol.com homepage" [ref=e24] [cursor=pointer]:
+        - /url: /be/nl/
+        - img [ref=e25] [cursor=pointer]
+      - search "In onze winkel" [ref=e28]:
+        - generic [ref=e29]:
+          - textbox "Zoeken" [ref=e30]
+          - button "Zoeken" [ref=e31] [cursor=pointer]:
+            - img [ref=e33] [cursor=pointer]
+      - generic [ref=e36]:
+        - link "Inloggen" [ref=e38] [cursor=pointer]:
+          - /url: /nl/account/login.html
+          - generic [ref=e39] [cursor=pointer]: Inloggen
+        - link "Naar mijn verlanglijstjes" [ref=e41] [cursor=pointer]:
+          - /url: /be/nl/lijstjes/overzicht-lijsten/
+          - img [ref=e43] [cursor=pointer]
+        - link "Winkelwagen met 1 artikelen" [ref=e46] [cursor=pointer]:
+          - /url: /be/nl/basket/
+          - img [ref=e48] [cursor=pointer]
+          - generic [ref=e51] [cursor=pointer]: "1"
+    - generic [ref=e53]:
+      - navigation "Main" [ref=e54]:
+        - list [ref=e56]:
+          - listitem [ref=e57]:
+            - button "Categorieën" [ref=e58]:
+              - text: Categorieën
+              - img [ref=e60]
+          - listitem [ref=e62]:
+            - button "Cadeaus & Inspiratie" [ref=e63]:
+              - text: Cadeaus & Inspiratie
+              - img [ref=e65]
+          - listitem [ref=e67]:
+            - button "Aanbiedingen" [ref=e68]:
+              - text: Aanbiedingen
+              - img [ref=e70]
+      - list [ref=e72]:
+        - listitem [ref=e73]:
+          - link "Zakelijk" [ref=e74] [cursor=pointer]:
+            - /url: /be/nl/sf/zakendoen-met-bolcom
+        - listitem [ref=e75]:
+          - link "Cadeaukaart" [ref=e76] [cursor=pointer]:
+            - /url: /be/nl/l/cadeaukaarten/20639/
+        - listitem [ref=e77]:
+          - link "Bestelstatus" [ref=e78] [cursor=pointer]:
+            - /url: /be/nl/rnwy/account/bestellingen/overzicht
+        - listitem [ref=e79]:
+          - link "Klantenservice" [ref=e80] [cursor=pointer]:
+            - /url: /be/nl/m/klantenservice
+        - listitem [ref=e81]:
+          - button "Land België Taal Nederlands" [ref=e82] [cursor=pointer]:
+            - navigation "Land België" [ref=e83] [cursor=pointer]
+            - navigation "Taal Nederlands" [ref=e84] [cursor=pointer]: NL
+            - img [ref=e86] [cursor=pointer]
+  - main [ref=e88]:
+    - generic [ref=e89]:
+      - generic [ref=e90]:
+        - heading "Winkelwagen" [level=1] [ref=e91]
+        - generic [ref=e92]: Tip! vanaf €25 wordt je bestelling gratis verzonden.
+      - generic [ref=e93]:
+        - generic [ref=e96]:
+          - generic [ref=e97]:
+            - link "STOER Magazine Nr. 3-2025 - Tijdschrift met Minecraft avontuur - LEGO - Koning Kong- Tijdschriften - Tijdschrift - Magazine":
+              - /url: /be/nl/p/stoer-magazine-3-2024/9300000172940820/
+              - img "STOER Magazine Nr. 3-2025 - Tijdschrift met Minecraft avontuur - LEGO - Koning Kong- Tijdschriften - Tijdschrift - Magazine" [ref=e99] [cursor=pointer]
+          - link "STOER Magazine Nr. 3-2025 - Tijdschrift met Minecraft avontuur - LEGO - Koning Kong- Tijdschriften - Tijdschrift - Magazine" [ref=e101] [cursor=pointer]:
+            - /url: /be/nl/p/stoer-magazine-3-2024/9300000172940820/
+            - heading "STOER Magazine Nr. 3-2025 - Tijdschrift met Minecraft avontuur - LEGO - Koning Kong- Tijdschriften - Tijdschrift - Magazine" [level=2] [ref=e102] [cursor=pointer]
+          - strong [ref=e104]: € 7,99
+          - generic [ref=e106]:
+            - generic [ref=e108]:
+              - combobox "Aantal" [ref=e109]:
+                - option "1" [selected]
+                - option "2"
+                - option "3"
+                - option "4"
+                - option "5"
+                - option "6"
+                - option "7"
+                - option "8"
+                - option "9"
+                - option "10"
+                - option "Meer"
+              - generic:
+                - img
+            - button "Op je verlanglijstje" [ref=e111] [cursor=pointer]:
+              - img [ref=e113] [cursor=pointer]
+            - button "Verwijder" [ref=e115] [cursor=pointer]:
+              - img [ref=e117] [cursor=pointer]
+          - generic [ref=e120]: Uiterlijk 3 september in huis
+          - button "Verkoop door De Jonge Lezer" [ref=e123] [cursor=pointer]:
+            - generic [ref=e126] [cursor=pointer]:
+              - generic [ref=e127] [cursor=pointer]: Verkoop door
+              - generic [ref=e128] [cursor=pointer]: De Jonge Lezer
+        - generic [ref=e129]:
+          - heading "Overzicht" [level=2] [ref=e130]
+          - generic [ref=e131]:
+            - generic [ref=e132]:
+              - generic [ref=e133]: Totaal artikelen (1)
+              - strong [ref=e135]: € 7,99
+            - generic [ref=e136]:
+              - generic [ref=e137]:
+                - text: Verzendkosten
+                - button "Open" [ref=e139]:
+                  - img [ref=e141]
+              - strong [ref=e145]: € 0,00
+            - generic [ref=e147]:
+              - img [ref=e148]
+              - generic [ref=e150]: Heb je een cadeaukaart? Voeg hem toe in de volgende stap.
+            - generic [ref=e152]:
+              - strong [ref=e154]: "Nog te betalen:"
+              - strong [ref=e156]: € 7,99
+            - button "Verder naar bestellen" [ref=e157] [cursor=pointer]
+            - generic [ref=e159]:
+              - generic [ref=e160]:
+                - img [ref=e162]
+                - img [ref=e168]
+                - img [ref=e175]
+                - img [ref=e179]
+              - generic [ref=e183]: of kies voor gemak met 'Achteraf betalen'
+      - generic [ref=e185]:
+        - heading "Vaak samen gekocht" [level=2] [ref=e186]
+        - generic [ref=e187]:
+          - link "Sla deze carousel over" [ref=e188] [cursor=pointer]:
+            - /url: "#«rb»"
+          - list [ref=e190]:
+            - listitem [ref=e191]:
+              - generic [ref=e192]:
+                - link [ref=e193] [cursor=pointer]:
+                  - /url: /be/nl/p/lego-fortnite-durrr-burger-77070/9300000187249772/
+                  - img [ref=e195] [cursor=pointer]
+                - generic [ref=e196]:
+                  - link "LEGO Fortnite Durrr Burger - 77070" [ref=e197] [cursor=pointer]:
+                    - /url: /be/nl/p/lego-fortnite-durrr-burger-77070/9300000187249772/
+                    - paragraph [ref=e198] [cursor=pointer]: LEGO Fortnite Durrr Burger - 77070
+                  - generic [ref=e200]:
+                    - img "Gemiddeld 5 van de 5 sterren uit 9 reviews" [ref=e201]:
+                      - img [ref=e202]:
+                        - img [ref=e204]
+                        - img [ref=e208]
+                      - img [ref=e210]:
+                        - img [ref=e212]
+                        - img [ref=e216]
+                      - img [ref=e218]:
+                        - img [ref=e220]
+                        - img [ref=e224]
+                      - img [ref=e226]:
+                        - img [ref=e228]
+                        - img [ref=e232]
+                      - img [ref=e234]:
+                        - img [ref=e236]
+                        - img [ref=e240]
+                    - paragraph [ref=e242]:
+                      - generic [ref=e243]:
+                        - text: (
+                        - generic [ref=e244]: "9"
+                        - text: )
+                  - generic [ref=e245]:
+                    - generic [ref=e246]:
+                      - generic [ref=e247]: De prijs van dit product is 12 euro en 99 cent.
+                      - generic [ref=e248]: "12"
+                      - generic [ref=e249]: ","
+                      - generic [ref=e250]: "99"
+                    - paragraph [ref=e251]:
+                      - generic [ref=e252]:
+                        - text: Meestal
+                        - generic [ref=e253]: 14,99
+                      - button "Open tooltip" [ref=e254]:
+                        - img [ref=e256]
+                    - generic [ref=e258]: De adviesprijs is 14 euro en 99 cent.
+                  - generic [ref=e259]:
+                    - text: Verkoop door
+                    - text: Bol
+                  - button "In winkelwagen" [ref=e261] [cursor=pointer]:
+                    - img [ref=e263] [cursor=pointer]
+                    - img [ref=e266] [cursor=pointer]
+            - listitem [ref=e269]:
+              - generic [ref=e270]:
+                - link [ref=e271] [cursor=pointer]:
+                  - /url: /be/nl/p/stoer-magazine-2-2024/9300000172940569/
+                  - img [ref=e273] [cursor=pointer]
+                - generic [ref=e274]:
+                  - link "STOER Magazine Nr. 2-2025 - Tijdschrift met Pokedromen en onze wensen voor nieuwe games - Tijdschriften - Tijdschrift - Magazine" [ref=e275] [cursor=pointer]:
+                    - /url: /be/nl/p/stoer-magazine-2-2024/9300000172940569/
+                    - paragraph [ref=e276] [cursor=pointer]: STOER Magazine Nr. 2-2025 - Tijdschrift met Pokedromen en onze wensen voor nieuwe games - Tijdschriften - Tijdschrift - Magazine
+                  - generic [ref=e278]:
+                    - generic [ref=e279]: De prijs van dit product is 7 euro en 95 cent.
+                    - generic [ref=e280]: "7"
+                    - generic [ref=e281]: ","
+                    - generic [ref=e282]: "95"
+                  - button "Verkoop door De Jonge Lezer" [ref=e283] [cursor=pointer]:
+                    - generic [ref=e285] [cursor=pointer]:
+                      - text: Verkoop door
+                      - generic [ref=e286] [cursor=pointer]: De Jonge Lezer
+                  - button "In winkelwagen" [ref=e288] [cursor=pointer]:
+                    - img [ref=e290] [cursor=pointer]
+                    - img [ref=e293] [cursor=pointer]
+            - listitem [ref=e296]:
+              - generic [ref=e297]:
+                - link [ref=e298] [cursor=pointer]:
+                  - /url: /be/nl/p/kids-book-of-sudoku-2/9200000073978671/
+                  - img [ref=e300] [cursor=pointer]
+                - generic [ref=e301]:
+                  - link "Kids' Book of Sudoku 2" [ref=e302] [cursor=pointer]:
+                    - /url: /be/nl/p/kids-book-of-sudoku-2/9200000073978671/
+                    - paragraph [ref=e303] [cursor=pointer]: Kids' Book of Sudoku 2
+                  - generic [ref=e305]:
+                    - img "Gemiddeld 4.6 van de 5 sterren uit 5 reviews" [ref=e306]:
+                      - img [ref=e307]:
+                        - img [ref=e309]
+                        - img [ref=e313]
+                      - img [ref=e315]:
+                        - img [ref=e317]
+                        - img [ref=e321]
+                      - img [ref=e323]:
+                        - img [ref=e325]
+                        - img [ref=e329]
+                      - img [ref=e331]:
+                        - img [ref=e333]
+                        - img [ref=e337]
+                      - img [ref=e339]:
+                        - img [ref=e341]
+                        - img [ref=e345]
+                    - paragraph [ref=e347]:
+                      - generic [ref=e348]:
+                        - text: (
+                        - generic [ref=e349]: "5"
+                        - text: )
+                  - generic [ref=e351]:
+                    - generic [ref=e352]: De prijs van dit product is 5 euro.
+                    - generic [ref=e353]: "5"
+                    - generic [ref=e354]: ","
+                    - generic [ref=e355]: "-"
+                  - generic [ref=e356]:
+                    - text: Verkoop door
+                    - text: Bol
+                  - button "In winkelwagen" [ref=e358] [cursor=pointer]:
+                    - img [ref=e360] [cursor=pointer]
+                    - img [ref=e363] [cursor=pointer]
+            - listitem [ref=e366]:
+              - generic [ref=e367]:
+                - link [ref=e368] [cursor=pointer]:
+                  - /url: /be/nl/p/meiden-magazine-zomerboek-2022/9300000105063085/
+                  - img [ref=e370] [cursor=pointer]
+                - generic [ref=e371]:
+                  - link "MEIDEN magazine Vakantieboek 2024 - Zomerboek met Maxime & Sophie - Doeboek - Vakantieboek - Invulboek - Invullen - Puzzels - Tekenen - Posters - Strips - Quiz - Verhalen - DIY" [ref=e372] [cursor=pointer]:
+                    - /url: /be/nl/p/meiden-magazine-zomerboek-2022/9300000105063085/
+                    - paragraph [ref=e373] [cursor=pointer]: MEIDEN magazine Vakantieboek 2024 - Zomerboek met Maxime & Sophie - Doeboek - Vakantieboek - Invulboek - Invullen - Puzzels - Tekenen - Posters - Strips - Quiz - Verhalen - DIY
+                  - generic [ref=e375]:
+                    - img "Gemiddeld 4.5 van de 5 sterren uit 2 reviews" [ref=e376]:
+                      - img [ref=e377]:
+                        - img [ref=e379]
+                        - img [ref=e383]
+                      - img [ref=e385]:
+                        - img [ref=e387]
+                        - img [ref=e391]
+                      - img [ref=e393]:
+                        - img [ref=e395]
+                        - img [ref=e399]
+                      - img [ref=e401]:
+                        - img [ref=e403]
+                        - img [ref=e407]
+                      - img [ref=e409]:
+                        - img [ref=e411]
+                        - img [ref=e415]
+                    - paragraph [ref=e417]:
+                      - generic [ref=e418]:
+                        - text: (
+                        - generic [ref=e419]: "2"
+                        - text: )
+                  - generic [ref=e420]:
+                    - generic [ref=e421]:
+                      - generic [ref=e422]: De prijs van dit product is 9 euro en 99 cent.
+                      - generic [ref=e423]: "9"
+                      - generic [ref=e424]: ","
+                      - generic [ref=e425]: "99"
+                    - paragraph [ref=e426]:
+                      - generic [ref=e427]:
+                        - text: Meestal
+                        - generic [ref=e428]: 10,95
+                      - button "Open tooltip" [ref=e429]:
+                        - img [ref=e431]
+                    - generic [ref=e433]: De adviesprijs is 10 euro en 95 cent.
+                  - button "Verkoop door De Jonge Lezer" [ref=e434] [cursor=pointer]:
+                    - generic [ref=e436] [cursor=pointer]:
+                      - text: Verkoop door
+                      - generic [ref=e437] [cursor=pointer]: De Jonge Lezer
+                  - button "In winkelwagen" [ref=e439] [cursor=pointer]:
+                    - img [ref=e441] [cursor=pointer]
+                    - img [ref=e444] [cursor=pointer]
+            - listitem [ref=e447]:
+              - generic [ref=e448]:
+                - link [ref=e449] [cursor=pointer]:
+                  - /url: /be/nl/p/deltas-het-giga-geweldige-puzzel-en-spelletjesboek/9200000112406168/
+                  - img [ref=e451] [cursor=pointer]
+                - generic [ref=e452]:
+                  - link "Deltas Het Gi-ga-geweldige Puzzel- En Spelletjesboek" [ref=e453] [cursor=pointer]:
+                    - /url: /be/nl/p/deltas-het-giga-geweldige-puzzel-en-spelletjesboek/9200000112406168/
+                    - paragraph [ref=e454] [cursor=pointer]: Deltas Het Gi-ga-geweldige Puzzel- En Spelletjesboek
+                  - generic [ref=e456]:
+                    - img "Gemiddeld 4.3 van de 5 sterren uit 6 reviews" [ref=e457]:
+                      - img [ref=e458]:
+                        - img [ref=e460]
+                        - img [ref=e464]
+                      - img [ref=e466]:
+                        - img [ref=e468]
+                        - img [ref=e472]
+                      - img [ref=e474]:
+                        - img [ref=e476]
+                        - img [ref=e480]
+                      - img [ref=e482]:
+                        - img [ref=e484]
+                        - img [ref=e488]
+                      - img [ref=e490]:
+                        - img [ref=e492]
+                        - img [ref=e496]
+                    - paragraph [ref=e498]:
+                      - generic [ref=e499]:
+                        - text: (
+                        - generic [ref=e500]: "6"
+                        - text: )
+                  - generic [ref=e502]:
+                    - generic [ref=e503]: De prijs van dit product is 14 euro en 95 cent.
+                    - generic [ref=e504]: "14"
+                    - generic [ref=e505]: ","
+                    - generic [ref=e506]: "95"
+                  - button "Verkoop door FlexJuf" [ref=e507] [cursor=pointer]:
+                    - generic [ref=e509] [cursor=pointer]:
+                      - text: Verkoop door
+                      - generic [ref=e510] [cursor=pointer]: FlexJuf
+                  - button "In winkelwagen" [ref=e512] [cursor=pointer]:
+                    - img [ref=e514] [cursor=pointer]
+                    - img [ref=e517] [cursor=pointer]
+      - button "Verder winkelen" [ref=e521] [cursor=pointer]:
+        - img [ref=e523] [cursor=pointer]
+        - text: Verder winkelen
+  - contentinfo [ref=e525]:
+    - generic [ref=e527]:
+      - heading "Service & contact" [level=2] [ref=e529]
+      - generic [ref=e530]:
+        - figure [ref=e531]:
+          - img [ref=e532]
+        - generic [ref=e534]:
+          - heading "Snel regelen in je account" [level=3] [ref=e535]:
+            - strong [ref=e536]: Snel regelen in je account
+          - paragraph [ref=e537]:
+            - link "Volg je bestelling" [ref=e538] [cursor=pointer]:
+              - /url: /be/nl/rnwy/account/bestellingen/overzicht
+            - text: ","
+            - link "betaal facturen" [ref=e539] [cursor=pointer]:
+              - /url: /be/nl/rnwy/account/facturen
+            - text: of
+            - link "retourneer een artikel" [ref=e540] [cursor=pointer]:
+              - /url: /be/nl/account/retourneren/overzicht
+            - text: .
+      - generic [ref=e541]:
+        - figure [ref=e542]:
+          - img [ref=e543]
+        - generic [ref=e545]:
+          - heading "Heb je ons nodig?" [level=3] [ref=e546]:
+            - strong [ref=e547]: Heb je ons nodig?
+          - paragraph [ref=e548]:
+            - text: We helpen je graag.
+            - link "Onze klantenservice" [ref=e549] [cursor=pointer]:
+              - /url: /be/nl/m/klantenservice
+            - text: is dag en nacht open.
+    - generic [ref=e550]:
+      - list [ref=e551]:
+        - listitem [ref=e552]:
+          - heading "Klantenservice" [level=3] [ref=e553]:
+            - link "Klantenservice" [ref=e554] [cursor=pointer]:
+              - /url: /be/nl/m/klantenservice
+          - list [ref=e555]:
+            - listitem [ref=e556]:
+              - link "Contact opnemen" [ref=e557] [cursor=pointer]:
+                - /url: /be/nl/m/klantenservice
+            - listitem [ref=e558]:
+              - link "Bestellen & Leveren" [ref=e559] [cursor=pointer]:
+                - /url: /be/nl/m/bestellen
+            - listitem [ref=e560]:
+              - link "Betalen" [ref=e561] [cursor=pointer]:
+                - /url: /be/nl/m/betalen
+            - listitem [ref=e562]:
+              - link "Retourneren" [ref=e563] [cursor=pointer]:
+                - /url: /be/nl/m/retourneren
+            - listitem [ref=e564]:
+              - link "Garantie & Reparatie" [ref=e565] [cursor=pointer]:
+                - /url: /be/nl/m/garantie/subject/62650041
+            - listitem [ref=e566]:
+              - link "Terugroepacties" [ref=e567] [cursor=pointer]:
+                - /url: /be/nl/inf/terugroepacties-van-artikelen/49922/
+        - listitem [ref=e568]:
+          - heading "Over bol" [level=3] [ref=e569]:
+            - link "Over bol" [ref=e570] [cursor=pointer]:
+              - /url: //pers.bol.com/nl/het-verhaal/
+          - list [ref=e571]:
+            - listitem [ref=e572]:
+              - link "De voordelen van bol" [ref=e573] [cursor=pointer]:
+                - /url: /be/nl/sf/winkelen-zonder-zorgen
+            - listitem [ref=e574]:
+              - link "Nieuws" [ref=e575] [cursor=pointer]:
+                - /url: //pers.bol.com
+            - listitem [ref=e576]:
+              - link "De bol app" [ref=e577] [cursor=pointer]:
+                - /url: /be/nl/sf/mobiele-app
+            - listitem [ref=e578]:
+              - link "Werken bij bol" [ref=e579] [cursor=pointer]:
+                - /url: //banen.bol.com/
+            - listitem [ref=e580]:
+              - link "Bol & duurzaamheid" [ref=e581] [cursor=pointer]:
+                - /url: /be/nl/sf/duurzaamheid/
+            - listitem [ref=e582]:
+              - link "Bollebozen" [ref=e583] [cursor=pointer]:
+                - /url: /be/nl/sf/bollebozen
+            - listitem [ref=e584]:
+              - link "Toegankelijkheidsverklaring" [ref=e585] [cursor=pointer]:
+                - /url: /be/nl/tc/toegankelijkheidsverklaring/
+            - listitem [ref=e586]:
+              - link "Bedrijfsgegevens" [ref=e587] [cursor=pointer]:
+                - /url: /be/nl/klantenservice/a/5715110588841984/bedrijfsgegevens
+        - listitem [ref=e588]:
+          - heading "Zakendoen met bol" [level=3] [ref=e589]:
+            - link "Zakendoen met bol" [ref=e590] [cursor=pointer]:
+              - /url: /be/nl/sf/zakendoen-met-bolcom
+          - list [ref=e591]:
+            - listitem [ref=e592]:
+              - link "Zakelijk verkopen" [ref=e593] [cursor=pointer]:
+                - /url: //partnerplatform.bol.com/
+            - listitem [ref=e594]:
+              - link "Zakelijk bestellen" [ref=e595] [cursor=pointer]:
+                - /url: /be/nl/sf/zakelijk-bestellen
+            - listitem [ref=e596]:
+              - link "Zakelijke cadeaukaarten" [ref=e597] [cursor=pointer]:
+                - /url: //cadeaukaart.bol.com/
+            - listitem [ref=e598]:
+              - link "Adverteren" [ref=e599] [cursor=pointer]:
+                - /url: //adverteren.bol.com
+            - listitem [ref=e600]:
+              - link "Affiliate Marketing" [ref=e601] [cursor=pointer]:
+                - /url: //affiliate.bol.com/nl/
+        - listitem [ref=e602]:
+          - heading "Wil je ons volgen?" [level=3] [ref=e603]:
+            - strong [ref=e604]: Wil je ons volgen?
+          - generic [ref=e605]:
+            - link "Volg ons op de facebook pagina van bol" [ref=e606] [cursor=pointer]:
+              - /url: //www.facebook.com/bolpuntcom
+              - img [ref=e608] [cursor=pointer]
+            - link "Volg ons op de pinterest pagina van bol" [ref=e610] [cursor=pointer]:
+              - /url: //www.pinterest.com/bol
+              - img [ref=e612] [cursor=pointer]
+            - link "Volg ons op de instagram pagina van bol" [ref=e614] [cursor=pointer]:
+              - /url: //www.instagram.com/bol
+              - img [ref=e616] [cursor=pointer]
+            - link "Volg ons op de youtube pagina van bol" [ref=e620] [cursor=pointer]:
+              - /url: //www.youtube.com/user/bolcom
+              - img [ref=e622] [cursor=pointer]
+            - link "Volg ons op de linkedin pagina van bol" [ref=e624] [cursor=pointer]:
+              - /url: //www.linkedin.com/company/11699
+              - img [ref=e626] [cursor=pointer]
+            - link "Volg ons op de TikTok pagina van bol" [ref=e628] [cursor=pointer]:
+              - /url: //www.tiktok.com/@bol
+              - img [ref=e630] [cursor=pointer]
+          - paragraph [ref=e632]:
+            - link "Meld je aan" [ref=e633] [cursor=pointer]:
+              - /url: /be/nl/rnwy/account/newsletters
+            - text: voor korting en inspiratie in je mailbox
+      - generic [ref=e634]:
+        - paragraph [ref=e635]:
+          - img "bol de winkel van ons allemaal" [ref=e636]
+        - generic [ref=e638]:
+          - img [ref=e639]
+          - img [ref=e644]
+          - img [ref=e649]
+          - img [ref=e659]
+          - img [ref=e662]
+          - img [ref=e670]
+          - img [ref=e673]
+          - img [ref=e679]
+          - img [ref=e683]
+        - generic [ref=e692]:
+          - list [ref=e693]:
+            - listitem [ref=e694]:
+              - link "Certificaat Thuiswinkel Waarborg" [ref=e695] [cursor=pointer]:
+                - /url: //www.becommerce.be/report/html/becommerce_certification.report_certificate/15194
+                - generic [ref=e696] [cursor=pointer]: Certificaat Thuiswinkel Waarborg
+                - img [ref=e697] [cursor=pointer]
+            - listitem [ref=e702]:
+              - text: "|"
+              - link "Algemene voorwaarden" [ref=e703] [cursor=pointer]:
+                - /url: /be/nl/tc/
+            - listitem [ref=e704]:
+              - text: "|"
+              - link "Privacy" [ref=e705] [cursor=pointer]:
+                - /url: /be/nl/tc/privacybeleid
+            - listitem [ref=e706]:
+              - text: "|"
+              - link "Cookies" [ref=e707] [cursor=pointer]:
+                - /url: /be/nl/tc/cookiebeleid
+            - listitem [ref=e708]:
+              - text: "|"
+              - link "©" [ref=e709] [cursor=pointer]:
+                - /url: /be/nl/tc/copyright
+              - text: 1999-2025 bol.com b.v.
+          - paragraph [ref=e710]:
+            - text: "* De voordelen van bol.com gelden niet voor het gehele assortiment."
+            - link "Bekijk de voorwaarden" [ref=e711] [cursor=pointer]:
+              - /url: /be/nl/sf/winkelen-zonder-zorgen
+            - text: Alle prijzen zijn inclusief BTW en andere heffingen en exclusief eventuele
+            - link "verzendkosten" [ref=e712] [cursor=pointer]:
+              - /url: /be/nl/klantenservice/a/5711226101301248/bezorgopties-en-kosten
+            - text: en
+            - link "servicekosten" [ref=e713] [cursor=pointer]:
+              - /url: /be/nl/klantenservice/a/5711226101301248/bezorgopties-en-kosten
+```
