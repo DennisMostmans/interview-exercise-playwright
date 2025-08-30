@@ -35,7 +35,7 @@ Ervaringen/problemen en oplossingen
 - Prijs testen: moeilijk om prijs te parsen en stabiliseren. Oplossing: normaliseren in Prices.ts, valuta/whitespace strippen, scheidingstekens consistent maken, waar mogelijk met “cents” als integer werken; assert op range i.p.v. exacte waarde.
 - Pop-up land/taal: kwam meermaals terug, blokkeerde de zoekknop. Oplossing: test opent/handelt de modal vroeg op de homepage en wacht tot .modal__overlay weg is.
 - Gesponsorde advertenties: verstoorden page1 vs page2-vergelijking. Oplossing: gesponsorde items detecteren en uitsluiten vóór titelvergelijking.
-- “Rustig aan speedracer”: bol.com blokkeert bij te snelle/parallelle acties. Oplossing: aangepaste user agents en headers.
+- “Rustig aan speedracer”: bol.com blokkeert bij te snelle/parallelle acties. Oplossing: 1 worker, aangepaste user agents en headers.
 - bol.com blokkeert publieke CI-runners: lokale/self-hosted runner gebruikt met schema.
 - Add-to-cart intercept → white page: Zorgen dat navigatie niet geblocked wordt, maar add-to-cart related XHR/Fetch wel.
 

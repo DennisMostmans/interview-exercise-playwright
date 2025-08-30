@@ -41,20 +41,31 @@ export class ProductDetailPage {
     }
 
     
-    async expectAddToCartVisible(): Promise<void> {
-        await expect(this.addToCartButton).toBeVisible({ timeout: 5000 });
-    }
+async expectAddToCartVisible(): Promise<void> {
+    await expect(this.addToCartButton).toBeVisible({ timeout: 5000 });
+}
 
-    async disableRoute(context: BrowserContext): Promise<void> {
-        await this.page.route(
-            (url) => {
-                const u = new URL(url);
-                return (u.pathname.includes('addOnPage') || u.pathname.includes('addItems'));
-            },
-            route => route.abort('failed')
-        );
+async disableRoute(contect: BrowserContext): Promise<void> {
+    await this.page.route('**/*', async (route) => {
+        const req = route.request();
+        const u = new URL(req.url());
 
-    }
+        // Abort the add-to-cart XHR/fetch
+        if (
+            ['xhr', 'fetch'].includes(req.resourceType()) &&
+            (u.pathname.includes('addOnPage') || u.pathname.includes('addItems'))
+        ) {
+            await route.abort('failed');
+        }
+        // Block navigations to shopping cart caused by scripts
+        else if (req.isNavigationRequest() && u.pathname.includes('/winkelwagen')) {
+            await route.abort();
+        }
+        else {
+            await route.continue();
+        }
+    });
+}
 
     async ClickAddToCartWithoutAdding(): Promise<void> {
         await this.page.screenshot({ path:`test-results/screenshots/before-add-to-cart.png`, fullPage: true});

@@ -3,7 +3,7 @@ import { defineConfig, devices } from '@playwright/test';
 export default defineConfig({
   testDir: './tests',        
   timeout: 30000,
-  workers: 4,               
+  workers: 1,               
   use: {
     headless: true,         
     viewport: { width: 1280, height: 800 },
